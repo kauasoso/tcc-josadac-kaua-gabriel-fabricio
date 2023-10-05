@@ -1,5 +1,5 @@
-import Cabecalho from '../cabecalho'
-import Rodape from '../rodape'
+import Cabecalho from '../../cabecalho'
+import Rodape from '../../rodape'
 import './index.scss'
 
 
