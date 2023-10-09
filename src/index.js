@@ -22,7 +22,7 @@ import { Endereco } from './endereço';
 import { Grafico } from './grafico';
 import { Grafico2 } from './graficomensal';
 import { Comentario } from './comentario';
-
+import HomeAdm from './homeadm';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -46,6 +46,7 @@ root.render(
       <Route path='/grafico' element={<Grafico/>}/>
       <Route path='/graficomensal' element={<Grafico2/>}/>
       <Route path='/comentario' element={<Comentario/>}/>
+      <Route path='/homeadm' element={<HomeAdm/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
