@@ -1,4 +1,6 @@
+import Navbar from '../menu/Navbar';
 import './index.scss';
+import BurguerButton from '../menu/BurguerButton';
 
 export default function Cabecalho () {
 
@@ -16,7 +18,7 @@ return (
             </div>
 
             <div>
-                <img className='panda' src="./assets/image/panda.png" alt="" />
+                <Navbar/> <BurguerButton/>
             </div>
         </nav>
 
