@@ -25,6 +25,7 @@ import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
 import Cadastro from './cadastroCliente';
 import Produto from './produto';
+import ProdutosK from './detalhe-produto-filtro/filtro-1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +33,7 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/detalhe' element={<ProdutosK/>}/>
       <Route path='/produto' element={<Produto/>}/>
       <Route path='/cabecalho' element={<Cabecalho/>}/>
       <Route path='/card' element={<Card/>}/>
