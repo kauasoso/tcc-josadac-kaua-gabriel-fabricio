@@ -23,7 +23,8 @@ import { Grafico } from './grafico';
 import { Grafico2 } from './graficomensal';
 import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
-import Cadastro from './cadastro';
+import Cadastro from './cadastroCliente';
+import Produto from './produto';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +32,7 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/produto' element={<Produto/>}/>
       <Route path='/cabecalho' element={<Cabecalho/>}/>
       <Route path='/card' element={<Card/>}/>
       <Route path='/pedido' element={<Pedido/>}/>
