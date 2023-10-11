@@ -1,6 +1,4 @@
-import Navbar from '../menu/Navbar';
 import './index.scss';
-import BurguerButton from '../menu/BurguerButton';
 
 export default function Cabecalho () {
 
@@ -17,9 +15,6 @@ return (
                 <p>(0) ITEMS</p>
             </div>
 
-            <div>
-                <Navbar/> <BurguerButton/>
-            </div>
         </nav>
 
 
