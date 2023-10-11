@@ -3,9 +3,9 @@
     flex-direction:column;
     height:auto;
     width:100%;
-
-
-
+  
+  
+  
     .a2{
     display: flex;
     width: 100%;
@@ -21,7 +21,7 @@
         width: 100%;
         flex-direction: row;
       }
-
+  
         .b1{
             display: flex;
             width: 85vh;
@@ -29,20 +29,20 @@
             margin-left: 30px;
             align-items: center;
             justify-content: center;
-
-
+  
+  
             .filtro2{
               width: 400px;
               height: 400px;
               margin-right: 80px;
              
-
+  
             }
-
+  
         }
-
-        
-
+  
+  
+  
         .b2{
             display: flex;
             width: 45vw;
@@ -50,9 +50,9 @@
             margin-right: 100px;
             flex-direction: column;
             
-
-
-
+  
+  
+  
             .titulo{
                 display: flex;
                 width: 45vw;
@@ -67,8 +67,8 @@
                 margin-bottom: 35px;
               
             }
-
-
+  
+  
             .descricao{
                 display: flex;
                 margin-top: -10px;
@@ -77,8 +77,8 @@
                 font-size: 15px;
                 margin-bottom: 40px;
             }
-
-
+  
+  
             .preco{
                 display: flex;
                 font-family: sans-serif;
@@ -87,8 +87,8 @@
                 margin-left: 50px;
                 margin-bottom: 70px;
             }
-
-
+  
+  
             .comprar{
                 display: flex;
                 outline: none;
@@ -103,9 +103,9 @@
                 border-radius: 4px;
                 font-size: 15px;
             }
-
-
-
+  
+  
+  
             .estrelas{
                 display: flex;
                 margin-left: 360px;
@@ -113,14 +113,14 @@
                 width: 10px;
                 height: 30px;
             }
-
-
-
+  
+  
+  
         }
         
     }
-
-
+  
+  
     .a3{
         display: flex;
         justify-content: center;
@@ -128,11 +128,11 @@
         height: 55vh;
         margin-top: -30px;
        
-
-
+  
+  
       .b3{
         display: flex;
-
+  
         width: 80vw;
         height: 50vh;
         flex-direction: row;
@@ -140,39 +140,32 @@
         align-items: center;
         justify-content: space-around;
         margin-top: 10px;
-
-
+  
+  
         .setaesquerda{
             display: flex;
             position: relative;
             right: 50px;
         }
     
-
-
-
+  
+  
+  
         .c1{
           background-color: #EEEEEE;
           width: 20vw;
-          height: 10vh;
-          background-color: #309CFF;
+          height: 42vh;
           border: 2px solid black;
           border-radius: 8px;
           flex-direction: column;
           margin-right: 20px;
-
-
-          .prc{
-            display: flex;
-            justify-content: center;
-            color: #309CFF;
-            font-size: 16px;
-            margin-top: 20px;
-          }
+  
+  
+         
        
-
-
-
+  
+  
+  
           .imagizi{
             width: 12vw;
             height: 18vh;
@@ -180,37 +173,41 @@
             margin-bottom: 10px;
             margin-top: 10px;
           }
-
-
+  
+  
           .ds{
             display: flex;
             justify-content: center;
             font-size: 15px;
-            margin-top: 18px;
           }
-
-
+  
+  
+          .prc{
+            display: flex;
+            justify-content: center;
+            color: #309CFF;
+            font-size: 16px;
+          }
+  
           
-
-          
-
-
+  
+  
           .frete{
             display: flex;
             justify-content: center;
             margin-right: 35px;
           }
-
-
+  
+  
           .cmn{
             display: flex;
             margin-left: 145px;
             margin-top: -41px;
             
           }
-
+  
         }
-
+  
         .ladocmn{
           background-color: #309CFF;
           display: flex;
@@ -218,26 +215,19 @@
           justify-content: center;
           margin-top: 15px;
         }
-
+  
         .c2{
-          background-color: #a6ff00;
-          width: 200vw;
-          height: 100vh;
+          background-color: #EEEEEE;
+          width: 20vw;
+          height: 42vh;
           border: 2px solid black;
           border-radius: 8px;
           flex-direction: column;
           margin-right: 20px;
-
-          .prc{
-            display: flex;
-            justify-content: center;
-            color: #309CFF;
-            font-size: 16px;
-            margin-top: 20px;
-
-          }
-
-
+  
+          
+  
+  
             .imagizi{
                 width: 12vw;
                 height: 18vh;
@@ -245,31 +235,30 @@
                 margin-bottom: 10px;
                 margin-top: 10px;
               }
-
-
+  
+  
               
           .ds{
             display: flex;
             justify-content: center;
             font-size: 15px;
-            margin-top: 18px;
           }
-
+  
           .prc{
             display: flex;
             justify-content: center;
             color: #309CFF;
             font-size: 16px;
           }
-
-
+  
+  
           .frete{
             display: flex;
             justify-content: center;
             margin-right: 35px;
           }
-
-
+  
+  
           .cmn{
             display: flex;
             margin-left: 145px;
@@ -278,7 +267,7 @@
           }
   
           }
-
+  
           .c3{
             background-color: #EEEEEE;
             width: 20vw;
@@ -287,8 +276,8 @@
             border-radius: 8px;
             flex-direction: column;
             margin-right: 20px;
-
-
+  
+  
             .imagizi{
                 width: 12vw;
                 height: 18vh;
@@ -301,41 +290,38 @@
           .ds{
             display: flex;
             justify-content: center;
-            font-size: 15px;    
-            margin-top: 18px;
-
+            font-size: 15px;
           }
-
+  
           
           .prc{
             display: flex;
             justify-content: center;
             color: #309CFF;
             font-size: 16px;
-            margin-top: 20px;
           }
-
+  
           .frete{
             display: flex;
             justify-content: center;
             margin-right: 35px;
           }
-
+  
          
-
+  
           .cmn{
             display: flex;
             margin-left: 145px;
             margin-top: -41px;
             
           }
-
-
+  
+  
           
             
   
           }
-
+  
           .c4{
             background-color: #EEEEEE;
             width: 20vw;
@@ -344,13 +330,7 @@
             border-radius: 8px;
             flex-direction: column;
             margin-right: 20px;
-            .prc{
-              display: flex;
-              justify-content: center;
-              color: #309CFF;
-              font-size: 16px;
-              margin-top: 20px;
-            }
+  
            
             .imagizi{
                 width: 12vw;
@@ -364,10 +344,8 @@
             display: flex;
             justify-content: center;
             font-size: 15px;
-            margin-top: 18px;
-            
           }
-
+  
           
           .prc{
             display: flex;
@@ -375,20 +353,20 @@
             color: #309CFF;
             font-size: 16px;
           }
-
+  
           .frete{
             display: flex;
             justify-content: center;
             margin-right: 35px;
           }
-
-
+  
+  
           
          
   
           }
-
-
+  
+  
           .setadireirta{
             display: flex;
             position: relative;
@@ -396,10 +374,10 @@
         }
         }
     }
-
-
-
+  
+  
+  
     .final{
         margin-top: 40px;
     }
-}
+  }

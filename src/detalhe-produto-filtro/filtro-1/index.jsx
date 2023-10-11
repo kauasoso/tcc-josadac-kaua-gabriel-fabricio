@@ -22,7 +22,8 @@ export default function Filtro1() {
 
 
                 <div className='b2'>
-                    <h3 className='titulo'>BOMBA DE FILTRAGEM <br /> 1136 L/HR 110V BEL <br /> LAZER 174400</h3>
+                    <h3 className='titulo'>FILTRO ATÉ 30.000 <br /> COM BOMBA 1/3 CV <br /> BIVOLT</h3>
+
                     <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
 
                     <h2 className='preco'>R$ 40.216,13</h2>
@@ -49,7 +50,7 @@ export default function Filtro1() {
 
                     <div className='c1'>
                         <img className='imagizi' src="/assets/image/filtro-2.png" alt="" />
-                        <h4 className='ds'>Filtro para piscina Bivolt</h4>
+                        <h4 className='ds'>Bomba de filtragem</h4>
                         <h5 className='prc'>R$ 891,00</h5>
 
                         <div className='ladocmn'>

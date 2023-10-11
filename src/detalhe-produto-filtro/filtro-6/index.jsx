@@ -6,7 +6,7 @@ import './index.scss'
 
 
 
-export default function Filtro2() {
+export default function Filtro4() {
 
     return (
         <div className='a1'>
@@ -17,8 +17,10 @@ export default function Filtro2() {
             <div className='a2'>
                 <div className='b1'>
 
-                    <img className='filtro2' src="/assets/image/filtro-2.png" alt="" />
+                    <img className='filtro2' src="/assets/image/filtro-4.png" alt="" />
                 </div>
+
+
 
                 <div className='b2'>
                     <h3 className='titulo'>BOMBA DE FILTRAGEM <br /> 1136 L/HR 110V BEL <br /> LAZER 174400</h3>
@@ -56,7 +58,7 @@ export default function Filtro2() {
                         </div>
                     </div>
                     <div className='c2'>
-                        <img className='imagizi' src="/assets/image/filtro-3.png" alt="" />
+                        <img className='imagizi' src="/assets/image/filtro-2.png" alt="" />
                         <h4 className='ds'>Peneira L/H Bel 110v</h4>
                         <h5 className='prc'>R$ 431,12</h5>
                         <div className='ladocmn'>
@@ -64,7 +66,7 @@ export default function Filtro2() {
                             <img className='' src="/assets/image/caminhao.png" alt="" />
                         </div></div>
                     <div className='c3'>
-                        <img className='imagizi' src="/assets/image/filtro-4.png" alt="" />
+                        <img className='imagizi' src="/assets/image/filtro-3.png" alt="" />
                         <h4 className='ds'>Bomba /HR 220v Bel</h4>
                         <h5 className='prc'>R$ 457,53</h5>
                         <div className='ladocmn'>
