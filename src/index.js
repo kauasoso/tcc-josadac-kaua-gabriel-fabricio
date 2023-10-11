@@ -25,15 +25,16 @@ import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
 import Cadastro from './cadastroCliente';
 import Produto from './produto';
-import ProdutosK from './detalhe-produto-filtro/filtro-1';
-
+import Filtro1 from './detalhe-produto-filtro/filtro-1';
+import Filtro2 from './detalhe-produto-filtro/filtro-2';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='/detalhe' element={<ProdutosK/>}/>
+      <Route path='/detalhe1' element={<Filtro1/>}/>
+      <Route path='/detalhe2' element={<Filtro2/>}/>
       <Route path='/produto' element={<Produto/>}/>
       <Route path='/cabecalho' element={<Cabecalho/>}/>
       <Route path='/card' element={<Card/>}/>

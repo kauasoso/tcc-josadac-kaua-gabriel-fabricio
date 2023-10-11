@@ -154,12 +154,14 @@
         .c1{
           background-color: #EEEEEE;
           width: 20vw;
-          height: 42vh;
+          height: 10vh;
           border: 2px solid black;
           border-radius: 8px;
           flex-direction: column;
           margin-right: 20px;
-   
+
+
+         
        
 
 
@@ -187,6 +189,8 @@
             font-size: 16px;
           }
 
+          
+
 
           .frete{
             display: flex;
@@ -204,6 +208,14 @@
 
         }
 
+        .ladocmn{
+          background-color: #309CFF;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 15px;
+        }
+
         .c2{
           background-color: #EEEEEE;
           width: 20vw;
@@ -213,6 +225,7 @@
           flex-direction: column;
           margin-right: 20px;
 
+          
 
 
             .imagizi{
@@ -294,6 +307,7 @@
             margin-right: 35px;
           }
 
+         
 
           .cmn{
             display: flex;
@@ -317,7 +331,7 @@
             flex-direction: column;
             margin-right: 20px;
 
-
+           
             .imagizi{
                 width: 12vw;
                 height: 18vh;
@@ -348,12 +362,7 @@
 
 
           
-          .frete-cmn{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-              }
+         
   
           }
 
