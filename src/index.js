@@ -23,7 +23,10 @@ import { Grafico } from './grafico';
 import { Grafico2 } from './graficomensal';
 import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
-import Cadastro from './cadastro';
+import Cadastro from './cadastroCliente';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
