@@ -44,7 +44,7 @@ const NavContainer = styled.nav`
   align-items: center;
   justify-content: space-between;
   a{
-    color: white;
+    color: #0000;
     text-decoration: none;
     margin-right: 1rem;
   }
@@ -58,7 +58,7 @@ const NavContainer = styled.nav`
     text-align: center;
     transition: all .5s ease;
     a{
-      color: white;
+      color: black;
       font-size: 2rem;
       display: block;
     }
@@ -67,7 +67,7 @@ const NavContainer = styled.nav`
       margin: 0;
       a{
         font-size: 1rem;
-        color: white;
+        color: black;
         display: inline;
       }
       display: block;
@@ -87,7 +87,7 @@ const NavContainer = styled.nav`
     a{
       font-size: 2rem;
       margin-top: 1rem;
-      color: white;
+      color: black;
     }
   }
 
