@@ -30,7 +30,7 @@ function Navbar() {
 
 export default Navbar
 
-const NavContainer = styled.nav`
+const NavContainer = styled.nav `
   h2{
     color: white;
     font-weight: 400;
@@ -39,7 +39,7 @@ const NavContainer = styled.nav`
     }
   }
   padding: .4rem;
-  background-color: #333;
+  background-color: #0000;
   display: flex;
   align-items: center;
   justify-content: space-between;
