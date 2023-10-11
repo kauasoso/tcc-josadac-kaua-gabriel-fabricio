@@ -108,11 +108,5 @@ const BgDiv = styled.div`
   z-index: -1;
   transition: all .6s ease ;
   
-  &.active{
-    border-radius: 0 0 80% 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+  
 `
