@@ -1,7 +1,10 @@
     import Cabecalho from '../cabecalho';
+    import storage from 'local-storage'
     import Card from '../card';
     import './index.scss';
+    import { useNavigate } from 'react-router-dom';
     import Rodape from '../rodape';
+import { useEffect, useState } from 'react';
 
 
 
@@ -11,7 +14,17 @@
 
     export default function Home(){
 
+const navigate = useNavigate();
 
+
+        useEffect(() => {
+ 
+         if (!storage('usuario-logado')) {
+         navigate('/login')
+         } 
+            
+         
+        }, [])
 
 
 

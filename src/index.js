@@ -4,7 +4,6 @@ import './index.scss';
 
 
 
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './home';
 import Cabecalho from './cabecalho';
@@ -24,9 +23,8 @@ import { Grafico2 } from './graficomensal';
 import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
 import Cadastro from './cadastroCliente';
-
 import CadastroProduto from './ABC---PAGES---ADM/cadastro-produto';
-
+import CabecalhoInicial from './cabecalho.inicial';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -53,6 +51,7 @@ root.render(
       <Route path='/homeadm' element={<HomeAdm/>}/>
       <Route path='/cadastro' element={<Cadastro/>}/>
       <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
+      <Route path='/cabecalhoinicial' element={<CabecalhoInicial/>}/>
 
 
     </Routes>

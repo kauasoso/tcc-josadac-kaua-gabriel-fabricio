@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { Buscar , Login } from "../Repository/paginasRepository.js";
+import { Buscar , Cadastrar, Login } from "../Repository/paginasRepository.js";
 
 
 let endpoints = Router();
@@ -40,6 +40,38 @@ try{
    
 
 })
+
+
+endpoints.post('/cadastrocliente', async (req,resp) => {
+
+try {
+    
+
+
+
+  let pessoa = req.body;
+
+
+if(!pessoa.nome)
+   throw new Error('Nome Obrigatório')
+
+if (!pessoa.email)
+    throw new Error ('Email Obrigatório')
+
+if (!pessoa.senha)
+   throw new Error ('Senha Obrigatória')
+
+
+   let resposta = await Cadastrar(pessoa) 
+
+  resp.status(200).send()
+
+} catch (err) {
+    resp.status(401).send({
+        erro : err.message
+    })
+}
+} );
 
 
 

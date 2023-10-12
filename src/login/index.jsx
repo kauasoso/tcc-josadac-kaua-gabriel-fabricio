@@ -1,20 +1,34 @@
-import { useState } from 'react';
+import { useState , useRef } from 'react';
 import axios from 'axios';
 import './index.scss' ;
 import { useNavigate } from 'react-router-dom';
-
-
- 
+import LoadingBar from 'react-top-loading-bar'
+import { useEffect } from 'react';
+ import storage from 'local-storage';
 
 export function Login () {
 
+    const ref = useRef();
     const navigate = useNavigate();
 
 const [email , setEmail] = useState('');
 const [senha , setSenha] = useState('');
 const [erro, setErro] = useState([])
+const [carregando, setCarregando] = useState (false)
+
+
+useEffect(() =>{
+   if (storage('usuario-logado')) {
+    navigate('/')
+   }
+},[])
+
+
 
 async function Entrar() {
+
+   ref.current.continuousStart()
+   setCarregando(true)
 
     try{
     let url = 'http://localhost:5001/login';
@@ -25,10 +39,18 @@ async function Entrar() {
     }
 
     let r = await axios.post(url,pessoa)
+   storage('usuario-logado', r)
 
-    navigate('/')
+    setTimeout(() => {
+        navigate('/')
+        },3000)
+
+
+
 }catch(err) {
-    if(err.response.status === 400) {
+    setCarregando(false)
+    ref.current.complete()
+    if(err.response.status === 404) {
         setErro(err.response.data.erro)
     }
 }
@@ -39,6 +61,7 @@ async function Entrar() {
 
 return (
     <div className='mae-login'>
+        <LoadingBar color='#f11946' ref={ref} />
         <div className="container-login">
             <nav>
                 <div>
@@ -52,9 +75,9 @@ return (
 
  
              <div className='agrupa-tudo'>
-                <div>
+                <div className='usuario-login'>
                     <img className='usuario' src="../assets/image/usuario.png" alt="" />
-                    <h2></h2>
+                    <h2>LOGIN</h2>
                 </div>
                         
                         <div className='input-login'>
@@ -70,12 +93,13 @@ return (
                         </div>
 
                         <div>
-                            <button onClick={Entrar}>ENTRAR</button>
+                            <button onClick={Entrar} disabled={carregando}>ENTRAR</button>
                         </div>
                 </div>
-
+                       <div className='erro-login' style={{color: "red"}}>{erro}</div>
              </div>
-
+              
+           
 
         </div>
     </div>

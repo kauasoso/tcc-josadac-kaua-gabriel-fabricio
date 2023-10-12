@@ -4,7 +4,8 @@ import conexao from "./connection.js";
 
 export async function Login (email , senha) {
 
-    let comando = `select ds_email   email ,
+    let comando = `select   nm_nome nome ,
+                            ds_email   email ,
                             ds_senha  senha 
                     from    TB_CADASTRO_CLIENTE
                     WHERE ds_email = ? and
@@ -27,4 +28,16 @@ let comando = `select *
     let r = await conexao.query(comando)
 
     return r;
+}
+
+
+export async function Cadastrar(pessoa) {
+
+let comando = `INSERT INTO TB_CADASTRO_CLIENTE (NM_NOME,DS_EMAIL,DS_SENHA) 
+VALUES           (?, ?, ?)`
+
+let r = await conexao.query(comando , [pessoa.nome , pessoa.email , pessoa.senha])
+
+return r ;
+
 }
