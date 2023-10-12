@@ -23,7 +23,9 @@ import { Grafico } from './grafico';
 import { Grafico2 } from './graficomensal';
 import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
-import Cadastro from './cadastro';
+import Cadastro from './cadastroCliente';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -48,6 +50,7 @@ root.render(
       <Route path='/comentario' element={<Comentario/>}/>
       <Route path='/homeadm' element={<HomeAdm/>}/>
       <Route path='/cadastro' element={<Cadastro/>}/>
+      <Route path='/cadastroproduto' element={<InserirProduto/>}/>
 
     </Routes>
     </BrowserRouter>
