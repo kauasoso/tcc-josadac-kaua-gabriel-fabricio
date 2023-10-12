@@ -24,6 +24,7 @@ import { Grafico2 } from './graficomensal';
 import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
 import Cadastro from './cadastroCliente';
+import CadastroProduto from './ABC---PAGES---ADM/cadastro-produto';
 
 
 
@@ -50,7 +51,8 @@ root.render(
       <Route path='/comentario' element={<Comentario/>}/>
       <Route path='/homeadm' element={<HomeAdm/>}/>
       <Route path='/cadastro' element={<Cadastro/>}/>
-      <Route path='/cadastroproduto' element={<InserirProduto/>}/>
+      <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
+
 
     </Routes>
     </BrowserRouter>

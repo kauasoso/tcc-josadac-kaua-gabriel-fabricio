@@ -15,9 +15,6 @@ return (
                 <p>(0) ITEMS</p>
             </div>
 
-            <div>
-                <img className='panda' src="./assets/image/panda.png" alt="" />
-            </div>
         </nav>
 
 

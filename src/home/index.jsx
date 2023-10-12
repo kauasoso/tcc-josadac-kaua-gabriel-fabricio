@@ -29,7 +29,7 @@
                                             <img className='homepiscina' src="./assets/image/pisc-4.png" alt="" />
                                             <img className='homepiscina' src="./assets/image/pisc-5.png" alt="" />
                                             <img className='homepiscina' src="./assets/image/pisc-6.png" alt="" />
-                                            </marquee>
+           </marquee>
        
  </div>      
 
