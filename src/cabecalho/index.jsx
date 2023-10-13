@@ -32,7 +32,7 @@ return (
                 <span>F</span>
                 <p>Seja Bem-vindo, Fabrício!</p>
 
-                <p onClick={sairclick}>SAIR DA CONTA</p>
+                <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
             </div>
 
         </nav>

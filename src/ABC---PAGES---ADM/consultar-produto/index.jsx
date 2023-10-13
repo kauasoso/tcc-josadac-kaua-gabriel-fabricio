@@ -1,13 +1,12 @@
 
 import './index.scss'
+import Cabecalho2 from '../../cabecalho2'
 
-export default function Consulta(){
+
+export default function ConsultaProduto(){
     return(
-    <div className='mae1'>
-                
-
-                  
-
+    <div className='mae1'>   
+<Cabecalho2/>
         <div className='fundaozao'>
               <div className='corpao'>
                     <h1>CONSULTA DO PRODUTO</h1>
@@ -34,8 +33,8 @@ export default function Consulta(){
                         <input className='ipt1' type="Number" placeholder='EM ESTOQUE' />
                         
                         <div className='two-button'>
-                          <button>EDITAR</button>
-                          <button>REMOVER</button>
+                          <button className='editar'>EDITAR</button>
+                          <button className='editar'>REMOVER</button>
                         </div>
 
                         <button className='confirmar'>CONFIRMAR <img className='ct' src="" alt="" /></button>  

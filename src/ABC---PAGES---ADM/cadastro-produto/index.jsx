@@ -1,8 +1,17 @@
 import './index.scss';
 import Cabecalho2 from '../../cabecalho2';
 import Cabecalho from '../../cabecalho';
+import { useState } from 'react';
 
 export default function CadastroProduto(){
+
+const [nomeProduto, setNomeProduto] = useState ('');
+const [codigoCategoria, setCodigoCategoria] = useState ('');
+const [precoVenda , setPrecoVenda] = useState ('');
+const [quantidadeEstoque, setQuantidadeEstoque]= useState ('');
+
+
+
     return(
         <div className='maeeee'>
              <Cabecalho2/>
@@ -13,10 +22,11 @@ export default function CadastroProduto(){
 
                 <div className='corpo'>
                     <div className='varios'>
-                       <input type="text" placeholder='NOME DO NOVO PRODUTO' />
-                       <input type="number" placeholder='CÓDIGO DO PRODUTO'/>
+                       <input type="text" placeholder='NOME DO PRODUTO' />
+                       <input type="number" placeholder='CÓDIGO DA CATEGORIA'/>
                        <input type="number" placeholder='PREÇO DE VENDA'/>
-                       <input type="number" placeholder='QUANTIDADE'/>
+                       <input type="number" placeholder='QUANTIDADE EM ESTOQUE'/>
+                       <input type="number" placeholder='CÓDIGO DO PRODUTO' />
                     </div>
 
                     <div className='imagem'>

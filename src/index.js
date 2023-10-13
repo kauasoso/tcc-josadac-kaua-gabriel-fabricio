@@ -25,7 +25,7 @@ import HomeAdm from './homeadm';
 import Cadastro from './cadastroCliente';
 import CadastroProduto from './ABC---PAGES---ADM/cadastro-produto';
 import CabecalhoInicial from './cabecalho.inicial';
-
+import ConsultaProduto from './ABC---PAGES---ADM/consultar-produto';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -52,6 +52,7 @@ root.render(
       <Route path='/cadastro' element={<Cadastro/>}/>
       <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
       <Route path='/cabecalhoinicial' element={<CabecalhoInicial/>}/>
+      <Route path='/consultaproduto' element={<ConsultaProduto/>}/>
 
 
     </Routes>
