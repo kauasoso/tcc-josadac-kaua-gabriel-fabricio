@@ -29,7 +29,7 @@ export default function Cas5(){
 
          <div className='a2'>
                     <div className='b1'>
-                        <img className='filtro2' src="/assets/images/casca-5.png" alt="" />
+                        <img className='filtro2' src="/assets/image/casca-5.png" alt="" />
                     </div>
 
 
@@ -62,32 +62,32 @@ export default function Cas5(){
                     <img className='setaesquerda' src="/assets/images/setaesquerda.png" alt="" />
 
                         <div className='c1'>
-                            <img className='imagizi' src="/assets/images/casca-1.png" alt="" />
+                            <img className='imagizi' src="/assets/image/casca-1.png" alt="" />
                             <h4 className='ds'>CASCATA EM AÇO INOX</h4>
                             <h5 className='prc'>R$ 4.354,87</h5>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/images/caminhao.png" alt="" />
+                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
                         </div>
                         <div className='c2'>
-                            <img className='imagizi' src="/assets/images/casca-3.png" alt="" />
+                            <img className='imagizi' src="/assets/image/casca-3.png" alt="" />
                             <h4 className='ds'>CASCATA CISNE EM AÇO INOX</h4>
                             <h5 className='prc'>R$ 5.231,256</h5>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/images/caminhao.png" alt="" />
+                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
                         </div>
                         <div className='c3'>
-                            <img className='imagizi' src="/assets/images/casca-2.png" alt="" />
+                            <img className='imagizi' src="/assets/image/casca-2.png" alt="" />
                             <h4 className='ds'>CASCATA CISNE EM AÇO INOX</h4>
                             <h5 className='prc'>R$ 5.231,256</h5>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/images/caminhao.png" alt="" />
+                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
                         </div>
                         <div className='c4'>
-                            <img className='imagizi' src="/assets/images/casca-4.png" alt="" />
+                            <img className='imagizi' src="/assets/image/casca-4.png" alt="" />
                             <h4 className='ds'>DUCHA FRIA DE ALUMÍNIO</h4>
                             <h5 className='prc'>R$ 867,43</h5>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/images/caminhao.png" alt="" />
+                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
                         </div>
 
 

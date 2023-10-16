@@ -28,7 +28,7 @@ export default function Ilu3(){
 
          <div className='a2'>
                     <div className='b1'>
-                        <img className='filtro2' src="/assets/images/ilu-3.png" alt="" />
+                        <img className='filtro2' src="/assets/image/ilu-3.png" alt="" />
                     </div>
 
 

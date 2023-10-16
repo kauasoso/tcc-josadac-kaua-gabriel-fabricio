@@ -22,7 +22,7 @@ export default function Ilu1(){
 
          <div className='a2'>
                     <div className='b1'>
-                        <img className='filtro2' src="/assets/images/ilu-1.png" alt="" />
+                        <img className='filtro2' src="/assets/image/ilu-1.png" alt="" />
                     </div>
 
 
