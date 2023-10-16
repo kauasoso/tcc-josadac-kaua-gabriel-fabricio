@@ -9,6 +9,10 @@ const [nomeProduto, setNomeProduto] = useState ('');
 const [codigoCategoria, setCodigoCategoria] = useState ('');
 const [precoVenda , setPrecoVenda] = useState ('');
 const [quantidadeEstoque, setQuantidadeEstoque]= useState ('');
+const [codigoProduto, setCodigoProduto] = useState('')
+
+
+
 
 
 
@@ -22,11 +26,11 @@ const [quantidadeEstoque, setQuantidadeEstoque]= useState ('');
 
                 <div className='corpo'>
                     <div className='varios'>
-                       <input type="text" placeholder='NOME DO PRODUTO' />
-                       <input type="number" placeholder='CÓDIGO DA CATEGORIA'/>
-                       <input type="number" placeholder='PREÇO DE VENDA'/>
-                       <input type="number" placeholder='QUANTIDADE EM ESTOQUE'/>
-                       <input type="number" placeholder='CÓDIGO DO PRODUTO' />
+                       <input type="text" placeholder='NOME DO PRODUTO' value={nomeProduto} onChange={e => setNomeProduto(e.target.value)} />
+                       <input type="number" placeholder='CÓDIGO DA CATEGORIA' value={codigoCategoria} onChange={e => setCodigoCategoria(e.target.value)}/>
+                       <input type="number" placeholder='PREÇO DE VENDA' value={precoVenda} onChange={e => setPrecoVenda(e.target.value)}/>
+                       <input type="number" placeholder='QUANTIDADE EM ESTOQUE' value={quantidadeEstoque} onChange={e =>  setQuantidadeEstoque(e.target.value)}/>
+                       <input type="number" placeholder='CÓDIGO DO PRODUTO' value={codigoProduto} onChange={e => setCodigoProduto (e.target.value)} />
                     </div>
 
                     <div className='imagem'>
