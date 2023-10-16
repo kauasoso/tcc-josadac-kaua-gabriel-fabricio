@@ -10,15 +10,16 @@ return(
         <div className="container-adm">
             <div className="sub-3">
                  <div className='sub-azul'>
-                     <h1>CADASTRO DE PRODUTOS</h1>
+                     <a href="/cadastroproduto" className='H1'> CADASTRAR PROUTO </a>
                  </div>
-
+                 
                         <div className='sub-azul'>
-                            <h1>CONSULTAR PRODUTOS</h1>
+                            <a href="/consultaproduto" className='H1' > CONSULTAR PRODUTOS </a>
+                            
                         </div>
 
                  <div className='sub-azul'>  
-                     <h1>PEDIDOS REALIZADOS</h1>
+                     <a href="/realizados" className='H1' > PEDIDOS REALIZADOS </a>
                  </div>
             </div>
         </div>

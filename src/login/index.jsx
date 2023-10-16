@@ -89,7 +89,7 @@ return (
 
                         <div className='agrupa-p'>
                             <p>ESQUECI A SENHA</p>
-                            <p>CADASTRE-SE</p>
+                            <a href="/cadastro">CADASTRE-SE</a>
                         </div>
 
                         <div>
