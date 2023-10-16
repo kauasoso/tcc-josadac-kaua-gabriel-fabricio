@@ -1,12 +1,27 @@
 import './index.scss';
 import storage from 'local-storage'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate  } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 export default function Cabecalho () {
     
+    const [ usuario, setUsuario] = useState({})
 
     const navigate = useNavigate();
 
+
+    // useEffect(() => {
+ 
+    //     if (!storage('usuario-logado')) {
+    //     navigate('/login')
+    //     } else {
+    //    const usuarioLogado = storage('usuario-logado');
+    //     setUsuario(usuarioLogado)
+    //     console.log(usuarioLogado);
+    // }
+           
+        
+    //    }, [])
 
 
     function sairclick() {
@@ -29,8 +44,8 @@ return (
             </div>
 
             <div className='agrupa-panda'>
-                <span>F</span>
-                <p>Seja Bem-vindo, Fabrício!</p>
+                {/* <span>{usuario[0].nome.substr(1,2)}</span>
+                <p>Seja Bem-vindo, {usuario[0].nome}!</p> */}
 
                 <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
             </div>

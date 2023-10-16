@@ -39,11 +39,11 @@ async function Entrar() {
     }
 
     let r = await axios.post(url,pessoa)
-   storage('usuario-logado', r)
+   storage('usuario-logado', r.data)
 
     setTimeout(() => {
         navigate('/')
-        },3000)
+        },2500)
 
 
 
