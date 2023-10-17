@@ -13,13 +13,13 @@ CREATE TABLE TB_CADASTRO_CLIENTE (
 );
 
 INSERT INTO TB_CADASTRO_CLIENTE (NM_NOME,DS_CPF,DS_EMAIL,DS_TELEFONE,DS_SENHA) 
-      VALUES           ('Gabriel' , '56743234565', 'adm@admin.com', '1193123123' ,'adm123');
+      VALUES           ('FaFas' , '52097117813', 'adm', '11946986302' ,'adm');
 
 select ds_email   email ,
        ds_senha  senha 
        from TB_CADASTRO_CLIENTE
-       WHERE ds_email = 'adm@admin.com' and
-			ds_senha  = 'adm123';
+       WHERE ds_email = 'adm' and
+			ds_senha  = 'adm';
 
 select * from TB_CADASTRO_CLIENTE ;
 
