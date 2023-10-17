@@ -24,6 +24,7 @@ import HomeAdm from './homeadm';
 import Cadastro from './cadastroCliente';
 import Produto from './produtos';
 
+import Acessorios from './acessorios';
 import Ace1 from './detalhe-produto-acessorio/ace1';
 import Ace2 from './detalhe-produto-acessorio/ace2';
 import Ace3 from './detalhe-produto-acessorio/ace3';
@@ -75,6 +76,14 @@ import Bor4 from './detalhe-produto-borda/bor4';
 import Bor5 from './detalhe-produto-borda/bor5';
 import Bor6 from './detalhe-produto-borda/bor6';
 
+import Limpeza from './limpeza';
+import Limp1 from './detalhe-produto-limpeza/limp1';
+import Limp2 from './detalhe-produto-limpeza/limp2';
+import Limp3 from './detalhe-produto-limpeza/limp3';
+import Limp4 from './detalhe-produto-limpeza/limp4';
+import Limp5 from './detalhe-produto-limpeza/limp5';
+import Limp6 from './detalhe-produto-limpeza/limp6';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -82,7 +91,6 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='/iluminacao' element={<Iluminacao/>}/>
       <Route path='/ace1' element={<Ace1/>}/>
       <Route path='/ace2' element={<Ace2/>}/>
       <Route path='/ace3' element={<Ace3/>}/>
@@ -134,7 +142,17 @@ root.render(
       <Route path='/ilu5' element={<Ilu5/>}/>
       <Route path='/ilu6' element={<Ilu6/>}/>
 
+      <Route path='/limp1' element={<Limp1/>}/>
+      <Route path='/limp2' element={<Limp2/>}/>
+      <Route path='/limp3' element={<Limp3/>}/>
+      <Route path='/limp4' element={<Limp4/>}/>
+      <Route path='/limp5' element={<Limp5/>}/>
+      <Route path='/limp6' element={<Limp6/>}/>
 
+
+      <Route path='/iluminacao' element={<Iluminacao/>}/>
+      <Route path='/acess' element={<Acessorios/>}/>
+      <Route path='/limpeza' element={<Limpeza/>}/>
       <Route path='/produto' element={<Produto/>}/>
       <Route path='/cabecalho' element={<Cabecalho/>}/>
       <Route path='/card' element={<Card/>}/>

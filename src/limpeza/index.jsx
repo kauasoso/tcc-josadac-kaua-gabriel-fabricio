@@ -1,25 +1,14 @@
-import Cabecalho from '../cabecalho'
-import Rodape from '../rodape'
-import './index.scss'
+import './index.scss';
+import Rodape from '../rodape';
+import Cabecalho from '../cabecalho';
 
 
-
-
-export default function Acessorios(){
-
-
-
-
+export default function Limpeza(){
 
     return(
-
-
-
-
-
         <div className='mae'>
         <div>
-            <Cabecalho/>
+           <Cabecalho/>
         </div>
 <div className='tudo'>
     <div className='centralizar'>
@@ -36,12 +25,12 @@ export default function Acessorios(){
         <section className='divis'>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-1.png" alt="" />
+            <img className='imagi' src="/assets/image/limpeza1.png" alt="" />
                 <div className='line'></div>
 
-                <p className='txt'>TAMPA FECHAMENTO AUTOMÁTICO <br/> SODRAMAR</p>
+                <p className='txt'>SOLUÇÃO PARA ÁGUA TURVA HTH - 1 LITRO</p>
 
-                <h1 className='preco'>R$50,40</h1>
+                <h1 className='preco'>R$70,65</h1>
 
                 <section>            
                     
@@ -53,12 +42,12 @@ export default function Acessorios(){
             </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-2.png" alt="" />
+            <img className='imagi' src="/assets/image/limpeza2.png" alt="" />
                 <div className='line'></div>     
-                <p className='txt'>RALO SODRAMAR QUEBRA ONDA PRATIC<br/> ROSCA LATÃO ALVENARIA</p>
+                <p className='txt'>LIMPA BORDAS HTH - 1 LITRO</p>
                 
 
-                <h1 className='preco'>R$ 76,50</h1>
+                <h1 className='preco'>R$ 21,40</h1>
 
                 <section>            
                     
@@ -71,11 +60,11 @@ export default function Acessorios(){
        </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-3.png" alt="" />
+            <img className='imagi' src="/assets/image/limpeza3.png" alt="" />
                 <div className='line'></div>  
-                <p className='txt'>PENEIRA SODRAMAR TIPO PUÇA COM <br/> ARMAÇÃO METÁLICA</p>
+                <p className='txt'>ELEVADOR DE ALCALINIDADE E CONTROLE  DE PH HTH SACO 2KG</p>
 
-                <h1 className='preco'>R$ 35,10</h1>
+                <h1 className='preco'>R$ 90,26</h1>
 
                 <section>            
                     
@@ -88,12 +77,12 @@ export default function Acessorios(){
           </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-4.png" alt="" />
+            <img className='imagi' src="/assets/image/limpeza4.png" alt="" />
                 <div className='line'></div>     
-                <p className='txt'>DISPOSITIVO RETORNO SODRAMAR 1.1/2''<br/> LATÃO INOX</p>
+                <p className='txt'>REDUTOR DE ALCALINIDADE E PH EXTRA FORTE 1 LITRO HTH </p>
                 
 
-                <h1 className='preco'>R$ 74,70</h1>
+                <h1 className='preco'>R$ 30,40</h1>
                 <section>            
                     
                     <p>FRETE GRÁTIS</p>
@@ -104,11 +93,11 @@ export default function Acessorios(){
        </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-5.png" alt="" />
+            <img className='imagi' src="/assets/image/limpeza5.png" alt="" />
                 <div className='line'></div>    
-                <p className='txt'>DRENO SODRAMAR ANTI- TURBILHÃO 1.1/2" <br/> BASE LATÃO</p>
+                <p className='txt'>BARRILHA LEVE ELEVADOR DE PH EM PÓ SACO 1.5K HTH</p>
 
-                <h1  className='preco'>R$ 432,90</h1>
+                <h1  className='preco'>R$ 76,99</h1>
 
                 <section>            
                     
@@ -121,12 +110,12 @@ export default function Acessorios(){
              </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-6.png" alt="" />
+            <img className='imagi' src="/assets/image/limpeza6.png" alt="" />
                 <div className='line'></div> 
 
-                <p className='txt'>Escova Sodramar Luxo Nylon 44cm</p>
+                <p className='txt'>FLUTUADOR CLORO HTH TABLETE ADVANCED 4 EM 1 - 1,660KG HTH</p>
 
-                <h1 className='preco'>R$ 40,50</h1>
+                <h1 className='preco'>R$ 64,01</h1>
 
                 <section>            
                     

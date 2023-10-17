@@ -31,7 +31,7 @@ export default function Ace6() {
 
 
                     <div className='b2'>
-                        <h3 className='titulo'>Escova Sodramar Luxo <br/>ㅤㅤNylon 44cm</h3>
+                        <h3 className='titulo'>Escova Sodramar Luxo <br/>Nylon 44cm</h3>
                         <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
 
                         <h2 className='preco'>R$ 40,50</h2>

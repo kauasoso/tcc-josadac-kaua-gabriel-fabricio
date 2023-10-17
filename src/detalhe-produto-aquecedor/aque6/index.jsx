@@ -20,7 +20,7 @@ export default function Aque6() {
 
             <div className='a2'>
                 <div className='b1'>
-                    <img className='filtro2' src="/assets/image/aque-6.png" alt="" />
+                    <img className='filtro2' src="/assets/image/aquecedor-6.png" alt="" />
                 </div>
 
 

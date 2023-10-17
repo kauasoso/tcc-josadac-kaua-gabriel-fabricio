@@ -28,7 +28,7 @@ export default function Iluminacao(){
         <section className='divis'>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/images/ilu-1.png" alt="" />
+            <img className='imagi' src="/assets/image/ilu-1.png" alt="" />
                 <div className='line'></div>
 
                 <p className='txt'>REFLETOR GLOBAL</p>
@@ -38,14 +38,14 @@ export default function Iluminacao(){
                 <section>            
                     
                     <p>FRETE GRÁTIS</p>
-                    <img className='caminhao' src="/assets/images/caminhao.png" alt="" />
+                    <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                 </section>
                 <button>COMPRAR AGORA</button>
             </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/images/ilu-2.png" alt="" />
+            <img className='imagi' src="/assets/image/ilu-2.png" alt="" />
                 <div className='line'></div>     
                 <p className='txt'>REFLETOR R125</p>
                 
@@ -55,7 +55,7 @@ export default function Iluminacao(){
                 <section>            
                     
                 <p>FRETE GRÁTIS</p>
-                <img className='caminhao' src="/assets/images/caminhao.png" alt="" />
+                <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                 </section>
                 
@@ -63,7 +63,7 @@ export default function Iluminacao(){
        </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/images/ilu-3.png" alt="" />
+            <img className='imagi' src="/assets/image/ilu-3.png" alt="" />
                 <div className='line'></div>  
                 <p className='txt'>REFLETOR SUPER LED'S G</p>
 
@@ -72,7 +72,7 @@ export default function Iluminacao(){
                 <section>            
                     
                     <p>FRETE GRÁTIS</p>
-                    <img className='caminhao' src="/assets/images/caminhao.png" alt="" />
+                    <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                 </section>
 
@@ -80,7 +80,7 @@ export default function Iluminacao(){
           </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/images/ilu-4.png" alt="" />
+            <img className='imagi' src="/assets/image/ilu-4.png" alt="" />
                 <div className='line'></div>     
                 <p className='txt'>REFLETOR SUPER SMD G</p>
                 
@@ -89,14 +89,14 @@ export default function Iluminacao(){
                 <section>            
                     
                     <p>FRETE GRÁTIS</p>
-                    <img className='caminhao' src="/assets/images/caminhao.png" alt="" />
+                    <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                     </section>
                 <button>COMPRAR AGORA</button>
        </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/images/ilu-5.png" alt="" />
+            <img className='imagi' src="/assets/image/ilu-5.png" alt="" />
                 <div className='line'></div>    
                 <p className='txt'>REFLETOR SLIM LED'S</p>
 
@@ -105,7 +105,7 @@ export default function Iluminacao(){
                 <section>            
                     
                 <p>FRETE GRÁTIS</p>
-                <img className='caminhao' src="/assets/images/caminhao.png" alt="" />
+                <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                 </section>
 
@@ -113,7 +113,7 @@ export default function Iluminacao(){
              </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/images/ilu-6.png" alt="" />
+            <img className='imagi' src="/assets/image/ilu-6.png" alt="" />
                 <div className='line'></div> 
 
                 <p className='txt'>REFLETOR SMALL LED'S EM INOX DE 1/2</p>
@@ -123,7 +123,7 @@ export default function Iluminacao(){
                 <section>            
                     
                 <p>FRETE GRÁTIS</p>
-                <img className='caminhao' src="/assets/images/caminhao.png" alt="" />
+                <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                 </section>
 
