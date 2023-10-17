@@ -14,6 +14,7 @@ CREATE TABLE TB_CADASTRO_CLIENTE (
 
 INSERT INTO TB_CADASTRO_CLIENTE (NM_NOME,DS_CPF,DS_EMAIL,DS_TELEFONE,DS_SENHA) 
       VALUES           ('FaFas' , '52097117813', 'adm', '11946986302' ,'adm');
+      VALUES           ('Gabriel' , '56743234565', 'adm', '1193123123' ,'123');
 
 select ds_email   email ,
        ds_senha  senha 
@@ -118,9 +119,8 @@ CREATE TABLE TB_ENDERECO (
 
  CREATE TABLE TB_PRODUTO (
 	id_produto int PRIMARY KEY AUTO_INCREMENT ,
-	id_categoria int ,
 	nm_produto varchar(200),
-	vl_preco_compra decimal (8.3),
+	id_categoria int ,
     vl_preco_venda decimal (8.3),
 	qtd_estoque integer,
     ds_codigo_produto varchar(200),
@@ -128,11 +128,10 @@ CREATE TABLE TB_ENDERECO (
     FOREIGN KEY (ID_CATEGORIA) REFERENCES TB_CATEGORIA (ID_CATEGORIA)
 );
 
+insert into tb_produto (nm_produto,id_categoria,vl_preco_venda,qtd_estoque,ds_codigo_produto)
+				values ('Aspirador Shark', '2', 41.000 , 10 ,157157157) ;
 
-
-
-
-
+select*from tb_produto ;
 
 
 CREATE TABLE TB_PRODUTO_IMAGEM (
@@ -150,7 +149,8 @@ CREATE TABLE TB_CATEGORIA (
 	nm_categoria varchar(200)
 );
 
-
+insert into tb_categoria (nm_categoria)
+       values ('Iluminação') ;
 
 
 

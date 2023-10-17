@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { Buscar , Cadastrar, Login } from "../Repository/paginasRepository.js";
+import { Buscar , Cadastrar, CadastrarProduto, Login } from "../Repository/paginasRepository.js";
 
 
 let endpoints = Router();
@@ -72,6 +72,42 @@ if (!pessoa.senha)
     })
 }
 } );
+
+
+
+
+endpoints.post ('/cadastroproduto', async (req,resp) => {
+try {
+    
+
+     const produto = req.body; 
+    
+     if(!produto.nome)
+        throw new Error ("Nome Do Produto Obrigatório !!!")
+
+        if(!produto.categoria)
+        throw new Error ("Categoria Obrigatória !!")
+
+        if(!produto.preco)
+        throw new Error ("Preço Obrigatório !!")
+
+        if(!produto.estoque)
+        throw new Error ("Coloque a Quantidade De Produtos Estocados")
+
+        if(!produto.codigo)
+        throw new Error ("Coloque o Código Do Produto")
+
+     let resposta = await CadastrarProduto(produto);
+
+     resp.status(200).send()
+
+    } catch (err) {
+      resp.status(400).send({
+        erro: err.message
+      })
+    }
+})
+
 
 
 
