@@ -124,3 +124,37 @@ p{
 
 
 }
+
+// RESPONSIVIDADE
+
+@media (max-width: 850px) {
+    .mae{
+        max-width: 100%;
+    }
+
+    .agrupa-panda{
+        margin-right: 5px;
+    }
+
+    .carrinho{
+        margin-left: -70px;
+
+        p{
+            margin-left: 20px
+        }
+    }
+
+    .fundo{
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .azulcarro{
+        width: 10px;
+    }
+
+    .lupa{
+        margin-left: 150px;
+    }
+}

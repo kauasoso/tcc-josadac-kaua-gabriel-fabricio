@@ -1,298 +1,305 @@
 .mae {
 
 
-.container {
+    .container {
 
-display: flex;
-flex-direction: column;
-
-.marquee {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 100px;
-
-
-marquee > img {
-    border-radius: 10px;
-    margin: 6px;
-}
-
-    .homepiscina  {
-        border-radius: 10px;
-        height: 471px;
-    }
-}
-
-
-
-   .slide {
-    width: 800px;
-    object-fit: cover;
-   } 
-
-
-.rodape {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 50vh;
-    background-color: #004586;
-
- .agrupa-info {
-    display: flex;
-    flex-direction: row;
-   margin-left: 110px;
- }
-
- .agrupa-info > div {
-    margin: 55px;
- }
-
-
- .infos {
-    display: flex;
-    flex-direction: row;
-    width: 210px;
-
-
-
-
-    .grupo-image > img {
-        cursor: pointer;
-       margin: 2px;
-    }
-
- 
-
-    .line {
-        position: relative;
-        left: 80px;
-        border: 1px solid white;
-       
-    }
-
-    h2 {
-        color: white;
-        margin-bottom: 45px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    p {
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: white;
-        margin-bottom: 25px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        
-    }
+        flex-direction: column;
 
-   
- }
-
-    
-}
+        .marquee {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 100px;
 
 
-
-.subcontainer2 {
-   background-image: url(../../public/assets/image/fundo-onda.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%;
-   height: 170vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-
-h1 {
-    margin-bottom: 180px;
-    margin-top: 80px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-   .servic {
-    width: 990px;
-   }
-}
-
-
-
-
-
-    
-.agrupa-piscinas {
-
-    display: flex;
-    flex-direction: row;
-   
-
-.card {
-    margin-left: 20px;
-    margin-bottom: 15px;
-}
-
-.piscina {
-
-    width: 340px;
-    height: 320px;
-}
-
-}
-
-.agrupa-piscinas-2 {
-
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 90px;
-
-    .card {
-        margin-left: 20px;
-        margin-bottom: 15px;
-    }
-    
-    .piscina {
-    
-        width: 340px;
-        height: 320px;
-    }
-
-}
-
-// segunda parte , abaixo
-
-
-.subcontainer {
-
-background-image: url(../../public/assets/image/fundo-onda.png);
-background-position: 100% 0%;
-background-repeat: no-repeat;
-background-size: cover;
-padding: 20px;
-width: 100%;
-height: 100%;
-
-
-
-.agrupa-titulos {
-
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin-bottom: 250px;
-
-h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-}
-
-
-
-.agrupa-card-3 {
-
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-    
-        .cardd {
-           display: flex;
-           flex-direction: column;
-           text-align: center;
-           padding: 20px 0px 10px 0px;
-            background-color: white;
-            width: 260px;
-            height: 300px;
-            border-radius: 15px;
-           margin-right: 30px;
-           
-           h2 {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 16px;
-           }
-            
-          
-           .categorias {
-            width: 170px;
-            height: 140px;
-           }
-    
-    
-            .line {
-                background-color: rgb(0, 0, 0);
-                width: 100%;
-                height: 1px;
-                margin-bottom: 40px;
+            marquee>img {
+                border-radius: 10px;
+                margin: 6px;
             }
-    
-    
-            .cruz {
-                position: relative;
-                left: 110px;
-                top: 41px;
-                
-                
+
+            .homepiscina {
+                border-radius: 10px;
+                height: 471px;
             }
-}
-
-}
+        }
 
 
-.agrupa-card-1 {
 
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: row;
-    margin-bottom: 50px;
-
-    .cardd {
-       display: flex;
-       flex-direction: column;
-       text-align: center;
-       padding: 20px 0px 10px 0px;
-        background-color: white;
-        width: 260px;
-        height: 300px;
-        border-radius: 15px;
-        margin-left: 30px;
-        
-      h2 {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 16px;
-      }
-
-       .categorias {
-        width: 170px;
-        height: 140px;
-       }
+        .slide {
+            width: 800px;
+            object-fit: cover;
+        }
 
 
-        .line {
-            background-color: rgb(0, 0, 0);
+        .rodape {
+            display: flex;
+            flex-direction: row;
             width: 100%;
-            height: 1px;
-            margin-bottom: 40px;
+            height: 50vh;
+            background-color: #004586;
+
+            .agrupa-info {
+                display: flex;
+                flex-direction: row;
+                margin-left: 10px;
+            }
+
+            .agrupa-info>div {
+                margin: 55px;
+            }
+
+
+            .infos {
+                display: flex;
+                flex-direction: row;
+                width: 210px;
+
+
+
+
+                .grupo-image>img {
+                    cursor: pointer;
+                    margin: 2px;
+                }
+
+
+
+                .line {
+                    position: relative;
+                    left: 80px;
+                    border: 1px solid white;
+
+                }
+
+                h2 {
+                    color: white;
+                    margin-bottom: 45px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+                p {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    color: white;
+                    margin-bottom: 25px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+                }
+
+
+            }
+
+
         }
 
 
-        .cruz {
-            position: relative;
-            left: 110px;
-            top: 41px;
-            
-            
+
+        .subcontainer2 {
+            background-image: url(../../public/assets/image/fundo-onda.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 170vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                margin-bottom: 180px;
+                margin-top: 80px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .servic {
+                width: 990px;
+            }
         }
+
+
+
+
+
+
+        .agrupa-piscinas {
+
+            display: flex;
+            flex-direction: row;
+
+
+            .card {
+                margin-left: 20px;
+                margin-bottom: 15px;
+            }
+
+            .piscina {
+
+                width: 340px;
+                height: 320px;
+            }
+
+        }
+
+        .agrupa-piscinas-2 {
+
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 90px;
+
+            .card {
+                margin-left: 20px;
+                margin-bottom: 15px;
+            }
+
+            .piscina {
+
+                width: 340px;
+                height: 320px;
+            }
+
+        }
+
+        // segunda parte , abaixo
+
+
+        .subcontainer {
+
+            background-image: url(../../public/assets/image/fundo-onda.png);
+            background-position: 100% 0%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 20px;
+            width: 100%;
+            height: 100%;
+
+
+
+            .agrupa-titulos {
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 250px;
+
+                h3 {
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+            }
+
+
+
+            .agrupa-card-3 {
+
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 50px;
+                justify-content: center;
+                align-items: center;
+
+                .cardd {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 20px 0px 10px 0px;
+                    background-color: white;
+                    width: 260px;
+                    height: 300px;
+                    border-radius: 15px;
+                    margin-right: 30px;
+
+                    h2 {
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 16px;
+                    }
+
+
+                    .categorias {
+                        width: 170px;
+                        height: 140px;
+                    }
+
+
+                    .line {
+                        background-color: rgb(0, 0, 0);
+                        width: 100%;
+                        height: 1px;
+                        margin-bottom: 40px;
+                    }
+
+
+                    .cruz {
+                        position: relative;
+                        left: 110px;
+                        top: 41px;
+
+
+                    }
+                }
+
+            }
+
+
+            .agrupa-card-1 {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                margin-bottom: 50px;
+
+                .cardd {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 20px 0px 10px 0px;
+                    background-color: white;
+                    width: 260px;
+                    height: 300px;
+                    border-radius: 15px;
+                    margin-left: 30px;
+
+                    h2 {
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 16px;
+                    }
+
+                    .categorias {
+                        width: 170px;
+                        height: 140px;
+                    }
+
+
+                    .line {
+                        background-color: rgb(0, 0, 0);
+                        width: 100%;
+                        height: 1px;
+                        margin-bottom: 40px;
+                    }
+
+
+                    .cruz {
+                        position: relative;
+                        left: 110px;
+                        top: 41px;
+
+
+                    }
+                }
+
+            }
+
+
+        }
+
+
+
+
+
+
     }
 
-}
-
-
-}
-
-
 
 
 
@@ -303,11 +310,21 @@ flex-direction: row;
 
 
 
-}
+// RESPONSIVIDADE
+
+
 
 
 @media (max-width: 1396px) {
     .mae {
-      max-width: 100%;
+        max-width: 100%;
     }
-  }
+}
+
+@media (max-width: 850px) {
+    .mae {
+        max-width: 100%;
+    }
+
+}
+

@@ -36,12 +36,13 @@ const navigate = useNavigate();
         <div className='container'>
 
 <div className="marquee">
-          <marquee behavior="" direction=""><img className='homepiscina' src="./assets/image/pisc-1.png" alt="" />
+          <marquee behavior="" width="1300" direction=""><img className='homepiscina' src="./assets/image/pisc-1.png" alt="" />
                                             <img className='homepiscina' src="./assets/image/pisc-2.png" alt="" /> 
                                             <img className='homepiscina' src="./assets/image/pisc-3.png" alt="" />
                                             <img className='homepiscina' src="./assets/image/pisc-4.png" alt="" />
                                             <img className='homepiscina' src="./assets/image/pisc-5.png" alt="" />
                                             <img className='homepiscina' src="./assets/image/pisc-6.png" alt="" />
+                                            
            </marquee>
        
  </div>      

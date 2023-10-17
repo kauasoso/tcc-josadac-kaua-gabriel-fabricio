@@ -26,7 +26,7 @@ export default function Status () {
 
             <div className="statusverificado">
                 <div className='statusverde'>
-                  <img className='statussinal' src="../assets/image/verificado.png" alt="" />
+                  <img className='direita' src="../assets/image/verificado.png" alt="" />
                   <img className='statussinal' src="../assets/image/verificado.png" alt="" />
                 </div>
 

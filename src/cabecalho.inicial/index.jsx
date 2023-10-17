@@ -6,7 +6,7 @@ return (
 <div className="mae-cabecalhoinicial">
     <div className="container">
         <nav className='cabecalho'>
-            <img className='logo' src="./assets/image/pool-max-logo.png" alt="" />
+            <a href="/"><img className='logo' src="./assets/image/pool-max-logo.png" alt="" /></a>
             <input className='encontre'  type="text" placeholder='ENCONTRE SEU PRODUTO' />
             <img className='lupa' src="./assets/image/lupa.png" alt="" />
 
