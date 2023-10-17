@@ -33,11 +33,29 @@ let comando = `select *
 
 export async function Cadastrar(pessoa) {
 
-let comando = `INSERT INTO TB_CADASTRO_CLIENTE (NM_NOME,DS_EMAIL,DS_SENHA) 
-VALUES           (?, ?, ?)`
+    let comando = `INSERT INTO TB_CADASTRO_CLIENTE (NM_NOME,DS_EMAIL,DS_SENHA) 
+    VALUES           (?, ?, ?)`
 
-let r = await conexao.query(comando , [pessoa.nome , pessoa.email , pessoa.senha])
+    let r = await conexao.query(comando , [pessoa.nome , pessoa.email , pessoa.senha])
 
-return r ;
+    return r ;
+
+}
+
+
+export async function CadastrarProduto(produto) {
+
+        let comando = `insert into tb_produto (nm_produto,id_categoria,vl_preco_venda,qtd_estoque,ds_codigo_produto)
+        values (?, ?,? ,? ,?) ;`
+
+        let r = await conexao.query(comando , [
+            produto.nome ,
+            produto.categoria,
+            produto.preco,
+            produto.estoque,
+            produto.codigo
+        ])
+
+        return r ;
 
 }
