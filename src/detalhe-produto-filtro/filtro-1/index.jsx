@@ -29,13 +29,7 @@ export default function Filtro1() {
                     <h2 className='preco'>R$ 40.216,13</h2>
 
                     <button className='comprar'>COMPRAR AGORA</button>
-                    <div className='estrelas'>
-                        <img src="/assets/image/estrela1.png" alt="" />
-                        <img src="/assets/image/estrela1.png" alt="" />
-                        <img src="/assets/image/estrela1.png" alt="" />
-                        <img src="/assets/image/estrela1.png" alt="" />
-                        <img src="/assets/image/estrela2.png" alt="" />
-                    </div>
+                  
                 </div>
 
             </div>
@@ -45,8 +39,6 @@ export default function Filtro1() {
 
                 <div className='b3'>
 
-
-                    <img className='setaesquerda' src="/assets/image/setaesquerda.png" alt="" />
 
                     <div className='c1'>
                         <img className='imagizi' src="/assets/image/filtro-2.png" alt="" />
@@ -88,7 +80,6 @@ export default function Filtro1() {
                     </div>
 
 
-                    <img className='setadireirta' src="/assets/image/setdireita.png" alt="" />
 
                 </div>
 

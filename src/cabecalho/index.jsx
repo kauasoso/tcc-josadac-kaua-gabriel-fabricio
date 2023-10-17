@@ -31,11 +31,11 @@ return (
                 </div>
 
                         <div className='fundo'>
-                          ILUMINAÇÃO
+                         <a className='cor' href="/iluminacao">ILUMINAÇÃO</a> 
                         </div>
 
             <div className='fundo'>
-               PISOS E REVESTIMENTOS
+               <a className='cor' href=""> PISOS E REVESTIMENTOS</a>
             </div>
         </div>
     </div>

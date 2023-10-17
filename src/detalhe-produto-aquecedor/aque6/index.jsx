@@ -32,13 +32,7 @@ export default function Aque6() {
                     <h2 className='preco'>R$ 668,33</h2>
 
                     <button className='comprar'>COMPRAR AGORA</button>
-                    <div className='estrelas'>
-                        <img src="/assets/images/estrela1.png" alt="" />
-                        <img src="/assets/images/estrela1.png" alt="" />
-                        <img src="/assets/images/estrela1.png" alt="" />
-                        <img src="/assets/images/estrela1.png" alt="" />
-                        <img src="/assets/images/estrela2.png" alt="" />
-                    </div>
+                    
                 </div>
 
             </div>
@@ -50,7 +44,6 @@ export default function Aque6() {
                 <div className='b3'>
 
 
-                    <img className='setaesquerda' src="/assets/images/setaesquerda.png" alt="" />
 
                     <div className='c1'>
                         <img className='imagizi' src="/assets/image/aque-2.png" alt="" />
@@ -82,7 +75,6 @@ export default function Aque6() {
                     </div>
 
 
-                    <img className='setadireirta' src="/assets/images/setdireita.png" alt="" />
 
                 </div>
 

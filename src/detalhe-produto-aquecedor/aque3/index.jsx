@@ -55,7 +55,6 @@ export default function Aque3(){
                     <div className='b3'>
 
 
-                    <img className='setaesquerda' src="/assets/images/setaesquerda.png" alt="" />
 
                         <div className='c1'>
                             <img className='imagizi' src="/assets/image/aque-1.png" alt="" />
@@ -87,7 +86,6 @@ export default function Aque3(){
                         </div>
 
 
-                        <img className='setadireirta' src="/assets/images/setdireita.png" alt="" />
                         
                     </div>
                     

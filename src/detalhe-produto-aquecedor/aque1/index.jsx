@@ -37,13 +37,7 @@ export default function Aque1(){
                         <h2 className='preco'>R$ 40.216,13</h2>
 
                         <button className='comprar'>COMPRAR AGORA</button>
-                        <div className='estrelas'>
-                            <img src="/assets/images/estrela1.png" alt="" />
-                            <img src="/assets/images/estrela1.png" alt="" />
-                            <img src="/assets/images/estrela1.png" alt="" />
-                            <img src="/assets/images/estrela1.png" alt="" />
-                            <img src="/assets/images/estrela2.png" alt="" />
-                        </div>
+                    
                     </div>
             
             </div>
