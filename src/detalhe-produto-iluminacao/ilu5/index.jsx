@@ -33,7 +33,7 @@ export default function ILu5(){
 
                     <div className='b2'>
                         <h3 className='titulo'>REFLETOR SLIM LED'S</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>Os refletores Slim LED's são uma opção moderna e eficiente para iluminação externa. Eles possuem um design compacto e fino, o que os torna ideais para áreas de difícil acesso ou com restrições de espaço. Os refletores Slim LED's são disponíveis em uma variedade de potências e temperaturas de cor, o que permite escolher o produto ideal para cada aplicação. Eles são comumente usados para iluminar fachadas, jardins, estacionamentos, quadras esportivas e outros ambientes externos.</h5>
 
                         <h2 className='preco'>R$150,00</h2>
 

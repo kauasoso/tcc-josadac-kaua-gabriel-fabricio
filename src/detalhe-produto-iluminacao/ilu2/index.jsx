@@ -33,7 +33,8 @@ export default function Ilu2(){
 
                     <div className='b2'>
                         <h3 className='titulo'>REFLETOR R125</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>
+O refletor R125 é um dispositivo elétrico usado para direcionar a luz de uma lâmpada. Ele é composto por um corpo metálico, um vidro refletivo e um soquete para a lâmpada. O corpo do refletor é geralmente feito de alumínio ou aço galvanizado, e o vidro refletivo é feito de vidro temperado ou vidro reflexivo. O soquete é geralmente do tipo E27, que é o padrão para lâmpadas incandescentes e halógenas. Os refletores R125 são usados em uma variedade de aplicações, incluindo iluminação de ambientes internos e externos, iluminação de obras de arte e iluminação de eventos. Eles são disponíveis em uma variedade de tamanhos e potências, para atender às diferentes necessidades de iluminação. </h5>
 
                         <h2 className='preco'>R$ 345,90</h2>
 

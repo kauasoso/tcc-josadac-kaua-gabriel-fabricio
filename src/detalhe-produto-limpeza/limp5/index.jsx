@@ -28,8 +28,8 @@ export default function Limp5(){
 
 
                     <div className='b2'>
-                        <h3 className='titulo'>REFLETOR GLOBAL</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h3 className='titulo'>BARRILHA LEVE ELEVADOR DE PH HTH</h3>
+                        <h5 className='descricao'> A Barrilha Leve Elevador de pH em Pó HTH é um produto químico utilizado para aumentar o pH da água da piscina. É um pó branco, fino, que se dissolve facilmente na água. A Barrilha Leve HTH é composta de carbonato de sódio, que reage com o ácido da água para formar carbonato de cálcio, um composto que é neutro em termos de pH.</h5>
 
                         <h2 className='preco'>R$320,00</h2>
 

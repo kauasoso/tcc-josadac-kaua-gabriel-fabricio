@@ -38,7 +38,8 @@ export default function Bor3(){
 
                     <div className='b2'>
                         <h3 className='titulo'>BORDA GRADARA</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>
+A borda Gradara é um elemento de acabamento para piscinas, que se caracteriza por seu formato arredondado nas extremidades. É uma opção versátil e elegante, que pode ser utilizada em diversos projetos. A borda Gradara é fabricada em cimento, um material resistente e durável. É também antiderrapante, o que garante segurança aos usuários.</h5>
 
                         <h2 className='preco'>R$ 202,99</h2>
 

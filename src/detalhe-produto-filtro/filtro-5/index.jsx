@@ -24,7 +24,8 @@ export default function Filtro4() {
 
                 <div className='b2'>
                     <h3 className='titulo'>BOMBA DE FILTRAGEM <br /> 1136 L/HR 110V BEL <br /> LAZER 174400</h3>
-                    <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                    <h5 className='descricao'>
+A bomba filtrante para piscina 2006 L/H 110V com refil e mangueira é um equipamento essencial para manter a água da piscina limpa e cristalina. Ela é indicada para piscinas estruturais ou infláveis de até 4600 litros. A bomba possui uma vazão de 2006 litros por hora, o que permite que a água da piscina seja filtrada completamente em cerca de 2 horas. O refil do filtro é feito de areia e é responsável pela retenção de impurezas, como folhas, insetos e detritos.</h5>
 
                     <h2 className='preco'>R$ 40.216,13</h2>
 

@@ -32,7 +32,7 @@ export default function Ace6() {
 
                     <div className='b2'>
                         <h3 className='titulo'>Escova Sodramar Luxo <br/>Nylon 44cm</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A Escova Sodramar Luxo Nylon 44cm é uma ferramenta indispensável para a limpeza de piscinas de vinil, fibra e alvenaria. Com 44 cm de diâmetro, ela é ideal para a limpeza de superfícies maiores, como o fundo e as laterais da piscina. A escova é fabricada em ABS, um material resistente e durável. As cerdas de nylon são de dupla densidade, com uma camada externa macia e uma camada interna mais resistente. Isso permite uma limpeza eficiente sem danificar a superfície da piscina.</h5>
 
                         <h2 className='preco'>R$ 40,50</h2>
 

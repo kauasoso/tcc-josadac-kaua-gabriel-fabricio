@@ -32,7 +32,7 @@ export default function Cas6(){
 
                     <div className='b2'>
                         <h3 className='titulo'>DUCHA QUENTE QUADRADA</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A água quente cai em cascata sobre o corpo, formando um quadrado perfeito. O vapor sobe, criando uma atmosfera de conforto e relaxamento. O cheiro de sabonete e shampoo se mistura ao ar, criando uma sensação de bem-estar. Os olhos se fecham e a mente se desliga. O estresse do dia a dia vai embora, substituído por uma sensação de paz e tranquilidade. O corpo se aquece e os músculos se relaxam.</h5>
 
                         <h2 className='preco'>R$ 758,33</h2>
 

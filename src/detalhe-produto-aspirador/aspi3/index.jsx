@@ -34,7 +34,7 @@ export default function Aspi3(){
 
                     <div className='b2'>
                         <h3 className='titulo'>AQUECEDOR A GÁS HTR400A</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>O aquecedor a gás HTR400 é um equipamento projetado para manter a temperatura da água da piscina em um nível confortável, mesmo em dias frios. Ele é compacto e eficiente, com capacidade para aquecer piscinas de até 330.000 litros. O HTR400 é um aquecedor de gás natural ou GLP, com um sistema de ignição direta que dispensa chama piloto. Ele possui um gabinete em termoplástico de alta resistência, que é resistente à corrosão, ao calor e às variações climáticas.</h5>
 
                         <h2 className='preco'>R$ 3490,00</h2>
 

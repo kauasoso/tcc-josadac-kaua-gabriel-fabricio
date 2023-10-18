@@ -38,7 +38,7 @@ export default function Cas1() {
 
                 <div className='b2'>
                     <h3 className='titulo'>CASCATA EM AÇO INOX</h3>
-                    <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                    <h5 className='descricao'>As cascatas em aço inox são um elemento decorativo e funcional para piscinas. Elas proporcionam uma sensação de relaxamento e bem-estar, além de contribuir para a oxigenação da água. As cascatas em aço inox são fabricadas em diversos modelos, tamanhos e formatos. Podem ser instaladas na parede, no teto ou no chão da piscina. O aço inox é um material resistente e durável, que não enferruja. É também um material higiênico, que não acumula sujeira ou bactérias.</h5>
 
                     <h2 className='preco'>R$ 4.354,87</h2>
 

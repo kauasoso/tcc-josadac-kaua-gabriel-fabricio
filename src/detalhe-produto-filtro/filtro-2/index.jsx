@@ -22,7 +22,7 @@ export default function Filtro2() {
 
                 <div className='b2'>
                     <h3 className='titulo'>BOMBA DE FILTRAGEM <br /> 1136 L/HR 110V BEL <br /> LAZER 174400</h3>
-                    <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                    <h5 className='descricao'>A bomba de filtragem para piscinas Bel Lazer 174400 é um equipamento essencial para manter a água da sua piscina limpa e cristalina. Com capacidade de vazão de 1.136 litros por hora, ela é ideal para piscinas residenciais de até 30 m².A bomba é fabricada em material resistente e durável, com motor de alta performance. Possui filtro de areia, que é o tipo de filtro mais eficiente para piscinas. O filtro de areia retém as impurezas da água, deixando-a limpa e livre de bactérias e fungos.</h5>
 
                     <h2 className='preco'>R$ 40.216,13</h2>
 

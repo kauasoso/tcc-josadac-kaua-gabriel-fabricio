@@ -24,7 +24,7 @@ export default function Filtro1() {
                 <div className='b2'>
                     <h3 className='titulo'>FILTRO ATÉ 30.000 <br /> COM BOMBA 1/3 CV <br /> BIVOLT</h3>
 
-                    <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                    <h5 className='descricao'>O filtro para piscina até 30.000 litros com bomba 1/3 CV bivolt é um sistema completo para a limpeza de piscinas residenciais e comerciais de pequeno e médio porte. O filtro é responsável por reter as impurezas da água, como folhas, insetos e sujeira, enquanto a bomba é responsável por fazer a água circular pelo filtro. O filtro para piscina até 30.000 litros com bomba 1/3 CV bivolt é uma solução ideal para quem busca um sistema completo e eficiente para a limpeza de piscinas residenciais e comerciais de pequeno e médio porte.</h5>
 
                     <h2 className='preco'>R$ 40.216,13</h2>
 

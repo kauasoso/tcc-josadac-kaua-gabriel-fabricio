@@ -34,7 +34,7 @@ export default function Bomba3(){
 
                     <div className='b2'>
                         <h3 className='titulo'>KIT BOMBA E FILTRO<br/>ﾠ NAUTILUS F450P</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>O kit bomba e filtro Nautilus F450P é um conjunto completo para a limpeza de piscinas residenciais de até 52.000 litros. O filtro é de alta eficiência, com capacidade de filtração de 75 kg de areia. A motobomba é autoescorvante, com vazão de 6,5 m³/h, garantindo uma limpeza eficiente e economia de energia.</h5>
 
                         <h2 className='preco'>R$ 4.186,09</h2>
 

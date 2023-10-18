@@ -35,7 +35,7 @@ export default function Bor6(){
 
                     <div className='b2'>
                         <h3 className='titulo'>CANTONEIRA EXTERNA <br/>ㅤﾠAZUL COBALTO</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A cantoneira externa azul cobalto é um elemento decorativo e de segurança para piscinas. É composta por um perfil de cerâmica esmaltada na cor azul cobalto, com dimensões de 3,5 cm de largura e 25 cm de comprimento. A cantoneira é fixada na borda da piscina, cobrindo as quinas vivas e tornando-as mais seguras. Além disso, ela confere um acabamento moderno e elegante à piscina.</h5>
 
                         <h2 className='preco'>R$ 543,21</h2>
 

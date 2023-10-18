@@ -32,7 +32,7 @@ export default function Aque2(){
 
                     <div className='b2'>
                         <h3 className='titulo'>CAPA TÉRMICA</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>Capa térmica é um acessório utilizado para cobrir piscinas, com o objetivo de reduzir a perda de calor da água. É composta por um filme plástico de polietileno com bolhas, que flutua sobre a água, com tratamento UV contra os raios ultravioleta e com aditivos antioxidantes. As capas térmicas são fabricadas em diferentes espessuras, que variam de 300 a 500 mícrons. Quanto maior a espessura, maior a retenção de calor.</h5>
 
                         <h2 className='preco'>R$ 387,00</h2>
 

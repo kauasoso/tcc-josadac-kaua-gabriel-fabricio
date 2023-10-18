@@ -33,7 +33,7 @@ export default function Cas3(){
 
                     <div className='b2'>
                         <h3 className='titulo'>CASCATA IMPERIS EM AÇO</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A Cascata Imperatis em aço é uma obra de arte monumental localizada no Palácio de Peterhof, na Rússia. Ela foi construída em 1724 por ordem do czar Pedro, o Grande, e é uma das mais famosas atrações turísticas do país. A cascata é composta por três partes principais: a cascata superior, a cascata média e a cascata inferior. A cascata superior é a maior e mais imponente, com um desnível de 20 metros. Ela é formada por uma série de rampas de aço que conduzem a água para a cascata média.</h5>
 
                         <h2 className='preco'>R$ 2.432,46</h2>
 

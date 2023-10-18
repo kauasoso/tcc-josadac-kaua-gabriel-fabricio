@@ -34,7 +34,7 @@ export default function Aspi1(){
 
                     <div className='b2'>
                         <h3 className='titulo'>ASPIRADOR SANDSHARKL</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>O Aspirador Sandshark é um limpador automático de piscinas que opera esfregando o fundo da piscina utilizando um esfregão de borracha de múltiplas fileiras, com 305mm de largura para ampla cobertura e limpeza rápida. Simultaneamente o Aspirador Sandshark realiza a aspiração dos detritos e sujeiras enviando para o sistema de filtragem de água da piscina. Utilizando o exclusivo sistema programado de direcionamento SmartTrac™ o Aspirador Sandshark realiza a limpeza de toda a piscina.</h5>
 
                         <h2 className='preco'>R$ 5452,00</h2>
 

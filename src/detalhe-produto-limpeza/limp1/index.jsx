@@ -29,7 +29,7 @@ export default function Limp1(){
 
                     <div className='b2'>
                         <h3 className='titulo'>SOLUÇÃO PARA ÁGUA TURVA HTH - 1 LITRO</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A Solução para Água Turva HTH é um produto químico de tratamento de piscinas que atua como clarificante e floculante de alto desempenho. Ele é indicado para remover partículas em suspensão que tornam a água turva, como detritos orgânicos, minerais e metais. A solução é de fácil aplicação e não requer o uso de equipamentos especiais. Para utilizá-la, basta diluir 20 ml do produto em 1.000 litros de água e deixar a piscina em funcionamento por 24 horas. Após esse período, o filtro da piscina deve ser acionado para remover os flocos de sujeira formados.</h5>
 
                         <h2 className='preco'>R$320,00</h2>
 

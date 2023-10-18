@@ -33,7 +33,7 @@ export default function Ace3(){
 
                     <div className='b2'>
                         <h3 className='titulo'>PENEIRA SODRAMAR <br/> ARMAÇÃO METÁLICA</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A Peneira Sodramar Tipo Puça com Armação Metálica é um acessório indispensável para a limpeza de piscinas. Ela é indicada para a remoção de folhas, insetos, galhos e outros detritos que podem cair na água. A peneira possui uma armação metálica resistente, que garante maior durabilidade. A bolsa em nylon é de alta qualidade e possui malha fina, que retém até mesmo as sujeiras mais finas.</h5>
 
                         <h2 className='preco'>R$ 35,10</h2>
 

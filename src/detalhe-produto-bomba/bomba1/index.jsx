@@ -31,7 +31,8 @@ export default function Bomba1(){
 
                     <div className='b2'>
                         <h3 className='titulo'>BOMBA FILTRANTE<br/> PISCINA INFLÁVEL</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>
+Bomba filtrante para piscina inflável é um equipamento essencial para manter a água da piscina limpa e cristalina. O filtro funciona aspirando a água da piscina, passando-a por um cartucho ou filtro de areia, que retém as impurezas, e devolvendo a água limpa para a piscina. A bomba filtrante para piscina inflável é um equipamento essencial para manter a água da piscina limpa e cristalina. Com um pouco de manutenção, sua bomba filtrante funcionará por muitos anos, proporcionando a você e sua família anos de diversão na piscina.</h5>
 
                         <h2 className='preco'>R$ 2.321,91</h2>
 

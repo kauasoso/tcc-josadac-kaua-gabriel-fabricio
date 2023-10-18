@@ -29,7 +29,7 @@ export default function Cas2(){
 
                     <div className='b2'>
                         <h3 className='titulo'>CASCATA CISNE EM AÇO INOX</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A cascata cisne em aço inox é um item de decoração e lazer para piscinas. Ela é produzida em aço inoxidável escovado, que é um material resistente à corrosão e à ferrugem. O cisne possui um design moderno e elegante, que valoriza e embeleza a área de lazer. A cascata é composta por um corpo em formato de cisne, com uma cabeça que lança a água. A água cai em um reservatório, que é conectado à piscina por meio de uma mangueira. A vazão da água é regulável, permitindo que o usuário ajuste o volume do fluxo. </h5>
 
                         <h2 className='preco'>R$ 5.231,256</h2>
 

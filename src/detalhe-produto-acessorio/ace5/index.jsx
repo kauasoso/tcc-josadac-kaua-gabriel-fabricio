@@ -31,7 +31,7 @@ export default function Ace5(){
 
                     <div className='b2'>
                         <h3 className='titulo'>DRENO ANTI-TURBILHÃO 1.1/2" LATÃO</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>O Dreno Sodramar Anti-Turbilhão 1.1/2" Base Latão é um dispositivo de retorno para piscinas de alvenaria. Ele é construído em latão, um material resistente e durável, e possui uma tampa em ABS que facilita a manutenção. O dreno anti-turbilhão tem como principal função evitar o turbilhonamento da água ao ser acionada a bomba de filtragem. Isso proporciona mais segurança aos usuários da piscina, pois evita que eles sejam sugados pelo dreno.</h5>
 
                         <h2 className='preco'>R$ 432,90</h2>
 

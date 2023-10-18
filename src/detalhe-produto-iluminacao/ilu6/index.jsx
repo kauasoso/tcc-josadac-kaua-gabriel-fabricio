@@ -32,7 +32,7 @@ export default function Ilu6(){
 
                     <div className='b2'>
                         <h3 className='titulo'>REFLETOR SMALL LED'S EM INOX DE 1/2</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>O refletor small LED's em inox de 1/2 é um produto ideal para a iluminação de piscinas. Possui corpo em aço inox 316, que garante alta resistência à corrosão e infiltrações. A lente em policarbonato é resistente aos raios UV e possui um ângulo de abertura de 150 graus, proporcionando uma iluminação uniforme. O refletor small LED's em inox de 1/2 está disponível nas potências de 10W, 20W e 30W, com opções de luz branca, luz branca morna ou luz RGB. A potência de 10W é ideal para piscinas de pequeno porte, enquanto as potências de 20W e 30W são recomendadas para piscinas de médio e grande porte.</h5>
 
                         <h2 className='preco'>R$185,00</h2>
 

@@ -36,7 +36,7 @@ export default function Bor4(){
 
                     <div className='b2'>
                         <h3 className='titulo'>BORDA PALLADIO</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A borda Palladio é um tipo de borda de piscina que se caracteriza por seu formato curvo, semelhante ao peito de um pombo. Essa borda é fabricada em cimento e possui uma textura atérmica e antiderrapante, o que a torna confortável e segura para uso. A borda Palladio é uma ótima opção para quem deseja um acabamento moderno e sofisticado para sua piscina. Ela confere um visual elegante e aconchegante ao ambiente, além de ser bastante funcional.</h5>
 
                         <h2 className='preco'>R$ 103,33</h2>
 

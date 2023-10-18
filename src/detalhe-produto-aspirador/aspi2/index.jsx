@@ -35,7 +35,7 @@ export default function Aspi2(){
 
                     <div className='b2'>
                         <h3 className='titulo'>ROBÔ DOLPHIN XT5</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>O Robô Dolphin XT5 é um aspirador automático para piscinas que limpa o fundo, as paredes e a linha d'água da piscina de forma autônoma. Ele é ideal para piscinas de até 10 metros de comprimento e é capaz de limpar toda a piscina em um ciclo de 3 horas. O Robô Dolphin XT5 possui um sistema de escaneamento giroscópico que permite que ele mapeie a piscina e limpe todos os cantos e recantos. Ele também possui um sistema de escovas flexíveis que removem a sujeira e os detritos do fundo e das paredes da piscina.</h5>
 
                         <h2 className='preco'>R$ 4987,00</h2>
 

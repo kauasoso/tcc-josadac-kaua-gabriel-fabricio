@@ -28,8 +28,8 @@ export default function Limp2(){
 
 
                     <div className='b2'>
-                        <h3 className='titulo'>REFLETOR GLOBAL</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h3 className='titulo'>LIMPA BORDAS HTH - 1 LITRO</h3>
+                        <h5 className='descricao'>O Limpa Bordas HTH é um produto de limpeza desenvolvido especialmente para remover sujeira impregnada nas bordas de piscinas de fibra, vinil ou azulejo. Sua fórmula contém tensoativo biodegradável e possui uma ação detergente que é própria para este tipo de superfície. O produto é fácil de usar: basta aplicar o produto em uma esponja, esfregar as bordas e enxaguar com a água da própria piscina. Não é necessário enxaguar o produto com água corrente, pois ele não deixa resíduos.</h5>
 
                         <h2 className='preco'>R$320,00</h2>
 

@@ -31,7 +31,7 @@ export default function Ilu4(){
 
                     <div className='b2'>
                         <h3 className='titulo'>REFLETOR SUPER SMD G</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>O Refletor Super SMD G é um produto de iluminação de alta qualidade, ideal para uso externo. É fabricado em alumínio e vidro temperado, o que garante sua durabilidade e resistência às intempéries. Possui um design moderno e compacto, que o torna uma opção versátil para diversos ambientes. O  Refletor Super SMD G é equipado com LEDs SMD, que proporcionam uma iluminação uniforme e de alta qualidade. Sua potência de 200W garante uma ampla cobertura de iluminação, sendo ideal para áreas de grande porte, como fachadas, jardins, piscinas e estacionamentos.</h5>
 
                         <h2 className='preco'>R$ 330,00</h2>
 

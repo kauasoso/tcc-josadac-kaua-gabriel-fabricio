@@ -33,7 +33,7 @@ export default function Aque4(){
 
                     <div className='b2'>
                         <h3 className='titulo'>CAPA TÉRMICA SOL +GUARD</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A capa térmica Sol+Guard é um produto fabricado pela Sibrape que tem como principal função aumentar a temperatura da água da piscina, reduzindo o consumo de energia e produtos químicos. A capa é feita de um material plástico reciclável, com espessura de 500 micras, que é mais resistente a danos e aos raios UV. Possui uma estrutura de bolhas interligadas que ajuda a reter o calor e a evitar a evaporação da água.</h5>
 
                         <h2 className='preco'>R$ 403,53</h2>
 

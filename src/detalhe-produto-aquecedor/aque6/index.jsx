@@ -27,7 +27,7 @@ export default function Aque6() {
 
                 <div className='b2'>
                     <h3 className='titulo'>PLACA SOLAR GIRASSOL G1</h3>
-                    <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                    <h5 className='descricao'>A Placa Solar Girassol G1 é um coletor solar desenvolvido pela empresa Girassol para aquecimento de piscinas residenciais. É fabricada com um novo polímero de alta performance (PAP), que garante alta eficiência e durabilidade.</h5>
 
                     <h2 className='preco'>R$ 668,33</h2>
 

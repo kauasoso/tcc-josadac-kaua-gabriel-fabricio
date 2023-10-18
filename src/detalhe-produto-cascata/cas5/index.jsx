@@ -36,7 +36,7 @@ export default function Cas5(){
 
                     <div className='b2'>
                         <h3 className='titulo'>DUCHA FRIA QUADRADA ALUMÍNIO</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A ducha fria quadrada de alumínio é uma opção moderna e elegante para o seu banheiro. Fabricada em alumínio de alta qualidade, é resistente à corrosão e ao desgaste. O design quadrado é moderno e clean, e o acabamento em alumínio escovado é elegante e sofisticado. A ducha fria quadrada de alumínio é fácil de instalar e usar. Basta conectar a mangueira de água e ligar o registro. O espalhador de água é de grande formato, proporcionando um banho relaxante e refrescante.</h5>
 
                         <h2 className='preco'>R$ 5.110,42</h2>
 

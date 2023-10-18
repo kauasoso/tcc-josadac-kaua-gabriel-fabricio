@@ -32,7 +32,7 @@ export default function Aque3(){
 
                     <div className='b2'>
                         <h3 className='titulo'>PLACA SOLAR GIRASSOL <br/>ENCAPSULADA</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A placa solar Girassol encapsulada é um coletor solar de alta eficiência, projetado para aquecimento de piscinas. É fabricada em formato espiral, com tubos de polímero especial com proteção contra raios UV. A placa solar Girassol encapsulada é uma excelente opção para quem deseja aquecer a piscina de forma eficiente, econômica e sustentável.</h5>
 
                         <h2 className='preco'>R$ 782,46</h2>
 

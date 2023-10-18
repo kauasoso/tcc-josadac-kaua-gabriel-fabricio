@@ -37,7 +37,7 @@ export default function Bor2(){
 
                     <div className='b2'>
                         <h3 className='titulo'>BORDA CERÂMICA <br/>ㅤGRANILHADA</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A borda cerâmica granilhada 296G é um produto de alta qualidade, fabricado com matérias-primas de primeira linha. É ideal para aplicação em piscinas, saunas, spas e outros ambientes úmidos. A borda 296G é composta por uma base de cerâmica esmaltada e uma camada de granilha decorativa. A granilha é aplicada na base em uma camada uniforme, garantindo um acabamento resistente e bonito.</h5>
 
                         <h2 className='preco'>R$ 307,00</h2>
 

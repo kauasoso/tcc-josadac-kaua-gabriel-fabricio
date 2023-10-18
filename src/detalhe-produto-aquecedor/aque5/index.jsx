@@ -30,7 +30,7 @@ export default function Aque5(){
 
                     <div className='b2'>
                         <h3 className='titulo'>PLACA SOLAR ESTEIRA</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A placa solar esteira é um coletor solar usado para aquecer a água da piscina. É um dos modelos mais comuns e conhecidos, devido ao seu baixo custo. As placas solares esteiras são instaladas sobre o telhado ou no solo, de forma a receber a máxima exposição solar. A água da piscina é bombeada para as placas, onde é aquecida pela radiação solar. A água aquecida é então devolvida à piscina, mantendo-a a uma temperatura agradável.</h5>
 
                         <h2 className='preco'>R$ 1246,00</h2>
 

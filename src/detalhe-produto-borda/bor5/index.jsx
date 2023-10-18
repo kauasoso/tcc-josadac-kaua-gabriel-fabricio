@@ -36,7 +36,7 @@ export default function Bor5(){
 
                     <div className='b2'>
                         <h3 className='titulo'>CANTONEIRA EXTERNA <br/>ㅤﾠAZUL CELESTE</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>A cantoneira externa azul celeste é um elemento de acabamento para piscinas, bordas de escadas e outros locais com quinas vivas. É fabricada em cerâmica ou porcelanato, com um formato côncavo que elimina os cantos pontiagudos, proporcionando maior segurança e conforto. A cantoneira externa azul celeste é disponível em diversos tamanhos e espessuras, para atender a diferentes necessidades. Pode ser instalada acima ou abaixo da água, e é resistente a produtos químicos e às intempéries.</h5>
 
                         <h2 className='preco'>R$ 266,00</h2>
 

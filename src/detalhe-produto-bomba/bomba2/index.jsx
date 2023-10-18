@@ -31,7 +31,7 @@ export default function Bomba2(){
 
                     <div className='b2'>
                         <h3 className='titulo'> FILTRO SEM AREIA E<br/>BOMBA COM CARRINHO </h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h5 className='descricao'>O filtro sem areia e bomba com carrinho é um sistema de filtração de piscinas que utiliza um meio filtrante alternativo à areia, geralmente um cartucho de polipropileno ou um filtro de espuma. O sistema é composto por um filtro, uma bomba e um carrinho para transporte. O filtro é responsável por reter as impurezas da água da piscina, como folhas, cabelos, insetos e outros detritos. O meio filtrante é instalado no interior do filtro e é responsável por realizar a filtração.</h5>
 
                         <h2 className='preco'>R$ 7.543.99</h2>
 

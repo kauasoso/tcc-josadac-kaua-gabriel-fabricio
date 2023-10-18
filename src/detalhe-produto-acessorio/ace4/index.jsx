@@ -30,8 +30,8 @@ export default function Ace4(){
 
 
                     <div className='b2'>
-                        <h3 className='titulo'>DISPOSITIVO RETORNO 1.1/2''<br/>ㅤㅤﾠﾠ LATÃO INOX</h3>
-                        <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                        <h3 className='titulo'>DISPOSITIVO RETORNO 1.1/2''<br/>ㅤLATÃO INOX</h3>
+                        <h5 className='descricao'>O dispositivo de retorno Sodramar 1.1/2" latão inox é um componente essencial para o sistema de filtragem de piscinas. Ele é responsável por devolver a água filtrada à piscina, garantindo a circulação e oxigenação da água. O dispositivo é fabricado em latão inox, um material resistente à corrosão e à oxidação. Possui um design moderno e elegante, que combina com qualquer tipo de piscina.</h5>
 
                         <h2 className='preco'>R$ 74,70</h2>
 

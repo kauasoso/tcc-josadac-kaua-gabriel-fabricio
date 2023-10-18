@@ -24,7 +24,8 @@ export default function Filtro4() {
 
                 <div className='b2'>
                     <h3 className='titulo'>BOMBA DE FILTRAGEM <br /> 1136 L/HR 110V BEL <br /> LAZER 174400</h3>
-                    <h5 className='descricao'>Aquecedor de alto desempenho e compacto; oferece um sistema interno <br /> exclusivo, altamente eficiente que mistura ar e gás,  permitindo o <br /> aquecimento rápido da    piscina ou spa; as taxas de eficiência <br /> energética fazem desteaquecedor a melhor solução tanto para piscina <br /> residencial como comercial, oferecendo conforto e economia; possui <br /> um sistema de ignição direta, que dispensa chama-piloto.</h5>
+                    <h5 className='descricao'>
+A bomba filtro Intex para piscinas de 2.006 litros/hora e 110V é um equipamento essencial para manter a água da sua piscina limpa e cristalina. Com uma vazão de 2.006 litros por hora, ela é ideal para piscinas de até 12.000 litros. A bomba é composta por um motor elétrico, um filtro e duas mangueiras. O motor elétrico é responsável por bombear a água da piscina para o filtro. O filtro, por sua vez, é responsável por reter as impurezas da água, como folhas, insetos e outros detritos. As mangueiras são responsáveis por transportar a água da piscina para o filtro e de volta para a piscina.</h5>
 
                     <h2 className='preco'>R$ 40.216,13</h2>
 
