@@ -5,23 +5,23 @@ import { useEffect, useState } from 'react';
 
 export default function Cabecalho() {
 
-    const [usuario, setUsuario] = useState({})
+    const [usuario, setUsuario] = useState()
 
     const navigate = useNavigate();
 
 
-    // useEffect(() => {
+   useEffect(() => {
 
-    //     if (!storage('usuario-logado')) {
-    //     navigate('/login')
-    //     } else {
-    //    const usuarioLogado = storage('usuario-logado');
-    //     setUsuario(usuarioLogado)
-    //     console.log(usuarioLogado);
-    // }
+        if (!storage('usuario-logado')) {
+         navigate('/login')
+         } else {
+        const usuarioLogado = storage('usuario-logado');
+         setUsuario(usuarioLogado)
+         console.log(usuarioLogado);
+     }
 
 
-    //    }, [])
+       }, [])
 
 
     function sairclick() {
@@ -44,8 +44,8 @@ export default function Cabecalho() {
                     </div>
 
                     <div className='agrupa-panda'>
-                        {/* <span>{usuario[0].nome.substr(1,2)}</span>
-                <p>Seja Bem-vindo, {usuario[0].nome}!</p> */}
+                         <span style={{color: "black"}}>{ usuario ? usuario[0].nome.substr(0,1).toUpperCase() : ''}</span>
+                <p>Seja Bem-vindo, {usuario ? usuario[0].nome : ''}!</p> 
 
                         <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
                     </div>

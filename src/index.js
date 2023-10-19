@@ -27,6 +27,9 @@ import CadastroProduto from './ABC---PAGES---ADM/cadastro-produto';
 import CabecalhoInicial from './cabecalho.inicial';
 import ConsultaProduto from './ABC---PAGES---ADM/consultar-produto';
 import Realizados from './PedidosRealizados';
+import LoginAdmin from './ABC---PAGES---ADM/loginAdm/loginAdm';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -55,7 +58,7 @@ root.render(
       <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
       <Route path='/cabecalhoinicial' element={<CabecalhoInicial/>}/>
       <Route path='/consultaproduto' element={<ConsultaProduto/>}/>
-
+      <Route path='/loginadm' element={<LoginAdmin/>}/>
 
     </Routes>
     </BrowserRouter>

@@ -13,8 +13,8 @@ CREATE TABLE TB_CADASTRO_CLIENTE (
 );
 
 INSERT INTO TB_CADASTRO_CLIENTE (NM_NOME,DS_CPF,DS_EMAIL,DS_TELEFONE,DS_SENHA) 
-      VALUES           ('FaFas' , '52097117813', 'adm', '11946986302' ,'adm');
-      VALUES           ('Gabriel' , '56743234565', 'adm', '1193123123' ,'123');
+      VALUES           ('FaFas' , '52097117813', 'adm', '11946986302' ,'adm'),
+                       ('Gabriel' , '56743234565', 'adm', '1193123123' ,'123');
 
 select ds_email   email ,
        ds_senha  senha 
