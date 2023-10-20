@@ -83,6 +83,13 @@ import Limp3 from './detalhe-produto-limpeza/limp3';
 import Limp4 from './detalhe-produto-limpeza/limp4';
 import Limp5 from './detalhe-produto-limpeza/limp5';
 import Limp6 from './detalhe-produto-limpeza/limp6';
+import Pisos from './pisos';
+import Pis1 from './detalhe-produto-piso/piso1';
+import Pis2 from './detalhe-produto-piso/piso2';
+import Pis3 from './detalhe-produto-piso/piso3';
+import Pis4 from './detalhe-produto-piso/piso4';
+import Pis5 from './detalhe-produto-piso/piso5';
+import Pis6 from './detalhe-produto-piso/piso6';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -150,6 +157,15 @@ root.render(
       <Route path='/limp6' element={<Limp6/>}/>
 
 
+
+      <Route path='/pis1' element={<Pis1/>}/>
+      <Route path='/pis2' element={<Pis2/>}/>
+      <Route path='/pis3' element={<Pis3/>}/>
+      <Route path='/pis4' element={<Pis4/>}/>
+      <Route path='/pis5' element={<Pis5/>}/>
+      <Route path='/pis6' element={<Pis6/>}/>
+
+      <Route path= '/pisos' element={<Pisos/>}/>
       <Route path='/iluminacao' element={<Iluminacao/>}/>
       <Route path='/acess' element={<Acessorios/>}/>
       <Route path='/limpeza' element={<Limpeza/>}/>

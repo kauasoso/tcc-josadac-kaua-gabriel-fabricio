@@ -12,7 +12,8 @@
         justify-content: start;
         align-items: center;
         background-repeat: no-repeat;
-        
+    
+
         .centralizar{
             display: flex;
             justify-content: center;
@@ -61,7 +62,7 @@
         }
 
         .abc{
-            height: 50vh;
+            height: 60vh;
             width: 350px;
             background-color: #fff;
             border-radius: 15px;
@@ -78,7 +79,7 @@
         .abc:hover{
                 box-shadow: 0px 0px 25px 0.1px #a4fff7;
                 transition: 0.2s;
-                height: 50.5vh;
+                height: 61vh;
                 width: 352px;
             }
 
@@ -147,4 +148,21 @@
         }
     }
 
+
+
+    @media  (max-width: 850px) {
+        
+        .tudo{
+            background-image: none;
+            background-color: #091291;
+        }
+
+        .abc{
+            background-color: #ff0000;
+        }
+
+        .divis{
+            background-color: #091291;
+        }
+    }
 }
