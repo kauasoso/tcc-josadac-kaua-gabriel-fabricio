@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { Buscar , Cadastrar, CadastrarProduto, Login } from "../Repository/paginasRepository.js";
+import { Buscar , Cadastrar, CadastrarProduto, CadastroAdm, Login } from "../Repository/paginasRepository.js";
 
 
 let endpoints = Router();
@@ -16,6 +16,28 @@ resp.send(resposta)
 })
 
 
+endpoints.post('/adm', async (req, resp) => {
+
+  try {
+    
+
+  const {email , senha} =req.body;
+
+  
+
+  let r = await CadastroAdm(email , senha);
+
+  if (r.length === 0)
+  throw new Error('Credenciais Inválidas')
+
+  resp.send(r)
+
+} catch (err) {
+    resp.status(404).send({
+      erro: err.message
+    })
+}
+})
 
 
 endpoints.post('/login', async (req,resp) => {

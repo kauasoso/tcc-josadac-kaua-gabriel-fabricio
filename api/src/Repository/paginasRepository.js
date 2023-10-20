@@ -9,7 +9,7 @@ export async function Login (email , senha) {
                             ds_senha  senha 
                     from    TB_CADASTRO_CLIENTE
                     WHERE ds_email = ? and
-                          ds_senha  = ?`
+                          ds_senha = ? `
 
    let r = await conexao.query(comando , [email ,senha])
 
@@ -39,6 +39,22 @@ export async function Cadastrar(pessoa) {
     let r = await conexao.query(comando , [pessoa.nome , pessoa.email , pessoa.senha])
 
     return r ;
+
+}
+
+export async function CadastroAdm(email, senha){
+
+    let comando = `select   
+                            ds_email   email ,
+                            ds_senha  senha 
+                    from    TB_ADMIN
+                    WHERE ds_email = ? and
+                          ds_senha = ?`
+
+    let [r] = await conexao.query(comando, [email, senha]);
+
+    return r;
+
 
 }
 

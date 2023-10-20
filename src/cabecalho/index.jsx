@@ -26,7 +26,10 @@ export default function Cabecalho() {
 
     function sairclick() {
         storage.remove('usuario-logado')
-        navigate('/login')
+        setTimeout(() => {
+            navigate('/login')
+            },1800)
+      
     }
 
 
