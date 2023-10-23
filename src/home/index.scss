@@ -328,6 +328,8 @@
     .mae {
         max-width: 100%;
     }
+
+    
 }
 
 @media (max-width: 850px) {
@@ -380,3 +382,58 @@
             cursor: pointer;
         }
     }
+
+    @media (max-width: 768px) {
+        .mae {
+            max-width: 100%;
+        }
+    
+        .cruz {
+            margin-left: -95px;
+        }
+    
+        .cardd {
+            width: 280px;
+        }
+    
+    
+        .rodape {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 20vh;
+            background-color: #004586;
+        }
+        
+        .bugado{
+            width: 768px;
+
+            img{
+                width: 768px;
+            }
+        }
+    
+        .agrupa-info {
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+    
+        }
+    
+        .agrupa-info>div {
+            margin: 5px;
+        }
+    
+    
+        .infos {
+            display: flex;
+            flex-direction: row;
+            width: 150px;
+        }
+    
+        
+    
+            .grupo-image>img {
+                cursor: pointer;
+            }
+        }

@@ -257,7 +257,7 @@ export default function Home() {
                     <h1>UM POUCO DE NOSSOS SERVIÇOS !</h1>
 
 
-                    <div>
+                    <div className='bugado'>
                         <img className='servic' src="../assets/image/servic.png" alt="" />
                     </div>
 
