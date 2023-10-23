@@ -24,7 +24,7 @@ async function TelaAdm() {
     setCarregando(true)
  
      try{
-     let url = 'http://localhost:5001/login';
+     let url = 'http://localhost:5001/adm';
  
      let pessoa = {
          email: email ,

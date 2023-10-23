@@ -34,12 +34,13 @@ border-bottom: none;
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-image: url(./../../public/assets/image/fundo-cabecalho.png);
     background-size: cover;
     height: 15vh;
     width: 100%;
+    padding: 30px 100px 10px 0px;
     background-repeat: no-repeat;
 
 
@@ -64,7 +65,6 @@ p{
 }
 
     .azulcarro {
-
         width: 60px;
     }
 }
@@ -92,20 +92,26 @@ p{
     }
 
    
-.agrupa-panda {
+.agrupa-pandaa {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-   
+
+    gap: 100px;
+
+   .agrupa-panda{
+    text-align: center;
     span {
         display: flex;
         flex-direction: row;
+        margin-left: 40px;
+        align-items: center;
         justify-content: center;
-        width: 65px;
+        width: 55px;
         background-color: white;
         padding: 20px;
-        font-size: 18px;
+        font-size: 14px;
         border-radius: 300px;
         margin-bottom: 5px;
     }
@@ -125,6 +131,8 @@ p{
         color: rgb(168, 168, 168);
         border: 1px solid rgb(165, 165, 165);
     }
+}
+
 }
 
 }
@@ -189,5 +197,146 @@ p{
 
     .lupa{
         margin-left: 1px;
+    }
+}
+
+
+/// responsividade
+/// 
+
+
+@media (max-width: 1240px) {
+
+.agrupa-panda {
+  height:17vh !important;
+    .sair-conta {
+        border: 1px solid white;
+        padding: 3px !important;
+        border-radius: 5px ;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    p{
+      font-size: 12px;
+    }
+}
+
+
+span {
+    margin-right: 35px !important;
+    width: 50px !important;
+    font-size: 10px !important;
+}
+
+  .lupa{
+    left:-110px;
+  }
+}
+
+
+
+
+//////////////////////////////////////////
+@media (max-width: 978px) {
+
+    .fundo {
+        p{
+            font-size: 15px ;
+        }
+    }
+
+
+
+   .encontre{
+     width: 340px !important;
+   }
+   .encontre::placeholder {
+    font-size: 19px !important;
+}
+
+.lupa {
+    right: 15px !important;
+}
+
+}
+
+
+
+//////////////
+@media (max-width: 948px) {
+
+    .encontre{
+        align-items: center !important;
+        justify-content: center !important;
+        
+    }
+
+    .encontre::placeholder {
+        font-size: 12px !important;
+    }
+
+    .encontre{
+        width: 230px !important;
+        height: 30px !important;
+        border-radius: 10px !important ;
+    }
+
+    .lupa {
+        width: 18px !important;
+        height: 18px !important;
+    }
+}
+
+
+//////////////////
+@media (max-width: 664px) {
+
+    .fundo {
+        p{
+            font-size: 10px;
+        }
+    }
+
+    .sair-conta{
+        width: 120px !important;
+    }
+
+span {
+    margin-left: 35px !important;
+}
+
+    .carrinho{
+        .azulcarro{
+            display: none;
+           }
+    
+           p{
+            display: none;
+           }
+      }
+}
+
+
+
+//////////////////////
+
+@media (max-width: 736px) {
+
+  
+    .fundo {
+        p{
+            font-size: 10px;
+        }
+    }
+}
+
+@media (max-width: 478px) {
+
+  
+    .fundo {
+        p{
+            font-size: 5px;
+        }
     }
 }

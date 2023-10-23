@@ -12,13 +12,13 @@ export default function Cabecalho() {
 
     useEffect(() => {
 
-        // if (!storage('usuario-logado')) {
-        // navigate('/login')
-        //  } else {
-        //  const usuarioLogado = storage('usuario-logado');
-        //    setUsuario(usuarioLogado)
-        //     console.log(usuarioLogado);
-        //  }
+        if (!storage('usuario-logado')) {
+        navigate('/login')
+         } else {
+         const usuarioLogado = storage('usuario-logado');
+           setUsuario(usuarioLogado)
+            console.log(usuarioLogado);
+         }
 
 
     }, [])
@@ -38,19 +38,22 @@ export default function Cabecalho() {
             <div className="container">
                 <nav className='cabecalho'>
                     <a href="/"><img className='logo' src="./assets/image/pool-max-logo.png" alt="" /></a>
-                    <input className='encontre' type="text" placeholder='ENCONTRE SEU PRODUTO' />
-                    <img className='lupa' src="./assets/image/lupa.png" alt="" />
+
+
+                    <div className='agrupa-pandaa'>
+
 
                     <div className='carrinho'>
                         <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
                         <p>(0) ITEMS</p>
                     </div>
 
-                    <div className='agrupa-panda'>
+                   <div className='agrupa-panda'>
                         <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
-                        <p>Seja Bem-vindo, {usuario ? usuario[0].nome : ''}!</p>
-
+                        <p>Seja Bem-vindo, <br /> {usuario ? usuario[0].nome : ''}!</p>
                         <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
+                   </div>
+
                     </div>
 
                 </nav>
@@ -58,15 +61,15 @@ export default function Cabecalho() {
 
                 <div className='agrupa-categorias'>
                     <div className='fundo'>
-                        AQUECIMENTO
+                        <p>AQUECIMENTO</p>
                     </div>
 
                     <div className='fundo'>
-                        SAUNAS
+                       <p> SAUNAS</p>
                     </div>
 
                     <div className='fundo'>
-                        ILUMINAÇÃO
+                       <p> ILUMINAÇÃO</p>
                     </div>
 
                     <div className='fundo'>

@@ -102,10 +102,12 @@
 
         .subcontainer2 {
             color: white;
-            background-image: url(../../public/assets/image/onda.PNG
-);
+            background-image: url(../../public/assets/image/onda.PNG);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 40% 50%;
             width: 100%;
-            height: 170vh;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -380,3 +382,15 @@
             cursor: pointer;
         }
     }
+
+
+
+
+
+
+    // RESPONSE J
+
+  
+    
+    
+    
