@@ -61,19 +61,19 @@ export default function Cabecalho() {
 
                 <div className='agrupa-categorias'>
                     <div className='fundo'>
-                        AQUECIMENTO
+                    <p>AQUECIMENTO</p>
                     </div>
 
                     <div className='fundo'>
-                        SAUNAS
+                        <p>SAUNAS</p>
                     </div>
 
                     <div className='fundo'>
-                        ILUMINAÇÃO
+                        <p>ILUMINAÇÃO</p>
                     </div>
 
                     <div className='fundo'>
-                        <p> PISOS E REVESTIMENTOS </p>
+                        <p> PISOS </p>
                     </div>
                 </div>
             </div>

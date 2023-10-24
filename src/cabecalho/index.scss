@@ -265,3 +265,28 @@
         margin-left: -90px;
     }
 }
+
+@media (max-width: 450px) {
+    .mae{
+        max-width: 100%;
+    }
+
+    .carrinho{
+        display: none !important;
+    }
+    
+    .logo{
+        width: 85px !important;
+    }
+
+    .sair-conta{
+        display: none;
+    }
+
+    .agrupa-categorias{
+
+        p{
+            font-size: 13px;
+        }
+    }
+}

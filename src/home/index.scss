@@ -27,7 +27,9 @@
             }
         }
 
-
+        .asvezes{
+            display: none;
+        }
 
         .slide {
             width: 800px;
@@ -144,6 +146,9 @@
             }
 
         }
+
+
+
 
         .agrupa-piscinas-2 {
 
@@ -329,7 +334,7 @@
         max-width: 100%;
     }
 
-    
+
 }
 
 @media (max-width: 850px) {
@@ -353,9 +358,9 @@
         height: 20vh;
         background-color: #004586;
     }
-    
-    .servic{
-        width: 850px;
+
+    .servic {
+        width: 850px !important;
     }
 
     .agrupa-info {
@@ -376,64 +381,122 @@
         width: 150px;
     }
 
-    
+    .bugado {
+        width: 850px;
+    }
 
-        .grupo-image>img {
-            cursor: pointer;
+    .grupo-image>img {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 768px) {
+    .mae {
+        max-width: 100%;
+    }
+
+    .cruz {
+        margin-left: -95px;
+    }
+
+    .cardd {
+        width: 280px;
+    }
+
+
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 20vh;
+        background-color: #004586;
+    }
+
+    .bugado {
+        width: 768px;
+
+        img {
+            width: 768px;
         }
     }
 
-    @media (max-width: 768px) {
-        .mae {
-            max-width: 100%;
-        }
-    
-        .cruz {
-            margin-left: -95px;
-        }
-    
-        .cardd {
-            width: 280px;
-        }
-    
-    
-        .rodape {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            height: 20vh;
-            background-color: #004586;
-        }
-        
-        .bugado{
-            width: 768px;
+    .agrupa-info {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
 
-            img{
-                width: 768px;
-            }
+    }
+
+    .agrupa-info>div {
+        margin: 5px;
+    }
+
+
+    .infos {
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+    }
+
+
+
+    .grupo-image>img {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 450px) {
+    .mae {
+        max-width: 100%;
+    }
+
+    .asvezes{
+        display: flex !important;
+    }
+
+    .rodape {
+        display: none !important;
+    }
+
+    .agrupa-info {
+        display: none;
+    }
+
+    .agrupa-titulos {
+        text-align: center;
+    }
+
+    .marquee {
+        height: 480px;
+    }
+
+    .subcontainer2 {
+        margin-top: -10px;
+        height: 800px !important;
+
+        h1 {
+            text-align: center;
         }
-    
-        .agrupa-info {
-            display: flex;
-            flex-direction: row;
-            max-width: 100%;
-    
-        }
-    
-        .agrupa-info>div {
-            margin: 5px;
-        }
-    
-    
-        .infos {
-            display: flex;
-            flex-direction: row;
-            width: 150px;
-        }
-    
-        
-    
-            .grupo-image>img {
-                cursor: pointer;
-            }
-        }
+    }
+
+    .bugado {
+        max-width: 100% !important;
+    }
+
+    .servic {
+
+
+        display: flex;
+
+        width: 450px !important;
+        height: 420px !important;
+        margin-top: -80px;
+
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .agrupa-info {
+        border: 1px solid red;
+    }
+}
