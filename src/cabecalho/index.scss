@@ -110,4 +110,97 @@ p{
 
 
 
+
+@media  (max-width: 850px) {
+        
+  
+    .encontre{
+
+
+        display: none;
+    }
+
+
+    .lupa{
+        display: none;
+    }
+
+    .logo{
+        height: 11vh;
+        margin-right: 70px ;
+    }
+
+    .azulcarro{
+        height: 7vh;
+        margin-left: 470px;
+    }
+
+    .agrupa-categorias{
+
+        width: 100%;
+    }
+    
+
+    .panda{
+        display: none;
+    }
+}
+
+
+@media  (max-width: 650px) {
+
+    .cabecalho{
+        width: 100vw !important;
+        height: 13vh !important;
+    }
+
+
+    .logo{
+
+        margin-left: 150px;
+        margin-top: 40px;
+        
+    }
+
+    .azulcarro{
+
+       position: relative;
+       right: 150px;
+       top: 20px;
+    }
+
+
+    
+}
+
+
+
+@media  (max-width: 450px) {
+
+
+
+    .logo{
+
+        margin-left: 20px !important;
+        position: relative;
+        left: 130px !important;
+    }
+
+
+    .agrupa-categorias{
+        width: 100vw !important;
+    }
+
+
+    .fundo{
+        font-size: 17px !important;
+    }
+
+
+    .cor{
+        font-size: 17px !important;
+    }
+}
+
+
 }

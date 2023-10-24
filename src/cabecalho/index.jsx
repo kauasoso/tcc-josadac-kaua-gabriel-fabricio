@@ -12,7 +12,7 @@ return (
 
             <div className='carrinho'>
                 <img className='azulcarro' src="./assets/image/carrinho.png" alt="" />
-                <p>(0) ITEMS</p>
+                <p></p>
             </div>
 
             <div>
@@ -35,7 +35,7 @@ return (
                         </div>
 
             <div className='fundo'>
-               <a className='cor' href=""> PISOS E REVESTIMENTOS</a>
+               <a className='cor' href=""> PISOS </a>
             </div>
         </div>
     </div>

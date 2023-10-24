@@ -4,8 +4,15 @@
   height:auto;
   width:100%;
 
+.branco{
+  background-color: #EEEEEE;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
 
-
+  
+  }
   .a2{
   display: flex;
   width: 100%;
@@ -162,7 +169,6 @@
 
 
        
-     
 
 
 
@@ -195,26 +201,19 @@
         .frete{
           display: flex;
           justify-content: center;
-          margin-right: 35px;
+          margin-left: 20px;          
         }
 
 
         .cmn{
           display: flex;
           margin-left: 145px;
-          margin-top: -41px;
+          margin-top: -45px;
           
         }
 
       }
 
-      .ladocmn{
-        background-color: #309CFF;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 15px;
-      }
 
       .c2{
         background-color: #EEEEEE;
@@ -255,7 +254,7 @@
         .frete{
           display: flex;
           justify-content: center;
-          margin-right: 35px;
+          margin-left: 20px;
         }
 
 
@@ -304,7 +303,7 @@
         .frete{
           display: flex;
           justify-content: center;
-          margin-right: 35px;
+          margin-left: 20px;
         }
 
        
@@ -357,7 +356,7 @@
         .frete{
           display: flex;
           justify-content: center;
-          margin-right: 35px;
+          margin-left: 20px;        
         }
 
 
@@ -380,4 +379,271 @@
   .final{
       margin-top: 40px;
   }
+
+
+
+@media  (max-width: 850px) {
+        
+  
+.a2{
+
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.b1{
+
+  height: 40vh !important;
+}
+
+
+.b2{
+
+  
+  margin-left: 110px !important;
+  width: 90vw !important;
+  margin-top: -20px !important;
+}
+
+
+.b3{
+
+  width: 100vw !important;
+  margin-top: -200px !important;
+}
+
+.a3{
+  height: 27vh !important;
+}
+
+
+.c1{
+  height: 24vh  !important;
+  width:  25vw !important;
+  margin-left: 20px !important;
+}
+
+.ds{
+  font-size: 16.3px !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.prc{
+
+  font-size: 21px !important;
+}
+
+
+.imagizi{
+
+  height: 12vh !important;
+}
+
+
+.c2{
+  height: 24vh  !important;
+  width:  25vw !important;
+}
+
+
+.c3{
+  height: 24vh  !important;
+  width:  25vw !important;
+}
+
+
+.c4{
+  height: 24vh  !important;
+  width:  25vw !important;
+}
+
+
+.titulo{
+  width: 100vw !important;
+  position: relative;
+  right: 28px;
+}
+
+
+
+
+.descricao{
+
+  text-align: center;
+  margin-top: -50px !important;
+  font-size: 18px !important;
+}
+
+
+.preco{
+
+  margin-left: 260px !important;
+  margin-top: 20px !important;
+}
+
+
+
+.comprar{
+
+  width: 39vw !important;
+  height: 4vh !important;
+  margin-left: 226px !important;
+  font-size: 23px !important;
+}
+
+
+.filtro2{
+  margin-left: 30px;
+  margin-top: 60px;
+  
+}
+
+
+.ds{
+
+  font-size: 15.9px !important;
+}
+
+
+.branco{
+  margin-top: 15px ;
+  
+ 
+}
+
+.frete{
+  margin-left: 3px;
+}
+
+
+
+
+
+
+@media  (max-width: 650px) {
+
+
+
+  .preco{
+   
+
+    height: 5vh;
+    margin-left: 180px !important;
+  }
+
+
+  .comprar{
+    margin-left: 155px !important;
+    width: 45vw!important;
+  }
+
+
+
+
+  .a3{
+
+    height: 30vh !important;
+  }
+
+
+  .c4{
+    display: none;
+  }
+
+
+ .c1{
+  height: 28vh !important;
+  width: 29vw !important;
+ }
+
+
+ .c2{
+  height: 28vh !important;
+  width: 29vw !important;
+ }
+
+
+ .c3{
+  height: 28vh !important;
+  width: 29vw !important;
+ }
+
+
+ .imagizi{
+    margin-left: 49px !important;
+ }
+
+ .prc{
+  font-size: 22px !important
+ }
+
+ .branco{
+  width: 30vw !important;
+  margin-left: -15px !important;
+ }
+
+ .frete{
+  width: 18.3vw !important;
+ }
+}
+
+
+
+
+
+@media  (max-width: 450px) {
+
+
+  .preco{
+
+    width: 100vw !important;
+    margin-left: 80px !important;
+  }
+
+
+  .comprar{
+    margin-left: 45px !important;
+    width: 70vw !important;
+  }
+
+
+
+  .c3{
+    display: none;
+  }
+
+
+  .c1{
+    width: 45vw !important;
+    height: 27vh !important;
+  }
+
+
+
+  .c2{
+    width: 45vw !important;
+    height: 27vh !important;
+  }
+
+  .branco{
+    width: 35vw !important;
+    margin-left: 10px !important;
+  }
+
+  .frete{
+    width: 200vw !important;
+  }
+
+  .imagizi{
+    height: 10vh !important;
+    width: 20vw !important;
+  }
+
+
+ 
+}
+
+  
 }

@@ -45,7 +45,7 @@ export default function Filtro1() {
                         <h4 className='ds'>Bomba de filtragem</h4>
                         <h5 className='prc'>R$ 891,00</h5>
 
-                        <div className='ladocmn'>
+                        <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
                             <img className='' src="/assets/image/caminhao.png" alt="" />
                         </div>
@@ -55,7 +55,7 @@ export default function Filtro1() {
                         <img className='imagizi' src="/assets/image/filtro-3.png" alt="" />
                         <h4 className='ds'>Peneira L/H Bel 110v</h4>
                         <h5 className='prc'>R$ 431,12</h5>
-                        <div className='ladocmn'>
+                        <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
                             <img className='' src="/assets/image/caminhao.png" alt="" />
                         </div>
@@ -64,7 +64,7 @@ export default function Filtro1() {
                         <img className='imagizi' src="/assets/image/filtro-4.png" alt="" />
                         <h4 className='ds'>Bomba /HR 220v Bel</h4>
                         <h5 className='prc'>R$ 457,53</h5>
-                        <div className='ladocmn'>
+                        <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
                             <img className='' src="/assets/image/caminhao.png" alt="" />
                         </div>
@@ -73,7 +73,7 @@ export default function Filtro1() {
                         <img className='imagizi' src="/assets/image/filtro-5.png" alt="" />
                         <h4 className='ds'>Bomba Filtrante L/H 110v</h4>
                         <h5 className='prc'>R$ 455,59</h5>
-                        <div className='ladocmn'>
+                        <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
                             <img className='' src="/assets/image/caminhao.png" alt="" />
                         </div>
