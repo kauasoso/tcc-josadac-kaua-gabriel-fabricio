@@ -70,6 +70,7 @@
             justify-content: start;
             flex-direction: column;
             align-items: center;
+           
         }
         
             h3{
@@ -84,8 +85,7 @@
             }
 
         .preco{
-            margin-bottom: 15px;
-            margin-top: -2px;
+            margin-top: -8px;
 
         }
 
@@ -110,11 +110,15 @@
             margin-top: 0px;
             gap: 50px;
             display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
+            flex-direction: column;
             justify-content: center;
             width: 100%;
             margin-bottom: 25px;
+
+            .cima{
+                display: flex;
+                flex-direction: row;
+            }
         }
 
         .imagi{
@@ -148,21 +152,89 @@
         }
     }
 
-
-
-    @media  (max-width: 850px) {
-        
-        .tudo{
-            background-image: none;
-            background-color: #091291;
-        }
-
-        .abc{
-            background-color: #ff0000;
-        }
-
-        .divis{
-            background-color: #091291;
-        }
+    .fundo-virado{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
     }
+}
+
+@media (max-width:650px) {
+
+    .mae{
+    .tudo{
+    .prd{
+        display: none;
+    }
+
+   h3{
+    color: #000;
+   }
+
+   .divis{
+    margin-top: 0px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
+
+    .cima{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .baixo{
+        flex-direction: column;
+    }
+
+    .abc{
+        box-shadow: 1px 1px 10px 1px;
+    }
+
+    .fundo-virado{
+        background-image: url(../../public/assets/image/fundo-corpo.png);
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        rotate: 180deg;
+        .abc{
+            rotate: 180deg;
+            height: 350px;
+        
+            
+
+
+            button{
+                margin-bottom: 15px;
+            }
+        }
+        .abc:hover{
+                box-shadow: 1px 1px 10px 1px #00b7ff;
+                transition: 0.2s;
+                height: 380px;
+            }
+    }
+
+     
+}
+        .abc{
+            height: 350px;
+            transition: 0.2s;
+            height: 350px;     
+            button{
+                margin-bottom: 15px;
+            }
+        }
+        .abc:hover{
+            box-shadow: 1px 1px 10px 1px #00b7ff;
+            transition: 0.2s;
+        }
+
+}
+}
 }

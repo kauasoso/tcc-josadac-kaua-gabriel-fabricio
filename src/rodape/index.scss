@@ -17,4 +17,18 @@
     h3 {
         color: white;
     }
+
+    
+  }
+
+
+  @media (max-width:650) {
+    .grow{
+      display: flex;
+      flex-direction: row;
+    }
+
+    b{
+      display: none;
+    }
   }
