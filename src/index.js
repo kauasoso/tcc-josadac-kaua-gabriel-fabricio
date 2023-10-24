@@ -28,7 +28,7 @@ import CabecalhoInicial from './cabecalho.inicial';
 import ConsultaProduto from './ABC---PAGES---ADM/consultar-produto';
 import Realizados from './PedidosRealizados';
 import LoginAdmin from './ABC---PAGES---ADM/loginAdm/loginAdm';
-
+import  MinhaConta  from './MinhaContaCliente';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -59,7 +59,7 @@ root.render(
       <Route path='/cabecalhoinicial' element={<CabecalhoInicial/>}/>
       <Route path='/consultaproduto' element={<ConsultaProduto/>}/>
       <Route path='/loginadm' element={<LoginAdmin/>}/>
-
+      <Route path='/minhaconta' element={<MinhaConta/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
