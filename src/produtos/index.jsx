@@ -24,9 +24,12 @@ export default function Produto(){
 
             <section className='divis'>
 
+
+                    <section className='cima'>
+
                 <div className='abc'>
                 <img className='imagi' src="/assets/image/filtro-1.png" alt="" />
-                    <div className='line'></div>
+                    <div className='line'>ㅤ</div>
 
                     <p className='txt'>FILTRO PARA PISCINA ATÉ 30.000 COM BOMBA <br /> 1/3 CV BIVOLT</p>
 
@@ -43,7 +46,7 @@ export default function Produto(){
 
                 <div className='abc'>
                 <img className='imagi' src="/assets/image/filtro-2.png" alt="" />
-                    <div className='line'></div>     
+                    <div className='line'>ㅤ</div>     
                     <p className='txt'>BOMBA DE FILTRAGEM P/ 1136 L/HR 110V <br /> BEL LAZER 174400</p>
                     
 
@@ -61,7 +64,7 @@ export default function Produto(){
 
                 <div className='abc'>
                 <img className='imagi' src="/assets/image/filtro-3.png" alt="" />
-                    <div className='line'></div>  
+                    <div className='line'>ㅤ</div>  
                     <p className='txt'>PENEIRA SODRAMAR PUÇA COM ARMAÇÃO <br /> BOMBA DE FILTRAGEM 2006L/H BEL 110V</p>
 
                     <h1 className='preco'>R$ 891,00</h1>
@@ -76,9 +79,16 @@ export default function Produto(){
                     <button>COMPRAR AGORA</button>
               </div>
 
+              </section>
+
+
+                <section className='baixo'>
+                    
+                        <div className='fundo-virado'> 
+
                 <div className='abc'>
                 <img className='imagi' src="/assets/image/filtro-4.png" alt="" />
-                    <div className='line'></div>     
+                    <div className='line'>ㅤ</div>     
                     <p className='txt'>BOMBA DE FILTRAGEM 3028 <br /> L/HR 220V BEL</p>
                     
 
@@ -94,7 +104,7 @@ export default function Produto(){
 
                 <div className='abc'>
                 <img className='imagi' src="/assets/image/filtro-5.png" alt="" />
-                    <div className='line'></div>    
+                    <div className='line'>ㅤ</div>    
                     <p className='txt'>BOMBA FILTRANTE FILTRO PARA PISCINA<br />  2006 L/H 110V COM REFIL E MANGUEIRA</p>
 
                     <h1  className='preco'>R$ 891,00</h1>
@@ -111,7 +121,7 @@ export default function Produto(){
 
                 <div className='abc'>
                 <img className='imagi' src="/assets/image/filtro-6.png" alt="" />
-                    <div className='line'></div> 
+                    <div className='line'>ㅤ</div>    
 
                     <p className='txt'>BOMBA FILTRO INTEX PARA  PISCINAS <br />DE 2.006 LITROS/HORA E 110V</p>
 
@@ -126,11 +136,11 @@ export default function Produto(){
 
                     <button>COMPRAR AGORA</button>
                 </div>
+                </div>
+
+                </section>
 
             </section>
-
-
-
 </div>
                                <div className='fim'> <Rodape/></div>
 
