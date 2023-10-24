@@ -30,7 +30,6 @@ import Realizados from './PedidosRealizados';
 import LoginAdmin from './ABC---PAGES---ADM/loginAdm/loginAdm';
 import  MinhaConta  from './MinhaContaCliente';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -60,6 +59,7 @@ root.render(
       <Route path='/consultaproduto' element={<ConsultaProduto/>}/>
       <Route path='/loginadm' element={<LoginAdmin/>}/>
       <Route path='/minhaconta' element={<MinhaConta/>}/>
+      
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
