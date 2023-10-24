@@ -31,7 +31,7 @@
         nav {
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
             background-image: url(./../../public/assets/image/fundo-cabecalho.png);
             background-size: cover;
@@ -54,7 +54,7 @@
                 align-items: center;
 
                 p {
-                    font-size: 12px;
+                    font-size: 10px;
                     margin-left: 15px;
                     color: white;
                     font-weight: bold;
@@ -62,7 +62,7 @@
 
                 .azulcarro {
 
-                    width: 60px;
+                    width: 40px;
                 }
             }
 
@@ -91,30 +91,35 @@
 
             .agrupa-panda {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 justify-content: center;
                 align-items: center;
+                gap: 40px;
 
                 span {
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
-                    width: 65px;
+                    margin-left: 30px;
+                    width: 50px;
                     background-color: white;
                     padding: 20px;
-                    font-size: 18px;
+                    font-size: 12px;
                     border-radius: 300px;
                     margin-bottom: 5px;
                 }
 
                 p {
+                    font-size: 12px;
                     color: white;
                     margin-bottom: 10px;
                 }
 
                 .sair-conta {
+                    text-align: center;
                     border: 1px solid white;
                     padding: 10px;
+                    font-size: 12px;
                     border-radius: 5px;
                     cursor: pointer;
                 }
