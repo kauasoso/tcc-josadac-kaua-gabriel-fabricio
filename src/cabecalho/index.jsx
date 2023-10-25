@@ -36,24 +36,17 @@ export default function Cabecalho() {
     return (
         <div className="mae">
             <div className="container">
+
                 <nav className='cabecalho'>
                     <a href="/"><img className='logo' src="./assets/image/pool-max-logo.png" alt="" /></a>
 
 
 
-                    <div className='agrupa-pandaa'>
+    <div className='agrupa-pandaa'>
 
+                  
 
-
-                    <div className='inp'>
-                        <input className='encontre' type="text" placeholder='ENCONTRE SEU PRODUTO' />
-                        <img className='lupa' src="./assets/image/lupa.png" alt="" />
-                    </div>
-
-                   
-                   
-
-                    <div className='agrupa-panda'>
+            <div className='agrupa-panda'>
 
                     <div className='carrinho'>
                         <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
@@ -61,19 +54,20 @@ export default function Cabecalho() {
                     </div>
 
 
-                   <div className='agrupa-panda'>
-                        <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
-                        <p>Seja Bem-vindo, <br /> {usuario ? usuario[0].nome : ''}!</p>
+                <div className='agrupa-panda'>
+                     
 
                     <div>
                         <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
                         <p>Seja Bem-vindo, {usuario ? usuario[0].nome : ''}!</p>
                         <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
-                   </div>
+                    </div>
 
-                    </div>
+                </div>
  
-                    </div>
+            </div>
+
+        </div>
 
                 </nav>
 

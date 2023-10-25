@@ -1,5 +1,5 @@
 .mae {
-<<<<<<< HEAD
+
 display: flex;
 flex-direction: column;
 
@@ -123,14 +123,10 @@ p{
         border-radius: 5px ;
         cursor: pointer;
     }
-=======
     display: flex;
-    flex-direction: column;
->>>>>>> 68af15b62d5fddc6f2c652a4695296a3f86dc391
-
-    .container {
-
+    
 }
+
 
 
         .agrupa-categorias {
@@ -265,6 +261,10 @@ p{
     }
 
 
+
+}
+
+}
 
 }
 
@@ -463,6 +463,8 @@ span {
         p{
             font-size: 5px;
         }
+    }
+}
 
 @media (max-width: 768px) {
     .mae {
