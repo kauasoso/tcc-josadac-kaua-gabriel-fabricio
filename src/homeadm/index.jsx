@@ -10,20 +10,20 @@ return(
 
             <div className="espaco-1">
                 <div className='logoo'>
-                   <img className='logo' src="./assets/image/pool-max-logo.png" alt="" />
+                   <img className='logo' src="./assets/image/logomelhor.png" alt="" />
                 </div>
-                        <div >
-                           <img className='agenda' src="./assets/image/imgAgendaPedido.png" alt="" />
-                           <h3></h3>
-                        </div>
+                        <a href='/cadastroproduto' className='agendaa' >
+                           <img className='agenda' src="./assets/image/imgCadastroProduto.png" alt="" />
+                           <h3>CADASTRO</h3>
+                        </a>
 
-                         <div>
-                            <img src="" alt="" />
-                            <h3></h3>
-                         </div>
-                <div>
-                    <img src="" alt="" />
-                    <h3></h3>
+                         <a href='/consultaproduto' className='agendaa'>
+                            <img className='agenda' src="./assets/image/imgLupaConsulta.png" alt="" />
+                            <h3>CONSULTA</h3>
+                         </a>
+                <div className='agendaa'>
+                    <img className='agenda' src="./assets/image/abcagenda.png" alt="" />
+                    <h3>PEDIDOS</h3>
                 </div>
 
             </div>
@@ -31,13 +31,20 @@ return(
 
                  <div className="espaco-2">
                     
-                    <nav>
-                        <h3></h3>
-                        <img src="" alt="" />
+                    <nav> 
+                      <div>
+                        <h2>Seja Bem-Vindo , Admin !!</h2>
+                      </div>
+
+                      <div className='usuario-p'>
+                        <p>NOVOS DADOS</p>
+                        <img className='usuario' src="./assets/image/usuario.png" alt="" />
+                      </div>
+
                     </nav>
 
-                    <div>
-                        <img src="" alt="" />
+                    <div className='d9'>
+                        <img className='logo-grande' src="./assets/image/logomelhor.png" alt="" />
                     </div>
 
                  </div>

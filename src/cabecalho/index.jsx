@@ -46,7 +46,7 @@ export default function Cabecalho() {
 
                   
 
-            <div className='agrupa-panda'>
+            <div className='agrupa-pandaa'>
 
                     <div className='carrinho'>
                         <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
