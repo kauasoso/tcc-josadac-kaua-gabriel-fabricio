@@ -28,8 +28,8 @@ export default function Cabecalho() {
         storage.remove('usuario-logado')
         setTimeout(() => {
             navigate('/login')
-            },1800)
-      
+        }, 1800)
+
     }
 
 
@@ -40,8 +40,15 @@ export default function Cabecalho() {
                     <a href="/"><img className='logo' src="./assets/image/pool-max-logo.png" alt="" /></a>
 
 
+
                     <div className='agrupa-pandaa'>
 
+
+
+                    <div className='inp'>
+                        <input className='encontre' type="text" placeholder='ENCONTRE SEU PRODUTO' />
+                        <img className='lupa' src="./assets/image/lupa.png" alt="" />
+                    </div>
 
                     <div className='carrinho'>
                         <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
