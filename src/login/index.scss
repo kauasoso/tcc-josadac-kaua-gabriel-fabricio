@@ -1,7 +1,10 @@
 .mae-login {
 
 
+
     .container-login {
+
+
 
         background-image: url(../../public/assets/image/fundologiin.png);
         width: 100%;
@@ -10,7 +13,10 @@
         height: 100vh;
 
 
+
         .agrupa-tudo {
+
+
 
             display: flex;
             flex-direction: column;
@@ -18,16 +24,24 @@
             align-items: center;
             margin-top: 110px !important;
 
+
+
             .erro-login {
                 font-size: 30px;
                 margin-top: 30px;
             }
 
+
+
             .usuario-login {
+
+
 
                 .usuario {
                     width: 200px;
                 }
+
+
 
                 h2 {
                     font-size: 70px;
@@ -37,10 +51,10 @@
 
 
 
-
             .input-login {
                 display: flex;
                 flex-direction: column;
+
 
 
                 input {
@@ -55,16 +69,21 @@
             }
 
 
+
             .agrupa-botao {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 width: 480px !important;
 
+
+
                 p {
                     color: white;
                     margin-bottom: 9px;
                 }
+
+
 
                 button {
                     width: 210px !important;
@@ -75,7 +94,11 @@
                     cursor: pointer;
                 }
 
+
+
             }
+
+
 
         }
 
@@ -84,26 +107,43 @@
 
 
         nav {
+
+
+
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             padding: 30px 50px 10px 50px;
 
+
+
             .img-logo {
                 width: 150px;
             }
+
+
 
             .adm-login {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
 
+
+
                 h3 {
                     color: white;
                     font-family: Arial, Helvetica, sans-serif;
                 }
+
+
+
             }
+
+
+
         }
+
+
 
     }
 
@@ -116,51 +156,145 @@
 
 
 @media (max-width: 400px) {
+
+
+
     .mae-login {
+
+
+
         max-width: 100%;
+
+
+        
     }
 
+
+
     .img-logo {
+
+
+        
         height: 80px;
         width: 85px !important;
         margin-left: -35px;
+
+
+
     }
 
+
+
     .adm-login {
+
+
+
         height: 120px;
         width: 125px;
         margin-left: -2px;
         margin-top: -25px;
 
+
+
+
+
+
         img {
+
+
+
             height: 35px;
+
+
+
         }
+
+
+
     }
+
+
 
     .usuario {
+
+
+
         height: 100px;
         width: 115px !important;
+
+
+
     }
+
+
 
     .agrupa-tudo {
+
+
+
+        height: 45px !important;
+        margin: 5px !important;
+
+
+
         h2 {
+
+
+
             font-size: 45px !important;
+
+
+
         }
+
+
+
     }
+
+
 
     .input-login {
+
+
+
+        height: 45px !important;
+        margin: 5px !important;
+
+
+
         input {
+
+
+
             height: 45px !important;
-            margin: 5px;
+            margin: 5px !important;
+
+
+
         }
+
+
 
     }
 
+
+
     .agrupa-p {
+
+
+
         button {
+
+
+
             height: 45px;
             width: 115px !important;
 
+
+
         }
+
+
+
     }
 }
