@@ -6,24 +6,44 @@ export default function HomeAdm() {
 
 return(
     <div className='mae-adm'>
-        <Cabecalho2/>
-        <div className="container-adm">
-            <div className="sub-3">
-                 <div className='sub-azul'>
-                     <a href="/cadastroproduto" className='H1'> CADASTRAR PROUTO </a>
-                 </div>
-                 
-                        <div className='sub-azul'>
-                            <a href="/consultaproduto" className='H1' > CONSULTAR PRODUTOS </a>
-                            
+        <div className='container'>
+
+            <div className="espaco-1">
+                <div className='logoo'>
+                   <img className='logo' src="./assets/image/pool-max-logo.png" alt="" />
+                </div>
+                        <div >
+                           <img className='agenda' src="./assets/image/imgAgendaPedido.png" alt="" />
+                           <h3></h3>
                         </div>
 
-                 <div className='sub-azul'>  
-                     <a href="/realizados" className='H1' > PEDIDOS REALIZADOS </a>
-                 </div>
+                         <div>
+                            <img src="" alt="" />
+                            <h3></h3>
+                         </div>
+                <div>
+                    <img src="" alt="" />
+                    <h3></h3>
+                </div>
+
             </div>
+
+
+                 <div className="espaco-2">
+                    
+                    <nav>
+                        <h3></h3>
+                        <img src="" alt="" />
+                    </nav>
+
+                    <div>
+                        <img src="" alt="" />
+                    </div>
+
+                 </div>
+
         </div>
-        <Rodape/>
+
     </div>
 )
 
