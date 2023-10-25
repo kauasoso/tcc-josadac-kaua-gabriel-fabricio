@@ -15,16 +15,13 @@ return(
                  
                         <div className='sub-azul'>
                             <a href="/consultaproduto" className='H1' > CONSULTAR PRODUTOS </a>
-               
                             
                         </div>
 
-                 <div className='sub-azul'>  
-                     <a href="/realizados" className='H1' > PEDIDOS REALIZADOS </a>
                  </div>
-            </div>
+
         </div>
-        <Rodape/>
+
     </div>
 )
 
