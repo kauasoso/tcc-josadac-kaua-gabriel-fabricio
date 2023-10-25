@@ -50,17 +50,29 @@ export default function Cabecalho() {
                         <img className='lupa' src="./assets/image/lupa.png" alt="" />
                     </div>
 
+                   
+                   
+
+                    <div className='agrupa-panda'>
+
                     <div className='carrinho'>
                         <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
                         <p>(0) ITEMS</p>
                     </div>
 
+
                    <div className='agrupa-panda'>
                         <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
                         <p>Seja Bem-vindo, <br /> {usuario ? usuario[0].nome : ''}!</p>
+
+                    <div>
+                        <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
+                        <p>Seja Bem-vindo, {usuario ? usuario[0].nome : ''}!</p>
                         <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
                    </div>
 
+                    </div>
+ 
                     </div>
 
                 </nav>
