@@ -18,6 +18,7 @@ export default function ConsultaProduto(){
                    </div>
 
 
+
                    <div className='img-produtao'>
                       <img className='preto' src="" alt="" />
                     </div>

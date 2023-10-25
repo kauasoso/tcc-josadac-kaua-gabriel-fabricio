@@ -18,6 +18,7 @@ return (
         </nav>
 
 
+
         <div className='agrupa-categorias'>
            <div className='fundo'>
                AQUECIMENTO

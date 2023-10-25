@@ -59,9 +59,10 @@ root.render(
       <Route path='/consultaproduto' element={<ConsultaProduto/>}/>
       <Route path='/loginadm' element={<LoginAdmin/>}/>
       <Route path='/minhaconta' element={<MinhaConta/>}/>
-      
+
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
+
 

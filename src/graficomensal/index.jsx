@@ -25,6 +25,7 @@ return (
           <div className="coresgraficoH"></div>
           <div className="coresgraficoI"></div>
           <div className="coresgraficoJ"></div>
+         
           
        </div>
 

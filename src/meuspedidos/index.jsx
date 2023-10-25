@@ -1,6 +1,5 @@
 import './index.scss' ;
 import Card from '../card';
-import Rodape from '../rodape';
 import Cabecalho2 from '../cabecalho2';
 
 export default function Pedido () {
@@ -27,6 +26,7 @@ export default function Pedido () {
                </div>
           </div>
 
+          
           
         </div>
     )

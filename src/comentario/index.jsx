@@ -6,6 +6,7 @@ import Rodape from '../rodape';
 
 export function Comentario () {
 
+   
 return (
     <div className="mae-comentario">
        <Cabecalho2/>

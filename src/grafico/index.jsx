@@ -15,6 +15,7 @@ return (
 
    <div className="container-grafico">
        
+       
        <div className="subgrafico">
           <div className="coresgrafico"></div>
           <div className="coresgrafico2"></div>

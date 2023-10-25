@@ -28,6 +28,7 @@ export default function Pagamento () {
                     <img src="../assets/image/american.png" alt="" className="forms" />
                   </div>
 
+
                   <img src="../assets/image/seta.png" alt="" className="seta" />
               </div>
 

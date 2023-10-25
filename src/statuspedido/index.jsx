@@ -15,6 +15,7 @@ export default function Status () {
                 <h1>Status do Pedido</h1>
             </div>
 
+
             <div className='statuspedido'>
                  <div className='statusagrupa'>
                     <img className='statusazul' src="../assets/image/carroazul.png" alt="" />
