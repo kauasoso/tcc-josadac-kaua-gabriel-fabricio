@@ -49,6 +49,109 @@
     background-color: rgb(56, 69, 255);
 }
 
+
+
+    
+    .fundo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+     background-image: url(../../../public/assets/image/fundo-onda.png);
+     background-position: 50% 8%;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ 
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 45px;
+    }
+
+    .lg{
+        height: 110px;
+        width: 110px;
+    }
+
+    .voltar{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .voltar:hover{
+        text-decoration: underline;
+    }
+
+    .corpo{
+        height: 50vh;
+        width: 100% ;
+        display: flex;
+        flex-direction: row;
+        margin-right: 70px;
+    }
+
+    .varios{
+        justify-content: center;
+        align-items: center;
+        height: 42vh;
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+        input {
+            padding: 35px;
+            width: 500px !important;
+
+            font-size: 25px;
+        }
+    }
+
+    .varios input{
+        width: 250px;
+        height: 25px;
+        padding-left: 20px;
+        outline: none;
+    }
+
+    .varios input:hover{
+        box-shadow: 0px 0px 10px 0px #000;
+        transition: 0.2s;
+        border: none;
+    }
+
+    h1{
+        margin-top: 86px;
+        margin-bottom: 100px;
+        font-size: 60px;
+    }
+
+    .imagem{
+        height: 42vh;
+        width: 40vw;
+        background-color: #ffffff;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        display: flex;
+       box-shadow: 0px 0px 30px 1px rgb(205, 255, 253);
+
+
+        .nuvem{
+            height: 220px;
+            width: 290px;
+            margin-top: -10px;  
+            margin-bottom: 50PX;            
+>>>>>>> cad713074e7ed44e7261ac7ab363741d98b3447a
         }
 
 

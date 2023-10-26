@@ -3,6 +3,7 @@ create database conexaoDB;
 use conexaoDB ;
 
 
+
 CREATE TABLE TB_CADASTRO_CLIENTE (
 	id_cliente  INT PRIMARY KEY auto_increment,
 	nm_nome varchar(200),

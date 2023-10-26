@@ -15,7 +15,12 @@ export default function CadastroProduto() {
     const [codigoProduto, setCodigoProduto] = useState('')
     const [erro, setErro] = useState([])
 
+<<<<<<< HEAD
     async function CadastroProduto() {
+=======
+
+async function CadastroProduto () {
+>>>>>>> cad713074e7ed44e7261ac7ab363741d98b3447a
 
         try {
 
