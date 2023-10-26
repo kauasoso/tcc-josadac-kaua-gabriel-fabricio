@@ -79,18 +79,18 @@ export default function CadastroProduto() {
                         
                     </div>   {/* final da tag "d8" */} 
                       
-                 {/* <div className='consulta'>
-                     <div className="h1-button">
-                        <div>
-                           <h1>CONSULTA :</h1>
-                        </div>
+                            <div className='h1-button'>
 
-                        <div>
-                          <button></button>
-                        </div>
+                                <div>
+                                    <h1>CONSULTA :</h1>
+                                </div>
 
-                     </div>
-                 </div> */}
+                                <div>
+                                    <input type="text" />
+                                    <img src="" alt="" />
+                                </div>
+
+                            </div>
 
                 </div> {/* final da tag "d9" */}
 
