@@ -5,51 +5,17 @@ import { useState } from 'react';
 import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import HomeAdm from '../../homeadm';
+
+
 export default function CadastroProduto() {
 
-    const [nomeProduto, setNomeProduto] = useState('');
-    const [codigoCategoria, setCodigoCategoria] = useState('');
-    const [precoVenda, setPrecoVenda] = useState('');
-    const [quantidadeEstoque, setQuantidadeEstoque] = useState('');
-    const [codigoProduto, setCodigoProduto] = useState('')
-    const [erro, setErro] = useState([])
+    
 
-
-    async function CadastroProduto() {
-
-
-async function CadastroProduto () {
-
-
-        try {
-
-            const url = `http://localhost:5001/cadastroproduto`;
-            const produto = {
-                nome: nomeProduto,
-                categoria: codigoCategoria,
-                preco: precoVenda,
-                estoque: quantidadeEstoque,
-                codigo: codigoProduto
-            }
-
-
-            const r = await axios.post(url, produto)
-
-            toast.dark("✔️ Cadastrado Com Sucesso !")
-        } catch (err) {
-            if (err.response.status === 400) {
-                setErro(err.response.data.erro)
-                toast.dark("🔒 Não Foi Possível Cadastrar")
-            }
-        }
-
-    }
-
+   
 
 
     return (
-        <div className='mae-admm'>
+        <div className='mae-adm'>
             <ToastContainer />
 
             <div className='container'>
@@ -113,7 +79,7 @@ async function CadastroProduto () {
                         
                     </div>   {/* final da tag "d8" */} 
                       
-                 <div className='consulta'>
+                 {/* <div className='consulta'>
                      <div className="h1-button">
                         <div>
                            <h1>CONSULTA :</h1>
@@ -124,7 +90,7 @@ async function CadastroProduto () {
                         </div>
 
                      </div>
-                 </div>
+                 </div> */}
 
                 </div> {/* final da tag "d9" */}
 
@@ -142,4 +108,3 @@ async function CadastroProduto () {
     )
 }
 
-}
