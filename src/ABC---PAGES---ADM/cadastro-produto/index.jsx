@@ -15,12 +15,12 @@ export default function CadastroProduto() {
     const [codigoProduto, setCodigoProduto] = useState('')
     const [erro, setErro] = useState([])
 
-<<<<<<< HEAD
+
     async function CadastroProduto() {
-=======
+
 
 async function CadastroProduto () {
->>>>>>> cad713074e7ed44e7261ac7ab363741d98b3447a
+
 
         try {
 
@@ -114,7 +114,7 @@ async function CadastroProduto () {
                     </div>   {/* final da tag "d8" */} 
                       
                  <div className='consulta'>
-                    
+
                  </div>
 
                 </div> {/* final da tag "d9" */}
@@ -131,4 +131,6 @@ async function CadastroProduto () {
 
 
     )
+}
+
 }
