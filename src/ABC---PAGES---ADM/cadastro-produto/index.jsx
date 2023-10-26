@@ -85,9 +85,9 @@ export default function CadastroProduto() {
                                     <h1>CONSULTA :</h1>
                                 </div>
 
-                                <div>
+                                <div className='input-lupa'>
                                     <input type="text" />
-                                    <img src="" alt="" />
+                                    <img className='lupa' src="/assets/image/imgLupaConsulta.png" alt="" />
                                 </div>
 
                             </div>
