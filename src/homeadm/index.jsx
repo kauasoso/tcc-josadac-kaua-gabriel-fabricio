@@ -5,7 +5,7 @@ import Rodape from '../rodape';
 export default function HomeAdm() {
 
 return(
-    <div className='mae-admm'>
+    <div className='mae-adm'>
       
       <div className='container'>
 
@@ -46,40 +46,7 @@ return(
 
 <div className='d9'>
  
-    <div className='d8'> 
-        <div className='input-4'>
-            <input type="text" placeholder='NOME DO PRODUTO' />
-            <input type="text" placeholder='CATEGORIA'/>
-            <input type="text" placeholder='VALOR DO PRODUTO'/>
-            <input type="text" placeholder='QUANTIDADE'/>
-        </div>
-
-        <div className='cinzaa'>
-            <div className='cinza'>
-                <img src="/assets/image/img-img.png" alt="" />
-             </div>
-
-             <div>
-                <button className='salvar'>SALVAR</button>
-             </div>
-
-        </div>
-
-        
-    </div>   {/* final da tag "d8" */} 
-      
- {/* <div className='consulta'>
-     <div className="h1-button">
-        <div>
-           <h1>CONSULTA :</h1>
-        </div>
-
-        <div>
-          <button></button>
-        </div>
-
-     </div>
- </div> */}
+    <img className='logo-grande' src="/assets/image/logomelhor.png" alt="" />
 
 </div> {/* final da tag "d9" */}
 
