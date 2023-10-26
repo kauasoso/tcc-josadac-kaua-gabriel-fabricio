@@ -114,7 +114,16 @@ async function CadastroProduto () {
                     </div>   {/* final da tag "d8" */} 
                       
                  <div className='consulta'>
+                     <div className="h1-button">
+                        <div>
+                           <h1>CONSULTA :</h1>
+                        </div>
 
+                        <div>
+                          <button></button>
+                        </div>
+
+                     </div>
                  </div>
 
                 </div> {/* final da tag "d9" */}
