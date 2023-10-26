@@ -81,8 +81,8 @@ return (
                 </div>
                         
                         <div className='input-login'>
-                            <input type="text" placeholder='EMAIL' value={email} onChange={e => setEmail (e.target.value)}/>
-                            <input type="password" placeholder='SENHA' value={senha} onChange={e => setSenha (e.target.value)}/>
+                            <input className='inpl' type="text" placeholder='EMAIL' value={email} onChange={e => setEmail (e.target.value)}/>
+                            <input className='inpl' type="password" placeholder='SENHA' value={senha} onChange={e => setSenha (e.target.value)}/>
                         </div>
 
                 <div className='agrupa-botao'>
@@ -93,7 +93,7 @@ return (
                         </div>
 
 
-                        <div>
+                        <div className='bte'>
                             <button onClick={Entrar} disabled={carregando}>ENTRAR</button>
                         </div>
                 </div>

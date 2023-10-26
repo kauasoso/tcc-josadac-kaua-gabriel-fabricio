@@ -118,3 +118,64 @@
 
 
 }
+
+
+
+
+}
+
+
+@media (max-width :450px){
+
+
+  nav{
+    gap: 35px;
+  }
+
+
+  .img-logo{
+    margin-right: 30px !important;
+  }
+
+
+  .usuario{
+      width: 100px;
+      height: 150px;
+      margin-left: 22px;
+  }
+
+
+  .usuario-login{
+    margin-bottom: 59px;
+  }
+
+  .input-login{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #164FA6;
+    
+    input{
+      background-color: red;
+      width: 5px;
+    }
+  }
+
+
+  input{
+    width: 10px !important;
+  }
+
+
+  .agrupa-botoes{
+    width: 19vw !important
+  }
+
+
+  .agrupa-tudo{
+    height: 80vh ;
+    width: 4vw;
+  }
+}
