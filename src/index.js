@@ -68,6 +68,7 @@ import Aque6 from './detalhe-produto-aquecedor/aque1';
 import Aspi1 from './detalhe-produto-aspirador/aspi1';
 import Aspi2 from './detalhe-produto-aspirador/aspi2';
 import Aspi3 from './detalhe-produto-aspirador/aspi3';
+import Aspirador from './aspiradores';
 
 import Bor1 from './detalhe-produto-borda/bor1';
 import Bor2 from './detalhe-produto-borda/bor2';
@@ -97,6 +98,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
+    <Route path='/aspirador' element={<Aspirador/>}/>
+
       <Route path='/' element={<Home/>}/>
       <Route path='/ace1' element={<Ace1/>}/>
       <Route path='/ace2' element={<Ace2/>}/>
