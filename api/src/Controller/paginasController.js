@@ -13,6 +13,7 @@ let resposta = await Buscar (r)
 
 resp.send(resposta)
 
+
 })
 
 
@@ -116,8 +117,6 @@ try {
         if(!produto.estoque)
         throw new Error ("Coloque a Quantidade De Produtos Estocados")
 
-        if(!produto.codigo)
-        throw new Error ("Coloque o Código Do Produto")
 
      let resposta = await CadastrarProduto(produto);
 
@@ -129,6 +128,10 @@ try {
       })
     }
 })
+
+
+
+
 
 
 

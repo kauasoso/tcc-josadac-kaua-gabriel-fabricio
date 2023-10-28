@@ -3,6 +3,8 @@ import storage from 'local-storage'
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
+
+
 export default function Cabecalho() {
 
     const [usuario, setUsuario] = useState()

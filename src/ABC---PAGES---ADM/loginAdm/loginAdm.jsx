@@ -3,11 +3,14 @@ import LoadingBar from 'react-top-loading-bar'
 import './index.scss';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-
+import storage from 'local-storage';
+import { useEffect } from 'react';
 
 
 
 export default function LoginAdmin() {
+
+
 
 const [email , setEmail]= useState('')
 const  [senha, setSenha] = useState('')
@@ -17,6 +20,15 @@ const [carregando,setCarregando] = useState(false)
 
  const ref = useRef()
  const navigate = useNavigate();
+
+
+ useEffect(() =>{
+    if (storage('adm-logado')) {
+     navigate('/homeadm')
+    }
+ },[])
+
+
 
 async function TelaAdm() {
 
@@ -33,12 +45,12 @@ async function TelaAdm() {
      }
  
      let r = await axios.post(url,pessoa)
-   
+     storage('adm-logado' , r.data)
  
      setTimeout(() => {
          navigate('/homeadm')
          },2500)
- 
+  
  
  
  }catch(err) {
