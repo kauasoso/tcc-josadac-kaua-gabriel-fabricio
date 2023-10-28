@@ -9,7 +9,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export default function CadastroProduto() {
 
-    
+    const [nome , setNome] = useState('');
+    const [categoria, setCategoria] = useState('');
+    const [valor , setValor] = useState(''); 
+    const [quantidade , setQuantidade] = ('') ;
 
    
 
