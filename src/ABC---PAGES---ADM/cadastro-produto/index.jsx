@@ -9,10 +9,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export default function CadastroProduto() {
 
+
+
     
-
-   
-
 
     return (
         <div className='mae-adm'>

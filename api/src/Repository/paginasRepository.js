@@ -61,15 +61,14 @@ export async function CadastroAdm(email, senha){
 
 export async function CadastrarProduto(produto) {
 
-        let comando = `insert into tb_produto (nm_produto,id_categoria,vl_preco_venda,qtd_estoque,ds_codigo_produto)
-        values (?, ?,? ,? ,?) ;`
+        let comando = `insert into tb_produto (nm_produto,id_categoria,vl_preco_venda,qtd_estoque)
+        values (?, ?,? ,? ) ;`
 
         let r = await conexao.query(comando , [
             produto.nome ,
             produto.categoria,
             produto.preco,
-            produto.estoque,
-            produto.codigo
+            produto.estoque, 
         ])
 
         return r ;
