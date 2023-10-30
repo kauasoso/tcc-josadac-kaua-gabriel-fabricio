@@ -156,6 +156,16 @@ background-color: rgb(56, 69, 255);
             height: 22vh;
             background-color: #939393; 
             margin-bottom: 35px;
+
+            #imagemCapa{
+              visibility: hidden;
+              position: absolute;
+            }
+
+            .imagem {
+              width: 400px;
+              height: 200px;
+            }
         }
 
         .salvar {

@@ -1,8 +1,41 @@
 import './index.scss';
 import Cabecalho2 from '../cabecalho2';
 import Rodape from '../rodape';
+import { useEffect } from 'react';
+import storage from 'local-storage'
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+
 
 export default function HomeAdm() {
+
+const[usuario, setUsuario] = useState('')
+
+let navigate = useNavigate()
+
+    useEffect(() => {
+
+        if (!storage('adm-logado')) {
+            navigate('/loginadm')
+        } else {
+            const usuarioLogado = storage('adm-logado');
+            setUsuario(usuarioLogado)
+            console.log(usuarioLogado);
+        }
+
+    }, []) 
+
+
+
+    
+    function sairclick() {
+        storage.remove('adm-logado')
+        setTimeout(() => {
+            navigate('/loginadm')
+        }, 1800)
+
+    }
+
 
 return(
     <div className='mae-adm'>
@@ -18,14 +51,18 @@ return(
         <h3>CADASTRO</h3>
     </a>
 
-    <a href='/consultaproduto' className='agendaa'>
-        <img className='agenda' src="./assets/image/imgLupaConsulta.png" alt="" />
-        <h3>CONSULTA</h3>
-    </a>
-    <div className='agendaa'>
+<div className='agendaa'>
         <img className='agenda' src="./assets/image/abcagenda.png" alt="" />
         <h3>PEDIDOS</h3>
     </div>
+
+    <a  className='agendaa' id='sairconta' onClick={sairclick}>
+        <img className='agenda' src="./assets/image/SAIR.png" alt="" />
+        <h3>SAIR DA CONTA</h3>
+    </a>
+
+
+    
 
 </div>
 
@@ -34,7 +71,7 @@ return(
 
     <nav>
         <div>
-            <h2>Seja Bem-Vindo , Admin !!</h2>
+            <h2>Seja Bem-Vindo Administrador, {usuario ? usuario[0].nome : '' } !!</h2>
         </div>
 
         <div className='usuario-p'>
