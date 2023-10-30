@@ -37,7 +37,7 @@ export default function Cadastro() {
             const r = await axios.post(url, pessoa)
 
             setTimeout(() => {
-                navigate('/')
+                navigate('/home')
             }, 3000)
 
 

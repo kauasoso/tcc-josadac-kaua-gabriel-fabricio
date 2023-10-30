@@ -29,14 +29,18 @@ import ConsultaProduto from './ABC---PAGES---ADM/consultar-produto';
 import Realizados from './PedidosRealizados';
 import LoginAdmin from './ABC---PAGES---ADM/loginAdm/loginAdm';
 import  MinhaConta  from './MinhaContaCliente';
+import CabecalhoSemapi from './cabecalho-antes.Login';
+import HomeLogin from './home-login-cadastro';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
+       <Route path='/' element={<HomeLogin/>}/>
       <Route path='/realizados' element={<Realizados/>} />
-      <Route path='/' element={<Home/>}/>
+      <Route path='/home' element={<Home/>}/>
       <Route path='/cabecalho' element={<Cabecalho/>}/>
       <Route path='/card' element={<Card/>}/>
       <Route path='/pedido' element={<Pedido/>}/>
@@ -59,7 +63,8 @@ root.render(
       <Route path='/consultaproduto' element={<ConsultaProduto/>}/>
       <Route path='/loginadm' element={<LoginAdmin/>}/>
       <Route path='/minhaconta' element={<MinhaConta/>}/>
-
+      <Route path='/cabecalhosemapi' element={<CabecalhoSemapi/>}/>
+      
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

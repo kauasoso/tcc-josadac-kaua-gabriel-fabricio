@@ -19,7 +19,7 @@ const [carregando, setCarregando] = useState (false)
 
 useEffect(() =>{
    if (storage('usuario-logado')) {
-    navigate('/')
+    navigate('/home')
    }
 },[])
 
@@ -42,7 +42,7 @@ async function Entrar() {
    storage('usuario-logado', r.data)
 
     setTimeout(() => {
-        navigate('/')
+        navigate('/home')
         },2500)
 
 
