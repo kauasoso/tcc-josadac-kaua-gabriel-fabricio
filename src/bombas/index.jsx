@@ -30,24 +30,24 @@ export default function Bombas(){
     </nav>
     </div>
 
-        <section className='divis'>
+        <section className='divis'> 
 
            
-
+       
             <div className='abc'>
             <img className='imagi' src="/assets/image/bomba-1.png" alt="" />
                 <div className='line'></div>     
                 <p className='txt'>BOMBA FILTRANTE PISCINA INFLÁVEL<br/> 9463 L/H BESTWAY FILTRO 220</p>
                 
 
-                <h1 className='preco'>R$ 74,70</h1>
+                <h1 className='preco'>R$ 2.321,91</h1>
                 <section>            
                     
                     <p>FRETE GRÁTIS</p>
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                     </section>
-                <button>COMPRAR AGORA</button>
+                    <a className='ahome' href="/bomb1"><button >COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
@@ -55,7 +55,7 @@ export default function Bombas(){
                 <div className='line'></div>    
                 <p className='txt'>FILTRO SEM AREIA E BOMBA COM<br/>CARRINHO </p>
 
-                <h1  className='preco'>R$ 432,90</h1>
+                <h1  className='preco'>R$ 7.543.99</h1>
 
                 <section>            
                     
@@ -64,7 +64,7 @@ export default function Bombas(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/bomb2"><button>COMPRAR AGORA</button></a>
              </div>
 
             <div className='abc'>
@@ -73,7 +73,7 @@ export default function Bombas(){
 
                 <p className='txt'>KIT BOMBA E FILTRO NAUTILUS<br/> F450P + 1/2 CV MONOFÁSICA</p>
 
-                <h1 className='preco'>R$ 40,50</h1>
+                <h1 className='preco'>R$ 4.186,09</h1>
 
                 <section>            
                     
@@ -82,7 +82,7 @@ export default function Bombas(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/bomb3"><button>COMPRAR AGORA</button></a>
             </div>
 
         </section>

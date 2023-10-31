@@ -38,7 +38,7 @@ export default function Limpeza(){
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                 </section>
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/limp1"><button>COMPRAR AGORA</button></a>
             </div>
 
             <div className='abc'>
@@ -56,7 +56,7 @@ export default function Limpeza(){
 
                 </section>
                 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/limp2"><button>COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
@@ -73,7 +73,7 @@ export default function Limpeza(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/limp3"><button>COMPRAR AGORA</button></a>
           </div>
 
             <div className='abc'>
@@ -89,7 +89,7 @@ export default function Limpeza(){
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                     </section>
-                <button>COMPRAR AGORA</button>
+                    <a className='ahome' href="/limp4"><button>COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
@@ -106,7 +106,7 @@ export default function Limpeza(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/limp5"><button>COMPRAR AGORA</button></a>
              </div>
 
             <div className='abc'>
@@ -124,7 +124,7 @@ export default function Limpeza(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/limp6"><button>COMPRAR AGORA</button></a>
             </div>
 
         </section>

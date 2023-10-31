@@ -37,13 +37,7 @@ export default function Aque3(){
                         <h2 className='preco'>R$ 782,46</h2>
 
                         <button className='comprar'>COMPRAR AGORA</button>
-                        <div className='estrelas'>
-                            <img src="/assets/images/estrela1.png" alt="" />
-                            <img src="/assets/images/estrela1.png" alt="" />
-                            <img src="/assets/images/estrela1.png" alt="" />
-                            <img src="/assets/images/estrela1.png" alt="" />
-                            <img src="/assets/images/estrela2.png" alt="" />
-                        </div>
+                       
                     </div>
             
             </div>
@@ -57,14 +51,14 @@ export default function Aque3(){
 
 
                         <div className='c1'>
-                            <img className='imagizi' src="/assets/image/aque-1.png" alt="" />
+                            <img className='imagizi' src="/assets/image/aqu1.png" alt="" />
                             <h4 className='ds'>AQUECEDOR A GÁS HTR400</h4>
                             <h5 className='prc'>R$ 40.216,13</h5>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
                             <img className='cmn' src="/assets/image/caminhao.png" alt="" />
                         </div>
                         <div className='c2'>
-                            <img className='imagizi' src="/assets/image/aque-2.png" alt="" />
+                            <img className='imagizi' src="/assets/image/aqu2.png" alt="" />
                             <h4 className='ds'>CAPA TÉRMICA</h4>
                             <h5 className='prc'>R$ 387,00</h5>
                             <h4 className='frete'>FRETE GRÁTIS</h4>

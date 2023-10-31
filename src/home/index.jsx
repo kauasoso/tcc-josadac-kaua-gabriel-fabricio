@@ -43,7 +43,7 @@
 
                     <div className='agrupa-card-1'>
 
-                        <div className='cardd'>
+                        <div className='cardd' > <a className='ahome' href="/aquecedores">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-aqueci-1.png" alt="" />
                             </div>
@@ -54,12 +54,12 @@
                             <div>
                                 <h2>AQUECIMENTO</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div>
+                            </div></a>
                         </div>
                         {/* card-1 fim */}
 
 
-                        <div className='cardd'>
+                        <div className='cardd'> <a className='ahome' href="/aspirador">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-asp.png" alt="" />
                             </div>
@@ -70,12 +70,12 @@
                             <div>
                                 <h2>ASPIRADORES AUTOMÁTICOS</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div>
+                            </div></a>
                         </div>
                         {/* card-2 fim */}
 
 
-                        <div className='cardd'>
+                        <div className='cardd'>  <a className='ahome' href="/bordas">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-bord.png" alt="" />
                             </div>
@@ -86,12 +86,12 @@
                             <div>
                                 <h2>BORDAS PARA PISCINA</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div>
+                            </div></a>
                         </div>
 
                         {/* card-3 fim */}
 
-                        <div className='cardd'>
+                        <div className='cardd'> <a className='ahome' href="/limpeza">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-limp.png" alt="" />
                             </div>
@@ -102,7 +102,7 @@
                             <div>
                                 <h2>LIMPEZAS</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div>
+                            </div></a>
                         </div>
 
                         {/* card-4 fim */}
@@ -120,7 +120,7 @@
 
                     <div className='agrupa-card-1'>
 
-                        <div className='cardd'>
+                        <div className='cardd'><a className='ahome' href="/cascatas">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-casca.png" alt="" />
                             </div>
@@ -131,12 +131,12 @@
                             <div>
                                 <h2>CASCATAS E DUCHAS</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div>
+                            </div></a>
                         </div>
                         {/* card-1 , 2fx , fim */}
 
 
-                        <div className='cardd'>
+                        <div className='cardd'> <a className='ahome' href="/acess">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-disp.png" alt="" />
                             </div>
@@ -147,12 +147,12 @@
                             <div>
                                 <h2>DISPOSITIVOS E ACESSÓRIOS</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div>
+                            </div></a>
                         </div>
                         {/* card-2 , 2fx , fim */}
 
 
-                        <div className='cardd'>
+                        <div className='cardd'>  <a className='ahome' href="/produto">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-purif.png" alt="" />
                             </div>
@@ -163,12 +163,12 @@
                                         <div>
                                             <h2>PURIFICADOR DE ÁGUA </h2>
                                             <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                                        </div>
+                                        </div></a>
                                     </div>
 
                         {/* card-3 , 3fx , fim */}
 
-                        <div className='cardd'>
+                        <div className='cardd'>  <a className='ahome' href="/bombas">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-filt.png" alt="" />
                             </div>
@@ -179,7 +179,7 @@
                             <div>
                                 <h2>FILTROS E BOMBAS</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div>
+                            </div></a>
                         </div>
 
                         {/* card-4 , 4fx , fim */}
@@ -196,7 +196,7 @@
 
 
 
-                        <div className='cardd'>
+                        <div className='cardd'> <a className='ahome' href="/iluminacoes">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-ilumin.png" alt="" />
                             </div>
@@ -207,12 +207,12 @@
                             <div>
                                 <h2>ILUMINAÇÃO</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div>
+                            </div></a>
                         </div>
 
                         {/* card-1 , 3fx , fim */}
 
-                        <div className='cardd'>
+                        <div className='cardd'>   <a className='ahome' href="/pisos">
                             <div>
                                 <img className='categorias' src="./assets/image/catego-reves.png" alt="" />
                             </div>
@@ -223,7 +223,7 @@
                             <div>
                                 <h2>REVESTIMENTO DE PISCINAS</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div>
+                            </div></a>
                         </div>
 
                         {/* card-1 , 4fx , fim */}

@@ -5,14 +5,15 @@ import './index.scss'
 
 
 
-export default function Acessorios(){
+
+export default function Aquecimentos(){
+
 
 
 
 
 
     return(
-
 
 
 
@@ -36,12 +37,12 @@ export default function Acessorios(){
         <section className='divis'>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-1.png" alt="" />
+            <img className='imagi' src="/assets/image/aqu1.png" alt="" />
                 <div className='line'></div>
 
-                <p className='txt'>TAMPA FECHAMENTO AUTOMÁTICO <br/> SODRAMAR</p>
+                <p className='txt'>AQUECEDOR A GÁS HTR400</p>
 
-                <h1 className='preco'>R$50,40</h1>
+                <h1 className='preco'>R$ 40.216,13</h1>
 
                 <section>            
                     
@@ -49,16 +50,16 @@ export default function Acessorios(){
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                 </section>
-                <a className='ahome' href="/ace1"><button>COMPRAR AGORA</button></a>
+                <a className='ahome' href="/aq1"><button>COMPRAR AGORA</button></a> 
             </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-2.png" alt="" />
+            <img className='imagi' src="/assets/image/aqu2.png" alt="" />
                 <div className='line'></div>     
-                <p className='txt'>RALO SODRAMAR QUEBRA ONDA PRATIC<br/> ROSCA LATÃO ALVENARIA</p>
+                <p className='txt'>CAPA TÉRMICA</p>
                 
 
-                <h1 className='preco'>R$ 76,50</h1>
+                <h1 className='preco'>R$ 387,00</h1>
 
                 <section>            
                     
@@ -67,15 +68,15 @@ export default function Acessorios(){
 
                 </section>
                 
-                <a className='ahome' href="/ace2"><button>COMPRAR AGORA</button></a>
+                <a className='ahome' href="/aq2"><button>COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-3.png" alt="" />
+            <img className='imagi' src="/assets/image/aquecedor-3.png" alt="" />
                 <div className='line'></div>  
-                <p className='txt'>PENEIRA SODRAMAR TIPO PUÇA COM <br/> ARMAÇÃO METÁLICA</p>
+                <p className='txt'>PLACA SOLAR GIRASSOL ENCAPSULADA</p>
 
-                <h1 className='preco'>R$ 35,10</h1>
+                <h1 className='preco'>R$ 782,46</h1>
 
                 <section>            
                     
@@ -84,31 +85,31 @@ export default function Acessorios(){
 
                 </section>
 
-                <a className='ahome' href="/ace3"><button>COMPRAR AGORA</button></a>
+                <a className='ahome' href="/aq3"><button>COMPRAR AGORA</button></a>
           </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-4.png" alt="" />
+            <img className='imagi' src="/assets/image/aquecedor-4.png" alt="" />
                 <div className='line'></div>     
-                <p className='txt'>DISPOSITIVO RETORNO SODRAMAR 1.1/2''<br/> LATÃO INOX</p>
+                <p className='txt'>CAPA TÉRMICA SOL +GUARD</p>
                 
 
-                <h1 className='preco'>R$ 74,70</h1>
+                <h1 className='preco'>R$ 403,53</h1>
                 <section>            
                     
                     <p>FRETE GRÁTIS</p>
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                     </section>
-                    <a className='ahome' href="/ace4"><button>COMPRAR AGORA</button></a>
+                    <a className='ahome' href="/aq4"><button>COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-5.png" alt="" />
+            <img className='imagi' src="/assets/image/aquecedor-5.png" alt="" />
                 <div className='line'></div>    
-                <p className='txt'>DRENO SODRAMAR ANTI- TURBILHÃO 1.1/2" <br/> BASE LATÃO</p>
+                <p className='txt'>PLACA SOLAR ESTEIRA</p>
 
-                <h1  className='preco'>R$ 432,90</h1>
+                <h1  className='preco'>R$ 1246,00</h1>
 
                 <section>            
                     
@@ -117,16 +118,16 @@ export default function Acessorios(){
 
                 </section>
 
-                <a className='ahome' href="/ace5"><button>COMPRAR AGORA</button></a>
+                <a className='ahome' href="/aq5"><button>COMPRAR AGORA</button></a>
              </div>
 
             <div className='abc'>
-            <img className='imagi' src="/assets/image/acessorio-6.png" alt="" />
+            <img className='imagi' src="/assets/image/aquecedor-6.png" alt="" />
                 <div className='line'></div> 
 
-                <p className='txt'>Escova Sodramar Luxo Nylon 44cm</p>
+                <p className='txt'>PLACA SOLAR GIRASSOL G1</p>
 
-                <h1 className='preco'>R$ 40,50</h1>
+                <h1 className='preco'>R$ 668,33</h1>
 
                 <section>            
                     
@@ -135,7 +136,7 @@ export default function Acessorios(){
 
                 </section>
 
-                <a className='ahome' href="/ace6"><button>COMPRAR AGORA</button></a>
+                <a className='ahome' href="/aq6"><button>COMPRAR AGORA</button></a>
             </div>
 
         </section>
@@ -143,7 +144,7 @@ export default function Acessorios(){
 
 
 </div>
-                           <div className='fim'> <Rodape/></div>
+                           <div className='fim'><Rodape/></div>
 
     </div>
     )

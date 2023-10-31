@@ -25,7 +25,7 @@ export default function Aque2(){
 
          <div className='a2'>
                     <div className='b1'>
-                            <img src="assets/image/aquecedor-3.png" alt="" />
+                            <img src="assets/image/aqu2.png" alt="" />
                     </div>
 
 
@@ -51,7 +51,7 @@ export default function Aque2(){
 
 
                         <div className='c1'>
-                            <img className='imagizi' src="/assets/image/aq2.png" alt="" />
+                            <img className='imagizi' src="/assets/image/aqu1.png" alt="" />
                             <h4 className='ds'>AQUECEDOR A GÁS HTR400</h4>
                             <h5 className='prc'>R$ 40.216,13</h5>
                             <h4 className='frete'>FRETE GRÁTIS</h4>

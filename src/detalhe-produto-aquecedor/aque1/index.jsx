@@ -25,7 +25,7 @@ export default function Aque1(){
 
          <div className='a2'>
                     <div className='b1'>
-                        <img className='filtro2' src="/assets/image/aquecedor-1.png" alt="" />
+                        <img className='filtro2' src="/assets/image/aqu1.png" alt="" />
                     </div>
 
 
@@ -52,7 +52,7 @@ export default function Aque1(){
                     <img className='setaesquerda' src="/assets/images/setaesquerda.png" alt="" />
 
                         <div className='c1'>
-                            <img className='imagizi' src="/assets/image/aque-2.png" alt="" />
+                            <img className='imagizi' src="/assets/image/aqu2.png" alt="" />
                             <h4 className='ds'>CAPA TÉRMICA</h4>
                             <h5 className='prc'>R$ 387,00</h5>
                             <h4 className='frete'>FRETE GRÁTIS</h4>

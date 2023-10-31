@@ -94,6 +94,8 @@ import Pis6 from './detalhe-produto-piso/piso6';
 import Bordas from './bordas';
 import Cascatas from './cascatas';
 import ILu5 from './detalhe-produto-iluminacao/ilu5';
+import Aquecimentos from './aquecimento';
+import Bombas from './bombas';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -111,10 +113,17 @@ root.render(
       <Route path='/ace5' element={<Ace5/>}/>
       <Route path='/ace6' element={<Ace6/>}/>
 
+
+
+
       <Route path='/asp1' element={<Aspi1/>}/>
       <Route path='/asp2' element={<Aspi2/>}/>
       <Route path='/asp3' element={<Aspi3/>}/>
 
+
+
+
+      <Route path='/Aquecedores' element={<Aquecimentos/>}/>
       <Route path='/aq1' element={<Aque1/>}/>
       <Route path='/aq2' element={<Aque2/>}/>
       <Route path='/aq3' element={<Aque3/>}/>
@@ -122,6 +131,10 @@ root.render(
       <Route path='/aq5' element={<Aque5/>}/>
       <Route path='/aq6' element={<Aque6/>}/>
 
+
+
+
+      <Route path='/bombas' element={<Bombas/>}/>
       <Route path='/bomb1' element={<Bomba1/>}/>
       <Route path='/bomb2' element={<Bomba2/>}/>
       <Route path='/bomb3' element={<Bomba3/>}/>
@@ -135,6 +148,8 @@ root.render(
       <Route path='/borda5' element={<Bor5/>}/>
       <Route path='/borda6' element={<Bor6/>}/>
 
+
+
       <Route path='/Cascatas' element={<Cascatas/>}/>
       <Route path='/cas1' element={<Cas1/>}/>
       <Route path='/cas2' element={<Cas2/>}/>
@@ -142,6 +157,8 @@ root.render(
       <Route path='/cas4' element={<Cas4/>}/>
       <Route path='/cas5' element={<Cas5/>}/>
       <Route path='/cas6' element={<Cas6/>}/>
+
+
 
       <Route path='/filtro1' element={<Filtro1/>}/>
       <Route path='/filtro2' element={<Filtro2/>}/>
@@ -159,6 +176,8 @@ root.render(
       <Route path='/ilu4' element={<Ilu4/>}/>
       <Route path='/ilu5' element={<ILu5/>}/>
       <Route path='/ilu6' element={<Ilu6/>}/>
+
+
 
       <Route path='/limp1' element={<Limp1/>}/>
       <Route path='/limp2' element={<Limp2/>}/>

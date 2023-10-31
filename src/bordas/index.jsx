@@ -45,11 +45,11 @@ export default function Bordas(){
 
                 <section>            
                     
-                    <p>FRETE GRÁTIS</p>
+                <p>FRETE GRÁTIS</p>
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                 </section>
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/borda1"><button>COMPRAR AGORA</button></a>
             </div>
 
             <div className='abc'>
@@ -67,7 +67,7 @@ export default function Bordas(){
 
                 </section>
                 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/borda2"><button>COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
@@ -84,7 +84,7 @@ export default function Bordas(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/borda3"><button>COMPRAR AGORA</button></a>
           </div>
 
             <div className='abc'>
@@ -100,7 +100,7 @@ export default function Bordas(){
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                     </section>
-                <button>COMPRAR AGORA</button>
+                    <a className='ahome' href="/borda4"><button>COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
@@ -117,7 +117,7 @@ export default function Bordas(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/borda5"><button>COMPRAR AGORA</button></a>
              </div>
 
             <div className='abc'>
@@ -135,7 +135,7 @@ export default function Bordas(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/borda6"><button>COMPRAR AGORA</button></a>
             </div>
 
         </section>
