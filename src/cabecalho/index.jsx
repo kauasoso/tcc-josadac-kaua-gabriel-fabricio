@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 
 export default function Cabecalho() {
 
+
     const [usuario, setUsuario] = useState()
 
     const navigate = useNavigate();
@@ -35,65 +36,66 @@ export default function Cabecalho() {
     }
 
 
-    return (
-        <div className="mae">
-            <div className="container">
+  return(
+    <div className="mae">
+    <div className="container">
 
-                <nav className='cabecalho'>
-                    <a href="/"><img className='logo' src="./assets/image/pool-max-logo.png" alt="" /></a>
-
-
-
-                    <div className='agrupa-pandaa'>
+        <nav className='cabecalho'>
+            <a href="/"><img className='logo' src="./assets/image/pool-max-logo.png" alt="" /></a>
 
 
 
-            <div className='agrupa-panda'>
+            <div className='agrupa-pandaa'>
 
-            <div className='carrinho'>
-                <img className='azulcarro' src="./assets/image/carrinho.png" alt="" />
-                <p>(0) ITEMS</p>
+
+
+    <div className='agrupa-panda'>
+
+    <div className='carrinho'>
+        <img className='azulcarro' src="./assets/image/carrinho.png" alt="" />
+        <p>(0) ITEMS</p>
+    </div>
+
+
+                    <div className='agrupa-panda'>
+
+
+                        <div>
+                            <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
+                            <p>Seja Bem-vindo, {usuario ? usuario[0].nome : ''}!</p>
+                            <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
-
-                            <div className='agrupa-panda'>
-
-
-                                <div>
-                                    <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
-                                    <p>Seja Bem-vindo, {usuario ? usuario[0].nome : ''}!</p>
-                                    <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </nav>
+        </nav>
 
 
-                <div className='agrupa-categorias'>
-                    <div className='fundo'>
-                    <a className='cor' href="/iluminacoes">ILUMINAÇÃO</a> 
-                    </div>
+        <div className='agrupa-categorias'>
+            <div className='fundo'>
+            <a className='cor' href="/iluminacoes">ILUMINAÇÃO</a> 
+            </div>
 
-
-                    <div className='fundo'>
-                        <a className='cor' href="/Cascatas">CASCATAS</a> 
-                    </div>
-
-                        <div className='fundo'>
-                          ILUMINAÇÃO
-                        </div>
 
             <div className='fundo'>
-               PISOS E REVESTIMENTOS
+                <a className='cor' href="/Cascatas">CASCATAS</a> 
             </div>
-        </div>
 
-    )
+                <div className='fundo'>
+                  ILUMINAÇÃO
+                </div>
+
+    <div className='fundo'>
+       PISOS E REVESTIMENTOS
+    </div>
+  </div>
+ </div>
+</div>
+  )
 
 
 
