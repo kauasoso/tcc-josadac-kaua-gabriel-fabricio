@@ -63,6 +63,11 @@ async function TelaAdm() {
 
 }
 
+function voltar() {
+    if(navigate)
+    navigate('/home')
+}
+
 
     return(
         <div className='mae-loginn'>
@@ -90,7 +95,7 @@ async function TelaAdm() {
                 <div className='agrupa-botao'>
 
                         <div className='agrupa-p'>
-                           <button>VOLTAR</button>
+                           <button onClick={voltar}>VOLTAR</button>
                         </div>
 
                         <div>

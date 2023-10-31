@@ -67,10 +67,7 @@ return (
                 <div>
                 <img className='img-logo' src="../assets/image/logo.png" alt="" />
                 </div>
-                    <div className='adm-login'>
-                        <img src="../assets/image/admconfig.png" alt="" />
-                        <h3 >ADMINISTRADOR</h3>
-                    </div>
+
             </nav>
 
  
@@ -88,7 +85,7 @@ return (
                 <div className='agrupa-botao'>
 
                         <div className='agrupa-p'>
-                            <p>ESQUECI A SENHA</p>
+                            <a>ESQUECI A SENHA</a>
                             <a href="/cadastro">CADASTRE-SE</a>
                         </div>
 
