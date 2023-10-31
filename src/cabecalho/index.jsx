@@ -12,18 +12,18 @@ export default function Cabecalho() {
     const navigate = useNavigate();
 
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        if (!storage('usuario-logado')) {
-            navigate('/login')
-        } else {
-            const usuarioLogado = storage('usuario-logado');
-            setUsuario(usuarioLogado)
-            console.log(usuarioLogado);
-        }
+    //     if (!storage('usuario-logado')) {
+    //         navigate('/login')
+    //     } else {
+    //         const usuarioLogado = storage('usuario-logado');
+    //         setUsuario(usuarioLogado)
+    //         console.log(usuarioLogado);
+    //     }
 
 
-    }, [])
+    // }, [])
 
 
     function sairclick() {
@@ -50,10 +50,10 @@ export default function Cabecalho() {
 
             <div className='agrupa-panda'>
 
-                            <div className='carrinho'>
-                                <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
-                                <p>(0) ITEMS</p>
-                            </div>
+            <div className='carrinho'>
+                <img className='azulcarro' src="./assets/image/carrinho.png" alt="" />
+                <p>(0) ITEMS</p>
+            </div>
 
 
                             <div className='agrupa-panda'>
@@ -76,22 +76,20 @@ export default function Cabecalho() {
 
                 <div className='agrupa-categorias'>
                     <div className='fundo'>
-                        <p>AQUECIMENTO</p>
-                    </div>
-
-                    <div className='fundo'>
-                        <p> SAUNAS</p>
+                    <a className='cor' href="/iluminacoes">ILUMINAÇÃO</a> 
                     </div>
 
 
                     <div className='fundo'>
-                        <p> ILUMINAÇÃO</p>
+                        <a className='cor' href="/Cascatas">CASCATAS</a> 
                     </div>
 
-                    <div className='fundo'>
-                        <p> PISOS E REVESTIMENTOS </p>
-                    </div>
-                </div>
+                        <div className='fundo'>
+                          ILUMINAÇÃO
+                        </div>
+
+            <div className='fundo'>
+               PISOS E REVESTIMENTOS
             </div>
         </div>
 

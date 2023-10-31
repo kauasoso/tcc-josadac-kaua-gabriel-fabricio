@@ -2,7 +2,7 @@ import './index.scss';
 
 
 
-export default function Rodape () {
+export default function Rodape() {
 
 
 
@@ -18,7 +18,6 @@ export default function Rodape () {
                     <img src="../assets/image/twt.png" alt="" />
                 </div>
              </div>
-       
        
     )
 }

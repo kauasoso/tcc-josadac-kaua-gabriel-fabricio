@@ -17,11 +17,11 @@ const [erro, setErro] = useState([])
 const [carregando, setCarregando] = useState (false)
 
 
-useEffect(() =>{
-   if (storage('usuario-logado')) {
-    navigate('/home')
-   }
-},[])
+// useEffect(() =>{
+//    if (storage('usuario-logado')) {
+//     navigate('/home')
+//    }
+// },[])
 
 
 
