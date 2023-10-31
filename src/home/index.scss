@@ -27,7 +27,9 @@
             }
         }
 
-
+        .asvezes{
+            display: none;
+        }
 
         .slide {
             width: 800px;
@@ -149,6 +151,9 @@
             }
 
         }
+
+
+
 
         .agrupa-piscinas-2 {
 
@@ -330,7 +335,7 @@
         max-width: 100%;
     }
 
-    
+
 }
 
 @media (max-width: 850px) {
@@ -354,9 +359,9 @@
         height: 20vh;
         background-color: #004586;
     }
-    
-    .servic{
-        width: 850px;
+
+    .servic {
+        width: 850px !important;
     }
 
     .agrupa-info {
@@ -377,12 +382,14 @@
         width: 150px;
     }
 
-    
-
-        .grupo-image>img {
-            cursor: pointer;
-        }
+    .bugado {
+        width: 850px;
     }
+
+    .grupo-image>img {
+        cursor: pointer;
+    }
+}
 
 
 
@@ -436,7 +443,6 @@
         }
     
     
-        
         .infos {
             display: flex;
             flex-direction: row;
@@ -449,4 +455,3 @@
                 cursor: pointer;
             }
         }
-

@@ -264,10 +264,13 @@ export default function Home() {
 
                 </div>
 
-
+                <div className='asvezes'>
+                    <Rodape />
+            </div>
 
 
                 <div className='rodape'>
+
 
                     <div className='agrupa-info'>
 

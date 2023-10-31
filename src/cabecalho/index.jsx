@@ -79,8 +79,9 @@ export default function Cabecalho() {
                     <a className='cor' href="/iluminacoes">ILUMINAÇÃO</a> 
                     </div>
 
+
                     <div className='fundo'>
-                    <a className='cor' href="/Cascatas">CASCATAS</a> 
+                        <a className='cor' href="/Cascatas">CASCATAS</a> 
                     </div>
 
 
@@ -91,6 +92,7 @@ export default function Cabecalho() {
                     <div className='fundo'>
                     <a className='cor' href="/produto">FILTROS</a> 
                     </div>
+
                 </div>
             </div>
         </div>

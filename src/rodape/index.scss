@@ -11,13 +11,25 @@
    padding: 10px 50px 10px 50px;
    margin-top: 200px;
 
- div > img {
+  div>img {
     margin: 5px;
  }
 
- 
     h3 {
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: white;
+    }
+  }
+
+  .redes {
+    display: flex;
+
+    width: 350px;
+
+    justify-content: end;
+    margin-right: -50px;
+
+    img {
+      width: 34px;
     }
   }
