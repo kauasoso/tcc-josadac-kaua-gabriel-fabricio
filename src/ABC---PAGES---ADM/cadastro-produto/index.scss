@@ -80,9 +80,13 @@ background-color: rgb(56, 69, 255);
      margin-left: 100px;
 
      h1{
-      font-size: 56px;
+      font-size: 46px;
      }
 
+     .input-lupa {
+
+      display: flex;
+      flex-direction: row;
      input {
       outline: none;
       border-radius: 5px;
@@ -98,9 +102,10 @@ background-color: rgb(56, 69, 255);
      .lupa {
       position: relative;
       right: 40px;
-      top: 10px;
       width: 30px;
      }
+
+    }
     }
     
     .d8{
