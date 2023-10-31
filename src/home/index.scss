@@ -41,8 +41,10 @@
             display: flex;
             flex-direction: row;
             width: 100%;
-            height: 50vh;
+            height: 30vh;
             background-color: #004586;
+      
+            justify-content: center;
 
             .agrupa-info {
                 display: flex;
@@ -104,22 +106,25 @@
 
         .subcontainer2 {
             color: white;
-            background-image: url(../../public/assets/image/onda.PNG
-);
+            background-image: url(../../public/assets/image/onda.PNG);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 40% 50%;
             width: 100%;
-            height: 170vh;
+            height: 80vh;
             display: flex;
             flex-direction: column;
             align-items: center;
 
             h1 {
-                margin-bottom: 180px;
+                margin-bottom: 100px;
                 margin-top: 80px;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
 
             .servic {
                 width: 990px;
+                border-radius: 15px;
             }
         }
 
@@ -174,7 +179,7 @@
 
         .subcontainer {
 
-            background-image: url(../../public/assets/image/fundo-onda.png);
+            background-image: url(../../public/assets/image/fundo-ondaaa.png);
             background-position: 100% 0%;
             background-repeat: no-repeat;
             background-size: cover;
@@ -308,10 +313,6 @@
         }
 
 
-
-
-
-
     }
 
 
@@ -390,113 +391,67 @@
     }
 }
 
-@media (max-width: 768px) {
-    .mae {
-        max-width: 100%;
-    }
-
-    .cruz {
-        margin-left: -95px;
-    }
-
-    .cardd {
-        width: 280px;
-    }
 
 
-    .rodape {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 20vh;
-        background-color: #004586;
-    }
 
-    .bugado {
-        width: 768px;
+    // RESPONSE J
 
-        img {
+  
+    
+    
+    
+
+    @media (max-width: 768px) {
+        .mae {
+            max-width: 100%;
+        }
+    
+        .cruz {
+            margin-left: -95px;
+        }
+    
+        .cardd {
+            width: 280px;
+        }
+    
+    
+        .rodape {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 20vh;
+            background-color: #004586;
+        }
+        
+        .bugado{
             width: 768px;
+
+            img{
+                width: 768px;
+            }
         }
-    }
-
-    .agrupa-info {
-        display: flex;
-        flex-direction: row;
-        max-width: 100%;
-
-    }
-
-    .agrupa-info>div {
-        margin: 5px;
-    }
-
-
-    .infos {
-        display: flex;
-        flex-direction: row;
-        width: 150px;
-    }
-
-
-
-    .grupo-image>img {
-        cursor: pointer;
-    }
-}
-
-@media (max-width: 450px) {
-    .mae {
-        max-width: 100%;
-    }
-
-    .asvezes{
-        display: flex !important;
-    }
-
-    .rodape {
-        display: none !important;
-    }
-
-    .agrupa-info {
-        display: none;
-    }
-
-    .agrupa-titulos {
-        text-align: center;
-    }
-
-    .marquee {
-        height: 480px;
-    }
-
-    .subcontainer2 {
-        margin-top: -10px;
-        height: 800px !important;
-
-        h1 {
-            text-align: center;
+    
+        .agrupa-info {
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+    
         }
-    }
-
-    .bugado {
-        max-width: 100% !important;
-    }
-
-    .servic {
-
-
-        display: flex;
-
-        width: 450px !important;
-        height: 420px !important;
-        margin-top: -80px;
-
-        align-items: center !important;
-        justify-content: center !important;
-    }
-
-    .agrupa-info {
-        border: 1px solid red;
-    }
-}
+    
+        .agrupa-info>div {
+            margin: 5px;
+        }
+    
+    
+        .infos {
+            display: flex;
+            flex-direction: row;
+            width: 150px;
+        }
+    
+        
+    
+            .grupo-image>img {
+                cursor: pointer;
+            }
+        }

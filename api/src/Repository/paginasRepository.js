@@ -44,7 +44,7 @@ export async function Cadastrar(pessoa) {
 
 export async function CadastroAdm(email, senha){
 
-    let comando = `select   
+    let comando = `select   nm_nome nome     ,
                             ds_email   email ,
                             ds_senha  senha 
                     from    TB_ADMIN
@@ -61,17 +61,30 @@ export async function CadastroAdm(email, senha){
 
 export async function CadastrarProduto(produto) {
 
-        let comando = `insert into tb_produto (nm_produto,id_categoria,vl_preco_venda,qtd_estoque,ds_codigo_produto)
+
+        let comando = `insert into tb_produto (nm_produto,id_categoria,vl_preco_venda,qtd_estoque,ds_imagem)
         values (?, ?,? ,? ,?) ;`
+
 
         let r = await conexao.query(comando , [
             produto.nome ,
             produto.categoria,
             produto.preco,
+            produto.estoque, 
             produto.estoque,
-            produto.codigo
+            produto.imagem
         ])
 
         return r ;
 
+}
+
+export async function alterarImagem(imagem,id) {
+
+const comando = `update TB_PRODUTO
+set ds_imagem = ?   
+where id_produto =? ;`
+
+const [resposta] = await conexao.query(comando,[imagem , id])
+ resposta.affectedRows;
 }

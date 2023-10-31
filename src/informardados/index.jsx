@@ -22,6 +22,7 @@ export default function Informardados() {
                     </div>
 
 
+
                     <div className='infoinput'>
                          <div>
                             <input className='infonumero' type="text" name="" id="" placeholder='Número do Cartão' />

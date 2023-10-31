@@ -19,7 +19,7 @@ const [carregando, setCarregando] = useState (false)
 
 useEffect(() =>{
    if (storage('usuario-logado')) {
-    navigate('/')
+    navigate('/home')
    }
 },[])
 
@@ -42,7 +42,7 @@ async function Entrar() {
    storage('usuario-logado', r.data)
 
     setTimeout(() => {
-        navigate('/')
+        navigate('/home')
         },2500)
 
 
@@ -81,8 +81,8 @@ return (
                 </div>
                         
                         <div className='input-login'>
-                            <input type="text" placeholder='EMAIL' value={email} onChange={e => setEmail (e.target.value)}/>
-                            <input type="password" placeholder='SENHA' value={senha} onChange={e => setSenha (e.target.value)}/>
+                            <input className='inpl' type="text" placeholder='EMAIL' value={email} onChange={e => setEmail (e.target.value)}/>
+                            <input className='inpl' type="password" placeholder='SENHA' value={senha} onChange={e => setSenha (e.target.value)}/>
                         </div>
 
                 <div className='agrupa-botao'>
@@ -92,7 +92,8 @@ return (
                             <a href="/cadastro">CADASTRE-SE</a>
                         </div>
 
-                        <div>
+
+                        <div className='bte'>
                             <button onClick={Entrar} disabled={carregando}>ENTRAR</button>
                         </div>
                 </div>
