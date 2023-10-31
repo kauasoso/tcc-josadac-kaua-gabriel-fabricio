@@ -19,6 +19,20 @@
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: white;
     }
+
+    
+  }
+
+
+  @media (max-width:650) {
+    .grow{
+      display: flex;
+      flex-direction: row;
+    }
+
+    b{
+      display: none;
+    }
   }
 
   .redes {
