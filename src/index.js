@@ -23,6 +23,8 @@ import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
 import Cadastro from './cadastroCliente';
 import Produto from './produtos';
+import CadastroProduto from './ABC---PAGES---ADM/cadastro-produto';
+
 
 import Acessorios from './acessorios';
 import Ace1 from './detalhe-produto-acessorio/ace1';
@@ -220,7 +222,7 @@ root.render(
       <Route path='/comentario' element={<Comentario/>}/>
       <Route path='/homeadm' element={<HomeAdm/>}/>
       <Route path='/cadastro' element={<Cadastro/>}/>
-
+      <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
