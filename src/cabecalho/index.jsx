@@ -85,14 +85,16 @@ export default function Cabecalho() {
                     </div>
 
                         <div className='fundo'>
-                          ILUMINAÇÃO
+                        <a className='cor' href="/produto">FILTROS</a> 
                         </div>
 
             <div className='fundo'>
-               PISOS E REVESTIMENTOS
+            <a className='cor' href="/acess">ACESSORIOS</a> 
             </div>
         </div>
-
+        
+    </div>
+    </div>
     )
 
 
