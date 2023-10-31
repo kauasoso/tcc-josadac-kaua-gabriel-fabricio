@@ -265,7 +265,7 @@ export default function Home() {
 
                 <div className='asvezes'>
                     <Rodape />
-                </div>
+            </div>
 
 
                 <div className='rodape'>
