@@ -21,8 +21,8 @@ let navigate = useNavigate()
     const [categoria, setCategoria] = useState('');
     const [valor , setValor] = useState(''); 
     const [quantidade , setQuantidade] = useState ('') ;
-    const [imagem,setImagem]= useState('')
-    const[usuario, setUsuario] = useState('')
+    const [imagem, setImagem]= useState('')
+    const [usuario, setUsuario] = useState('')
 
 
   
@@ -50,19 +50,11 @@ let navigate = useNavigate()
 
     }
 
-   
-
-    function escolherimagem() {
- document.getElementById('imagemCapa').click()
-    }
-
-    function mostrarImagem () {
-      return URL.createObjectURL(imagem)
-
-    }
-
    async function SalvarProdutos () {
- 
+
+    try {
+        
+    
         let url = `http://localhost:5001/cadastroproduto`
 
         const produto = {
@@ -73,18 +65,18 @@ let navigate = useNavigate()
             imagem: imagem
         }
 
-        const formData = new FormData();
-        formData.append('capa', imagem)
+        let r = await axios.post(url, produto)
+           toast.dark('CADASTRADO COM SUCESSO !')
+        return r.status;
 
-        let r = await axios.post(url , produto, formData , {
-            headers:{
-                "Content-Type": "multipart/form-data"
-            }
-        })
+      
 
-        return r.status ;
-
+    } catch (error) {
+        
     }
+    }
+
+   
 
 
     return (
@@ -136,31 +128,18 @@ let navigate = useNavigate()
                  
                     <div className='d8'> 
                         <div className='input-4'>
+                            <input className='url' type="text" placeholder='URL DA IMAGEM !' value={imagem} onChange={e => setImagem (e.target.value)} />
                             <input type="text" placeholder='NOME DO PRODUTO' value={nome} onChange={e => setNome (e.target.value)} />
                             <input type="text" placeholder='CATEGORIA' value={categoria} onChange={e => setCategoria (e.target.value)}/>
                             <input type="text" placeholder='VALOR DO PRODUTO' value={valor} onChange={e => setValor (e.target.value)}/>
                             <input type="text" placeholder='QUANTIDADE' value={quantidade} onChange={e => setQuantidade (e.target.value)}/>
-                        </div>
 
-                        <div className='cinzaa'>
-                            <div className='cinza' onClick={escolherimagem} >
-
-                               {!imagem &&
-                                <img src="/assets/image/img-img.png" alt="" />
-                               }
-
-                              {imagem &&
-                               <img className='imagem' src={mostrarImagem()} alt="" />
-                              }
-
-                                <input type="file" id='imagemCapa' onChange={e => setImagem (e.target.files[0])} />
-                             </div>
-
-                             <div>
+                            <div>
                                 <button className='salvar' onClick={SalvarProdutos} >SALVAR</button>
                              </div>
 
                         </div>
+
 
                         
                     </div>   {/* final da tag "d8" */} 
@@ -194,3 +173,11 @@ let navigate = useNavigate()
     )
 }
 
+ // setProdutos([])
+ 
+        {/* <div className="consulta-produtos">
+            {produtos.map((item) => {
+                <img src={item.imagem} alt="" />
+                
+            })}
+        </div> */}
