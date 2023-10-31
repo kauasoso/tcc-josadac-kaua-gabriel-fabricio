@@ -12,18 +12,18 @@ export default function Cabecalho() {
     const navigate = useNavigate();
 
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        if (!storage('usuario-logado')) {
-            navigate('/login')
-        } else {
-            const usuarioLogado = storage('usuario-logado');
-            setUsuario(usuarioLogado)
-            console.log(usuarioLogado);
-        }
+    //     if (!storage('usuario-logado')) {
+    //         navigate('/login')
+    //     } else {
+    //         const usuarioLogado = storage('usuario-logado');
+    //         setUsuario(usuarioLogado)
+    //         console.log(usuarioLogado);
+    //     }
 
 
-    }, [])
+    // }, [])
 
 
     function sairclick() {
@@ -76,20 +76,20 @@ export default function Cabecalho() {
 
                 <div className='agrupa-categorias'>
                     <div className='fundo'>
-                        <p>AQUECIMENTO</p>
+                    <a className='cor' href="/iluminacoes">ILUMINAÇÃO</a> 
                     </div>
 
                     <div className='fundo'>
-                        <p> SAUNAS</p>
+                    <a className='cor' href="/Cascatas">CASCATAS</a> 
                     </div>
 
 
                     <div className='fundo'>
-                        <p> ILUMINAÇÃO</p>
+                    <a className='cor' href="/bombas">BOMBAS</a> 
                     </div>
 
                     <div className='fundo'>
-                        <p> PISOS E REVESTIMENTOS </p>
+                    <a className='cor' href="/produto">FILTROS</a> 
                     </div>
                 </div>
             </div>
