@@ -22,9 +22,9 @@ import { Grafico2 } from './graficomensal';
 import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
 import Cadastro from './cadastroCliente';
-import Produto from './produtos';
+import HomeLogin from './home-login-cadastro';
 import CadastroProduto from './ABC---PAGES---ADM/cadastro-produto';
-
+import LoginAdmin from './ABC---PAGES---ADM/loginAdm/loginAdm';
 
 import Acessorios from './acessorios';
 import Ace1 from './detalhe-produto-acessorio/ace1';
@@ -199,12 +199,12 @@ root.render(
 
 
 
-
+      <Route path= '/loginadm' element={<LoginAdmin/>}/>
       <Route path= '/pisos' element={<Pisos/>}/>
       <Route path='/iluminacao' element={<Iluminacao/>}/>
       <Route path='/acess' element={<Acessorios/>}/>
       <Route path='/limpeza' element={<Limpeza/>}/>
-      <Route path='/produto' element={<Produto/>}/>
+      {/* <Route path='/produto' element={<Produto/>}/> */}
       <Route path='/cabecalho' element={<Cabecalho/>}/>
       <Route path='/card' element={<Card/>}/>
       <Route path='/pedido' element={<Pedido/>}/>

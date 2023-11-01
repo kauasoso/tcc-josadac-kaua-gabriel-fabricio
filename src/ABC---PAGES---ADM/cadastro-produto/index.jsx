@@ -23,7 +23,7 @@ let navigate = useNavigate()
     const [quantidade , setQuantidade] = useState ('') ;
     const [imagem, setImagem]= useState('')
     const [usuario, setUsuario] = useState('')
-
+   const  [lista ,setLista] = useState ([])
 
   
 
@@ -76,6 +76,15 @@ let navigate = useNavigate()
     }
     }
 
+
+    async function ConsultarProduto() {
+
+        let url = 'http://localhost:5001/buscarporprodutos'
+      
+        let r = await axios.get(url)
+      
+        setLista(r.data)
+       }
    
 
 
@@ -147,22 +156,23 @@ let navigate = useNavigate()
                             <div className='h1-button'>
 
                                 <div>
-                                    <h1>CONSULTA :</h1>
+                                    <h1>CONSULTA:</h1>
                                 </div>
 
                                 <div className='input-lupa'>
-                                    <input type="text" />
-                                    <img className='lupa' src="/assets/image/imgLupaConsulta.png" alt="" />
+                                    <input type="text"/>
+                                    <img className='lupa' src="/assets/image/imgLupaConsulta.png" onClick={ConsultarProduto} alt="" />
                                 </div>
 
                             </div>
 
 
-                            <div className='page-table'>
+                            <div className='tabelas'>
                                <table>
 
                                   <thead>
                                           <tr>
+                                            <th>ID</th>
                                              <th>Nome</th>
                                              <th>Categoria</th>
                                              <th>Valor</th>
@@ -170,14 +180,25 @@ let navigate = useNavigate()
                                           </tr>
                                   </thead>
 
-                                    <tbody>
+                      {lista.map (item => {    
+                        
+                        return (
+                        <tbody>
                                          <tr>
-                                            <td>Aspirador</td>
-                                            <td>Aquecimento</td>
-                                            <td>12.000</td>
-                                            <td>3</td>
+                                            <td>{item.id_produto}</td>
+                                            <td>{item.nome}</td>
+                                            <td>{item.categoria}</td>
+                                            <td>{item.preco}</td>
+                                            <td>{item.quantidade}</td>
+                                            <td className='lado'><img className='img' src="./assets/image/caneta.png" alt="" />
+                                                                 <img className='img' src="./assets/image/excluirr.png" alt="" />
+                                             </td>
+                                            
                                          </tr>
-                                    </tbody>
+                        </tbody>
+                                   )
+                                        })}
+
 
                                </table>
 
