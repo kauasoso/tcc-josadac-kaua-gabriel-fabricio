@@ -157,6 +157,32 @@ let navigate = useNavigate()
 
                             </div>
 
+
+                            <div className='page-table'>
+                               <table>
+
+                                  <thead>
+                                          <tr>
+                                             <th>Nome</th>
+                                             <th>Categoria</th>
+                                             <th>Valor</th>
+                                             <th>Quantidade</th>
+                                          </tr>
+                                  </thead>
+
+                                    <tbody>
+                                         <tr>
+                                            <td>Aspirador</td>
+                                            <td>Aquecimento</td>
+                                            <td>12.000</td>
+                                            <td>3</td>
+                                         </tr>
+                                    </tbody>
+
+                               </table>
+
+                            </div>
+
                 </div> {/* final da tag "d9" */}
 
                 </div>

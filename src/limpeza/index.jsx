@@ -12,7 +12,7 @@ export default function Limpeza(){
         </div>
 <div className='tudo'>
     <div className='centralizar'>
-    <h1 className='prd'>PRODUTOS</h1>
+    <h1 className='prd'>LIMPEZA</h1>
 
     <nav>
             <h3>Filtros :</h3>
@@ -26,7 +26,7 @@ export default function Limpeza(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/limpeza1.png" alt="" />
-                <div className='line'></div>
+                <div className='line'>ㅤ</div>
 
                 <p className='txt'>SOLUÇÃO PARA ÁGUA TURVA HTH - 1 LITRO</p>
 
@@ -43,7 +43,7 @@ export default function Limpeza(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/limpeza2.png" alt="" />
-                <div className='line'></div>     
+                <div className='line'>ㅤ</div>     
                 <p className='txt'>LIMPA BORDAS HTH - 1 LITRO</p>
                 
 
@@ -61,7 +61,7 @@ export default function Limpeza(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/limpeza3.png" alt="" />
-                <div className='line'></div>  
+                <div className='line'>ㅤ</div>  
                 <p className='txt'>ELEVADOR DE ALCALINIDADE E CONTROLE  DE PH HTH SACO 2KG</p>
 
                 <h1 className='preco'>R$ 90,26</h1>
@@ -78,7 +78,7 @@ export default function Limpeza(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/limpeza4.png" alt="" />
-                <div className='line'></div>     
+                <div className='line'>ㅤ</div>     
                 <p className='txt'>REDUTOR DE ALCALINIDADE E PH EXTRA FORTE 1 LITRO HTH </p>
                 
 
@@ -94,7 +94,7 @@ export default function Limpeza(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/limpeza5.png" alt="" />
-                <div className='line'></div>    
+                <div className='line'>ㅤ</div>    
                 <p className='txt'>BARRILHA LEVE ELEVADOR DE PH EM PÓ SACO 1.5K HTH</p>
 
                 <h1  className='preco'>R$ 76,99</h1>
@@ -111,7 +111,7 @@ export default function Limpeza(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/limpeza6.png" alt="" />
-                <div className='line'></div> 
+                <div className='line'>ㅤ</div> 
 
                 <p className='txt'>FLUTUADOR CLORO HTH TABLETE ADVANCED 4 EM 1 - 1,660KG HTH</p>
 
