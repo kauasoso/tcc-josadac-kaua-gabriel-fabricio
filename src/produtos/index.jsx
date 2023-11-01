@@ -12,7 +12,6 @@ export default function Produto() {
                 <div className='centralizar'>
                     <h1 className='prd'>FILTROS</h1>
 
-            GABRIELLLLL AAAAAAAAAAAAAAAA👺👹👺👹👹👺👹👹👺👺👹👹👹
 
                     <nav>
                         <h3>Filtros :</h3>
