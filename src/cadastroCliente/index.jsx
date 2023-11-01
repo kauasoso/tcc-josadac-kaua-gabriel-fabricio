@@ -4,7 +4,8 @@ import './index.scss';
 import { useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import LoadingBar from 'react-top-loading-bar';
-
+import storage from 'local-storage';
+import { useEffect } from 'react';
 
 
 export default function Cadastro() {
@@ -18,6 +19,11 @@ export default function Cadastro() {
     const navigate = useNavigate();
     const ref = useRef();
 
+    useEffect(() =>{
+        if (storage('usuario-cadastrado')) {
+         navigate('/home')
+        }
+     },[])
 
     async function CadastrarCliente() {
         ref.current.continuousStart()
@@ -35,8 +41,10 @@ export default function Cadastro() {
 
             
             const r = await axios.post(url, pessoa)
+            storage('usuario-cadastrado', r.data)
 
             setTimeout(() => {
+                if(storage('usuario-cadastrado'))
                 navigate('/home')
             }, 3000)
 
@@ -62,12 +70,9 @@ export default function Cadastro() {
             <div className="container-login">
                 <nav>
                     <div>
-                        <img className='img-logo' src="../assets/image/logo.png" alt="" />
+                        <img className='img-logo' src="../assets/image/logomelhor.png" alt="" />
                     </div>
-                    <div className='adm-login'>
-                        <img className='config-adm' src="../assets/image/admconfig.png" alt="" />
-                        <h3 >ADMINISTRADOR</h3>
-                    </div>
+                  
                 </nav>
 
 

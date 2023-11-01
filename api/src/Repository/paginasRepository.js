@@ -71,7 +71,6 @@ export async function CadastrarProduto(produto) {
             produto.categoria,
             produto.preco,
             produto.estoque, 
-            produto.estoque,
             produto.imagem
         ])
 

@@ -280,9 +280,9 @@ export default function HomeLogin () {
                             <div className="infos">
                                 <div className='grupo'>
                                     <h2>Atendimento</h2>
-                                    <p className=''><img src="../assets/image/local.png" alt="" /> Rua Getúlio Vargas, 314 SP</p>
-                                    <p><img src="../assets/image/tell.png" alt="" /> 11 9 1234-5678</p>
-                                    <p><img src="../assets/image/email.png" alt="" /> poolmax@gmail.com</p>
+                                    <p className=''><img className='img-32' src="../assets/image/locallll.png" alt="" /> Rua Getúlio Vargas, 314 SP</p>
+                                    <p><img className='img-32' src="../assets/image/telefone.png" alt="" /> 11 9 1234-5678</p>
+                                    <p><img className='img-32' src="../assets/image/emailll.png" alt="" /> poolmax@gmail.com</p>
                                 </div>
     
                                 <div className='line'>

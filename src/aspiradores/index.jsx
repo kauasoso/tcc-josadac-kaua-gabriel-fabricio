@@ -45,7 +45,7 @@ export default function Aspiradores(){
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                     </section>
-                <button>COMPRAR AGORA</button>
+                    <a className='ahome' href="/asp1"><button>COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
@@ -62,7 +62,7 @@ export default function Aspiradores(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/asp2"><button>COMPRAR AGORA</button></a>
              </div>
 
             <div className='abc'>
@@ -80,7 +80,7 @@ export default function Aspiradores(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a className='ahome' href="/asp3"><button>COMPRAR AGORA</button></a>
             </div>
 
         </section>
