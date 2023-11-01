@@ -94,3 +94,85 @@
 }
     
 }
+
+
+
+
+
+@media (max-width: 982px){
+
+
+    .statusverde{
+
+
+
+        .statussinal{
+           position: relative;
+           left: 178px;
+        }
+
+        .direita{
+            position: relative;
+            left: 142px;
+        }
+    }
+
+
+
+}
+
+
+@media (max-width: 920px){
+
+
+
+    .statusverificado{
+
+
+
+
+        .statusagrupa{
+
+
+
+
+
+
+        }
+        .statusverde{
+            width: 43vw !important;
+
+
+            .statussinal{
+                position: relative;
+                left: 134px;
+                height: 70px !important;
+                width: 70px !important;
+                top: 10px;
+            }
+
+
+            .direita{
+                position: relative;
+                left: 95px;
+                height: 70px !important;
+                width: 70px !important;
+                top: 7px;
+            }
+        }
+
+
+        .statuscinza{
+            width: 45vw !important;
+
+
+            .statusboia{
+                position: relative;
+                left: 7px;
+                height: 70px !important;
+                width: 70px !important;
+                top: 10px;
+            }
+        }
+    }
+}
