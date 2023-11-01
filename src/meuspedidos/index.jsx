@@ -10,7 +10,8 @@ export default function Pedido () {
         <div className='mae-pedidos'>
             <Cabecalho2/>
           <div className="containerPedido">
-              <h1>MEUS PEDIDOS</h1>
+
+              <h1>CARRINHO</h1> 
 
               <div className='agrupa-card'>
                   <Card/>

@@ -15,7 +15,7 @@ export default function Iluminacao(){
         </div>
 <div className='tudo'>
     <div className='centralizar'>
-    <h1 className='prd'>PRODUTOS</h1>
+    <h1 className='prd'>ILUMINAÇÃO</h1>
 
     <nav>
             <h3>Filtros :</h3>
@@ -29,7 +29,7 @@ export default function Iluminacao(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/ilu-1.png" alt="" />
-                <div className='line'></div>
+                <div className='line'>ㅤㅤ</div>
 
                 <p className='txt'>REFLETOR GLOBAL</p>
 
@@ -46,7 +46,7 @@ export default function Iluminacao(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/ilu-2.png" alt="" />
-                <div className='line'></div>     
+                <div className='line'>ㅤ</div>     
                 <p className='txt'>REFLETOR R125</p>
                 
 
@@ -64,7 +64,7 @@ export default function Iluminacao(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/ilu-3.png" alt="" />
-                <div className='line'></div>  
+                <div className='line'>ㅤ</div>  
                 <p className='txt'>REFLETOR SUPER LED'S G</p>
 
                 <h1 className='preco'>R$390,00</h1>
@@ -81,7 +81,7 @@ export default function Iluminacao(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/ilu-4.png" alt="" />
-                <div className='line'></div>     
+                <div className='line'>ㅤ</div>     
                 <p className='txt'>REFLETOR SUPER SMD G</p>
                 
 
@@ -97,7 +97,7 @@ export default function Iluminacao(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/ilu-5.png" alt="" />
-                <div className='line'></div>    
+                <div className='line'>ㅤ</div>    
                 <p className='txt'>REFLETOR SLIM LED'S</p>
 
                 <h1  className='preco'>R$150,00</h1>
@@ -114,7 +114,7 @@ export default function Iluminacao(){
 
             <div className='abc'>
             <img className='imagi' src="/assets/image/ilu-6.png" alt="" />
-                <div className='line'></div> 
+                <div className='line'>ㅤ</div> 
 
                 <p className='txt'>REFLETOR SMALL LED'S EM INOX DE 1/2</p>
 
