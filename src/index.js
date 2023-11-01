@@ -56,7 +56,6 @@ import Ilu1 from './detalhe-produto-iluminacao/ilu1';
 import Ilu2 from './detalhe-produto-iluminacao/ilu2';
 import Ilu3 from './detalhe-produto-iluminacao/ilu3';
 import Ilu4 from './detalhe-produto-iluminacao/ilu4';
-import Ilu5 from './detalhe-produto-iluminacao/ilu5';
 import Ilu6 from './detalhe-produto-iluminacao/ilu6';
 import Iluminacao from './iluminacao';
 
