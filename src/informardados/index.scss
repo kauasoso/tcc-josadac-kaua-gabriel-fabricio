@@ -132,3 +132,118 @@ font-size: 18px;
 
 
 }
+
+
+
+@media (max-width: 850px){
+
+
+
+
+    .informacoesinicio{
+        margin-left: 1255px;
+        margin-bottom: 80px !important;
+
+
+
+        h1{
+            width: 50vw;
+        }
+    }
+
+    .infolabel{
+        margin-bottom: 40px ;
+    }
+
+    .infoinput{
+        margin-right: 10px;
+        margin-bottom: 35px !important;
+    }
+} 
+
+
+
+@media (max-width: 778px){
+
+
+    .informacoesinicio{
+
+
+        margin-right: -15px !important;
+
+
+        h1{
+            width: 60vw;
+        }
+    }
+
+
+}
+
+
+
+@media (max-width: 630px){
+
+
+
+
+    .informacoesinicio{
+
+        h1{
+            width: 70vw;
+        }
+    }
+
+}
+
+
+
+
+@media (max-width: 554px){
+
+
+    .informacoesinicio{
+
+
+
+        h1{
+            width: 80vw;
+        }
+    }
+
+}
+
+
+@media (max-width: 480px){
+
+
+
+    .informacoesinicio{
+
+
+
+        h1{
+            width: 90vw;
+        }
+    }
+
+
+    .infocartao{
+        position: relative;
+        top: -58px !important;
+        left: 350px;
+    }
+    }
+
+
+    @media (max-width: 430px){
+
+        .informacoesinicio{
+
+
+
+            h1{
+                width: 100vw;
+            }
+        }
+    }

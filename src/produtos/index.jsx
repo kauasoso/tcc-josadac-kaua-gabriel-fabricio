@@ -17,6 +17,8 @@ export default function Produto(){
         <select name="" id="filtro">
             <option>+FILTROS</option>
         </select>
+
+        <option ></option>
         </nav>
         
         
