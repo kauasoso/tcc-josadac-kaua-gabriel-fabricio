@@ -57,6 +57,8 @@ async function Entrar() {
 
 }
 
+
+
     
 
 return (
@@ -67,10 +69,10 @@ return (
                 <div>
                 <img className='img-logo' src="../assets/image/logo.png" alt="" />
                 </div>
-                    <div className='adm-login'>
+                    <a href='/loginadm' className='adm-login' >
                         <img src="../assets/image/admconfig.png" alt="" />
                         <h3 >ADMINISTRADOR</h3>
-                    </div>
+                    </a>
             </nav>
 
  
