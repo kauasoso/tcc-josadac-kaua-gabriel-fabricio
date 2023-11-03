@@ -69,14 +69,12 @@ return (
                 <div>
                 <img className='img-logo' src="../assets/image/logo.png" alt="" />
                 </div>
-<<<<<<< HEAD
                     <a href='/loginadm' className='adm-login' >
                         <img src="../assets/image/admconfig.png" alt="" />
                         <h3 >ADMINISTRADOR</h3>
                     </a>
-=======
 
->>>>>>> d6c3ca17effc49b00c3d8f9d38ade3eca46a3774
+
             </nav>
 
  
