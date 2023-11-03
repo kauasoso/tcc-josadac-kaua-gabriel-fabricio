@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { Buscar , Cadastrar, CadastrarProduto, CadastroAdm, Login } from "../Repository/paginasRepository.js";
+import { Buscar , BuscarPorCategoria, BuscarPorProduto, Cadastrar, CadastrarProduto, CadastroAdm, Login } from "../Repository/paginasRepository.js";
 
 
 let endpoints = Router();
@@ -131,8 +131,27 @@ try {
 
 
 
+endpoints.get('/buscarporprodutos', async (req,resp) => {
+  try {
+  const resposta = await BuscarPorProduto();
+  resp.send(resposta);
+  } catch (err) {
+      
+      
+  }
+  
+  })
+
+endpoints.get('/buscarporcategoria/:id', async (req,resp) => {
+
+   const id = Number(req.params.id)
+    
+   const r = await BuscarPorCategoria(id);
+
+   resp.send(r)
 
 
+})
 
 
 

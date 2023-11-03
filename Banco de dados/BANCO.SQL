@@ -3,7 +3,6 @@ create database conexaoDB;
 use conexaoDB ;
 
 
-
 CREATE TABLE TB_CADASTRO_CLIENTE (
 	id_cliente  INT PRIMARY KEY auto_increment,
 	nm_nome varchar(200),
@@ -14,16 +13,16 @@ CREATE TABLE TB_CADASTRO_CLIENTE (
 );
 
 INSERT INTO TB_CADASTRO_CLIENTE (NM_NOME,DS_CPF,DS_EMAIL,DS_TELEFONE,DS_SENHA) 
-      VALUES           ('FaFas' , '52097117813', 'adm', '11946986302' ,'adm'),
-                       ('Gabriel' , '56743234565', 'adm', '1193123123' ,'123');
+      VALUES           ('Gabriel' , '56743234565', 'adm', '1193123123' ,'123');
 
 select ds_email   email ,
        ds_senha  senha 
        from TB_CADASTRO_CLIENTE
-       WHERE ds_email = 'adm' and
-			ds_senha  = 'adm';
+       WHERE ds_email = 'adm@admin.com' and
+			ds_senha  = 'adm123';
 
 select * from TB_CADASTRO_CLIENTE ;
+
 
 
 
@@ -124,15 +123,19 @@ CREATE TABLE TB_ENDERECO (
 	id_categoria int ,
     vl_preco_venda decimal (8.3),
 	qtd_estoque integer,
-    ds_codigo_produto varchar(200),
+    ds_imagem   varchar(1000),
     
     FOREIGN KEY (ID_CATEGORIA) REFERENCES TB_CATEGORIA (ID_CATEGORIA)
 );
 
-insert into tb_produto (nm_produto,id_categoria,vl_preco_venda,qtd_estoque,ds_codigo_produto)
-				values ('Aspirador Shark', '2', 41.000 , 10 ,157157157) ;
+select*from tb_produto ;
+
+insert into tb_produto (nm_produto,id_categoria,vl_preco_venda,qtd_estoque,ds_imagem)
+				values ('Aspirador Shark', '2', 41.000 , 10 , '' ) ;
 
 select*from tb_produto ;
+
+
 
 
 CREATE TABLE TB_PRODUTO_IMAGEM (
@@ -142,7 +145,7 @@ CREATE TABLE TB_PRODUTO_IMAGEM (
     
     FOREIGN KEY (ID_PRODUTO) REFERENCES TB_PRODUTO (ID_PRODUTO)
 );
-
+drop table TB_PRODUTO_IMAGEM;
 
 
 CREATE TABLE TB_CATEGORIA (
@@ -159,9 +162,16 @@ insert into tb_categoria (nm_categoria)
 
 CREATE TABLE TB_ADMIN (
 	id_admin int PRIMARY KEY AUTO_INCREMENT ,
+    nm_nome varchar(200),
 	ds_email varchar(200),
 	ds_senha varchar(200)
 );
+
+
+insert into tb_admin (nm_nome ,ds_email,ds_senha)
+    values           ('josadac', 'adm', '123');
+
+select * from tb_admin ;
 
 
 CREATE TABLE TB_CARTAO (

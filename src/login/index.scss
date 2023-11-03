@@ -77,13 +77,18 @@
                 width: 480px !important;
 
 
-
-                p {
+                .agrupa-p {
+                  display: flex;
+                  flex-direction: column;
+                a {
+                    
+                    cursor: pointer;
+                    text-decoration: none;
                     color: white;
                     margin-bottom: 9px;
                 }
 
-
+            }
 
                 button {
                     width: 210px !important;
@@ -173,7 +178,7 @@
         .agrupa-p{
             margin-left: 20px !important;
         }
-
+        
         
     }
 }

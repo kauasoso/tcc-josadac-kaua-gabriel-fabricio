@@ -61,14 +61,16 @@ export async function CadastroAdm(email, senha){
 
 export async function CadastrarProduto(produto) {
 
+
         let comando = `insert into tb_produto (nm_produto,id_categoria,vl_preco_venda,qtd_estoque,ds_imagem)
         values (?, ?,? ,? ,?) ;`
+
 
         let r = await conexao.query(comando , [
             produto.nome ,
             produto.categoria,
             produto.preco,
-            produto.estoque,
+            produto.estoque, 
             produto.imagem
         ])
 
@@ -85,3 +87,36 @@ where id_produto =? ;`
 const [resposta] = await conexao.query(comando,[imagem , id])
  resposta.affectedRows;
 }
+
+
+export async function BuscarPorProduto() {
+
+    let comando = `select id_produto,
+    nm_produto  nome ,
+    vl_preco_venda preco,
+    id_categoria  categoria,
+    qtd_estoque   quantidade  
+    from tb_produto  ;
+`      
+
+
+    const [info] = await conexao.query(comando)
+
+    return info ;
+   
+   }
+
+
+   export async function BuscarPorCategoria(id) {
+
+    let comando = `select nm_produto nome , 
+	id_categoria categoria,
+     vl_preco_venda preco,
+     qtd_estoque quantidade
+     from tb_produto where id_categoria = ?`
+
+     const [info] = await conexao.query(comando , [id])
+   
+     return info;
+ 
+   }

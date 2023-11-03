@@ -1,6 +1,12 @@
 .mae {
 
 
+
+    .ahome{
+        color: #000000;
+        text-decoration: none;
+    }
+
     .container {
 
         display: flex;
@@ -27,7 +33,9 @@
             }
         }
 
-
+        .asvezes{
+            display: none;
+        }
 
         .slide {
             width: 800px;
@@ -39,8 +47,10 @@
             display: flex;
             flex-direction: row;
             width: 100%;
-            height: 50vh;
+            height: 30vh;
             background-color: #004586;
+      
+            justify-content: center;
 
             .agrupa-info {
                 display: flex;
@@ -107,19 +117,20 @@
             background-size: cover;
             background-position: 40% 50%;
             width: 100%;
-            height: 100vh;
+            height: 80vh;
             display: flex;
             flex-direction: column;
             align-items: center;
 
             h1 {
-                margin-bottom: 180px;
+                margin-bottom: 100px;
                 margin-top: 80px;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
 
             .servic {
                 width: 990px;
+                border-radius: 15px;
             }
         }
 
@@ -147,6 +158,9 @@
 
         }
 
+
+
+
         .agrupa-piscinas-2 {
 
             display: flex;
@@ -171,7 +185,7 @@
 
         .subcontainer {
 
-            background-image: url(../../public/assets/image/fundo-onda.png);
+            background-image: url(../../public/assets/image/fundo-ondaaa.png);
             background-position: 100% 0%;
             background-repeat: no-repeat;
             background-size: cover;
@@ -327,7 +341,7 @@
         max-width: 100%;
     }
 
-    
+
 }
 
 @media (max-width: 850px) {
@@ -351,9 +365,9 @@
         height: 20vh;
         background-color: #004586;
     }
-    
-    .servic{
-        width: 850px;
+
+    .servic {
+        width: 850px !important;
     }
 
     .agrupa-info {
@@ -374,12 +388,14 @@
         width: 150px;
     }
 
-    
-
-        .grupo-image>img {
-            cursor: pointer;
-        }
+    .bugado {
+        width: 850px;
     }
+
+    .grupo-image>img {
+        cursor: pointer;
+    }
+}
 
 
 
@@ -433,7 +449,6 @@
         }
     
     
-        
         .infos {
             display: flex;
             flex-direction: row;
@@ -446,4 +461,3 @@
                 cursor: pointer;
             }
         }
-

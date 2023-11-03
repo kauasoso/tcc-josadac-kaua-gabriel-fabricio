@@ -1,0 +1,62 @@
+.mae-cabecalhosemapi{
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../public/assets/image/fundo-cabecalho.png);
+    width: 100%;
+    height: 15vh;
+    background-size: cover;
+    padding: 10px 55px 10px 15px ;
+
+    .logo {
+        width: 200px;
+        height: 12vh;
+    }
+
+    .agrupa-a {
+      display: flex;
+      flex-direction: row;
+      width: 500px;
+    }
+
+    .ab:hover  {
+        transition: 0.7s;
+        color: rgb(168, 168, 168);
+        border: 1px solid rgb(165, 165, 165);
+        box-shadow: 1px 1px 10px 1px rgb(151, 151, 151);
+    }
+
+    .cd:hover {
+        transition: 0.7s;
+        color: rgb(168, 168, 168);
+        border: 1px solid rgb(165, 165, 165);
+        box-shadow: 1px 1px 10px 1px rgb(228, 228, 228);
+    }
+    .ef:hover {
+        transition: 0.7s;
+        color: rgb(168, 168, 168);
+        border: 1px solid rgb(165, 165, 165);
+        box-shadow: 1px 1px 10px 1px rgb(228, 228, 228);
+    }
+    
+    
+    a {
+        display: flex;
+        border: 1px solid white;
+        align-items: center;
+        font-size: 20px;
+        padding: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        text-decoration: none;
+        margin-right: 30px;
+        color: white;
+        transition: 0.7s;
+        border-radius: 7px;
+    }
+}
+
+
+}
