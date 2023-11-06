@@ -120,3 +120,29 @@ export async function BuscarPorProduto() {
      return info;
  
    }
+
+
+
+
+   export async function AlterarProduto(item , id) {
+     let comando = `update tb_produto 
+     set   nm_produto   = ? ,
+           id_categoria = ? ,
+        vl_preco_venda  = ? ,
+           qtd_estoque  = ? ,
+           ds_imagem    = ?
+     where id_produto   = ? ` 
+
+
+    const[info] = await conexao.query(comando ,
+         [item.produto    ,
+          item.categoria  ,
+          item.preco      ,
+          item.quantidade ,
+          item.imagem     ,
+          id
+        ])
+ 
+     info.affectedRows ;
+
+   }
