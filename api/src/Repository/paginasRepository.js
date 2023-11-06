@@ -96,7 +96,8 @@ export async function BuscarPorProduto() {
     vl_preco_venda preco,
     id_categoria  categoria,
     qtd_estoque   quantidade  
-    from tb_produto  ;
+    from tb_produto
+    order by id_categoria
 `      
 
 
@@ -109,7 +110,9 @@ export async function BuscarPorProduto() {
 
    export async function BuscarPorCategoria(id) {
 
-    let comando = `select nm_produto nome , 
+    let comando = `select
+    id_produto id_produto ,
+    nm_produto nome , 
 	id_categoria categoria,
      vl_preco_venda preco,
      qtd_estoque quantidade
@@ -145,4 +148,13 @@ export async function BuscarPorProduto() {
  
      info.affectedRows ;
 
+   }
+   export async function Deletar (id) {
+
+      let comando = `  delete from tb_produto
+      where id_produto = ?`;
+
+      const [resposta] = await conexao.query(comando , [id])
+
+      return resposta.affectedRows ;
    }
