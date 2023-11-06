@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
+import 'react-toastify/dist/ReactToastify.css';
+import 'react-confirm-alert/src/react-confirm-alert.css';
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -25,6 +27,10 @@ import Cadastro from './cadastroCliente';
 import HomeLogin from './home-login-cadastro';
 import CadastroProduto from './ABC---PAGES---ADM/cadastro-produto';
 import LoginAdmin from './ABC---PAGES---ADM/loginAdm/loginAdm';
+
+
+
+
 
 import Acessorios from './acessorios';
 import Ace1 from './detalhe-produto-acessorio/ace1';
