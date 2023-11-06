@@ -1,6 +1,5 @@
 import { Router } from "express";
-import { AlterarProduto, Buscar , BuscarPorCategoria, BuscarPorProduto, Cadastrar, CadastrarProduto, CadastroAdm, Login } from "../Repository/paginasRepository.js";
-import { Buscar , BuscarPorCategoria, BuscarPorProduto, Cadastrar, CadastrarProduto, CadastroAdm, Deletar, Login } from "../Repository/paginasRepository.js";
+import { AlterarProduto, Buscar , BuscarPorCategoria, BuscarPorProduto, Cadastrar, CadastrarProduto, CadastroAdm, Deletar, Login } from "../Repository/paginasRepository.js";
 
 
 let endpoints = Router();
