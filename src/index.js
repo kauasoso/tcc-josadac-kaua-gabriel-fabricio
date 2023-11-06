@@ -97,6 +97,7 @@ import Cascatas from './cascatas';
 import ILu5 from './detalhe-produto-iluminacao/ilu5';
 import Aquecimentos from './aquecimento';
 import Bombas from './bombas';
+import Produto from './produtos';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -203,7 +204,7 @@ root.render(
       <Route path='/iluminacao' element={<Iluminacao/>}/>
       <Route path='/acess' element={<Acessorios/>}/>
       <Route path='/limpeza' element={<Limpeza/>}/>
-      {/* <Route path='/produto' element={<Produto/>}/> */}
+       <Route path='/produto' element={<Produto/>}/> 
       <Route path='/cabecalho' element={<Cabecalho/>}/>
       <Route path='/card' element={<Card/>}/>
       <Route path='/pedido' element={<Pedido/>}/>
