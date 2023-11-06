@@ -1,5 +1,5 @@
 
-.mae-adm {
+.mae-admm {
 
 .container {
 
@@ -13,6 +13,11 @@ flex-direction: row;
     width: 400px ;
     height: 130vh;
     background-color: #1A417C;
+
+#agenda-azul {
+  background-color: #164FA6;
+}
+
 
  .agendaa{
  display: flex; 
@@ -178,6 +183,14 @@ background-color: rgb(56, 69, 255);
        padding: 15px;
      }
 
+     button {
+      border-radius: 5px;
+      font-size: 20px;
+      color: white;
+      background-color:#a7a7a7 ;
+      width: 280px;
+       padding: 15px;
+     }
 
      .lupa {
       position: relative;
