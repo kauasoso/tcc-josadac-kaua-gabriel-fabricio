@@ -652,6 +652,132 @@
 
 
 
-@media  (max-width: 1366px) {
+@media  (max-width: 1092px) {
   
+
+.c1{
+    height: 43vh !important;
+}
+
+
+
+.c2{
+  height: 43vh !important;
+}
+
+
+
+.c3{
+  height: 43vh !important;
+}
+
+
+.c4{
+  height: 43vh !important;
+}
+
+
+.frete{
+  width: 14vw;
+}
+
+
+.descricao{
+  margin-top: 20px;
+}
+
+
+
+}
+
+
+@media  (max-width: 976px) {
+
+  .descricao{
+    position: relative;
+    top: 35px;
+  }
+
+
+  .frete{
+    width: 10vw;
+  }
+}
+
+
+
+@media  (max-width: 916px) {
+
+.c4{
+  height: 44.5vh !important;
+}
+}
+
+
+
+@media  (max-width: 848px) {
+  
+
+  .titulo{
+    margin-bottom: 115px !important;
+    position: relative;
+    top: 90px;
+  }
+
+
+  .b3{
+    position: relative;
+    top: 270px;
+    
+  }
+
+  .preco{
+   position: relative;
+   top: 24px;
+  }
+
+
+  
+
+}
+
+
+
+@media  (max-width: 764px) {
+
+  .comprar{
+    position: relative;
+    top: -20px;
+    right: 30px;
+  }
+
+
+  .preco{
+
+
+    position: relative;
+    
+    right: 30px;
+  }
+}
+
+
+@media  (max-width: 668px) {
+
+
+  .comprar{
+    position: relative;
+    top: -42px;
+    right: 40px;
+  }
+
+
+  .preco{
+
+
+    position: relative;
+    top: 10px;
+    right: 60px;
+  }
+
 }
