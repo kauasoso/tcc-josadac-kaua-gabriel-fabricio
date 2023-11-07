@@ -244,20 +244,9 @@ export default function Home() {
                 <div className='subcontainer2'>
 
                     <h1>UM POUCO DE NOSSOS SERVIÇOS !</h1>
-<<<<<<< HEAD
-=======
-            
-            
-            <div className='antes'>
-                <img className='servic' src="../assets/image/servic.png" alt="" />
-            </div>
-            
-            </div>
-    
->>>>>>> 2bc0a57eec4f4632f3a3950bc18fcb49ee344302
 
 
-                    <div>
+                    <div className='x9'>
                         <img className='servic' src="../assets/image/servic.png" alt="" />
                     </div>
 

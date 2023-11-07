@@ -141,7 +141,9 @@
             }
 
             .servic {
-                width: 90px !important;
+                margin-top: -70px;
+                height: 320px !important;
+                width: 550px !important;
                 border-radius: 15px;
             }
         }
@@ -378,9 +380,6 @@
         background-color: #004586;
     }
 
-    .servic {
-        width: 850px !important;
-    }
 
     .agrupa-info {
         display: flex;
@@ -467,6 +466,12 @@
         width: 150px;
     }
 
+
+    .x9{
+        width: 50px !important;
+        height: 50px !important;
+        border: solid red 1px;
+    }
 
 
     .grupo-image>img {
