@@ -147,7 +147,7 @@
                             </div>
 
                             <div>
-                                <h2>DISPOSITIVOS E ACESSÓRIOS</h2>
+                                <h2>ACESSÓRIOS</h2>
                                 <img className='cruz' src="./assets/image/cruz.png" alt="" />
                             </div></a>
                         </div>
@@ -246,7 +246,7 @@
                     <h1>UM POUCO DE NOSSOS SERVIÇOS !</h1>
             
             
-            <div>
+            <div className='antes'>
                 <img className='servic' src="../assets/image/servic.png" alt="" />
             </div>
             
