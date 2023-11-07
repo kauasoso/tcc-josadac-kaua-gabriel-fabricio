@@ -38,7 +38,7 @@ O Revestimento para Piscina Pool Dark Blue 14x14cm Artens é uma ótima opção 
 
                 <h2 className='preco'>R$ 689,99</h2>
 
-                <button className='comprar'>COMPRAR AGORA</button>
+                <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
               
             </div>
 

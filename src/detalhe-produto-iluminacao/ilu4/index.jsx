@@ -35,7 +35,7 @@ export default function Ilu4(){
 
                         <h2 className='preco'>R$ 330,00</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                       
                     </div>
             

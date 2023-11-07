@@ -29,7 +29,7 @@ A bomba filtro Intex para piscinas de 2.006 litros/hora e 110V é um equipamento
 
                     <h2 className='preco'>R$ 417,80</h2>
 
-                    <button className='comprar'>COMPRAR AGORA</button>
+                    <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                 
                 </div>
 

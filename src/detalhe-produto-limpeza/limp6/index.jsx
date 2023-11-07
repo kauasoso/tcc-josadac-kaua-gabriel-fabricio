@@ -34,7 +34,7 @@ O Flutuador Cloro HTH Tablete Advanced 4 em 1 - 1,660kg HTH é um produto para t
 
                         <h2 className='preco'>R$320,00</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                       
                     </div>
             

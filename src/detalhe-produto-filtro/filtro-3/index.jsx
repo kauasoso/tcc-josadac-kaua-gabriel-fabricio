@@ -29,7 +29,7 @@ A Peneira Sodramar Puça com Armação Bomba de Filtragem 2006L/H Bel 110V é um
 
                     <h2 className='preco'>R$ 431,12</h2>
 
-                    <button className='comprar'>COMPRAR AGORA</button>
+                    <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                 
                 </div>
 

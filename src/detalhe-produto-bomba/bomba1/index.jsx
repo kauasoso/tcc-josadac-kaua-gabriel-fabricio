@@ -36,7 +36,7 @@ Bomba filtrante para piscina inflável é um equipamento essencial para manter a
 
                         <h2 className='preco'>R$ 2.321,91</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                         
                     </div>
             
