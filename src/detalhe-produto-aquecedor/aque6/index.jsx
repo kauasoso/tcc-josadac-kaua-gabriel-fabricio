@@ -55,7 +55,7 @@ export default function Aque6() {
                         </div>
                     </div>
                     <div className='c2'>
-                        <img className='imagizi' src="/assets/image/aque-3.png" alt="" />
+                        <img className='imagizi' src="/assets/image/aquecedor-3.png" alt="" />
                         <h4 className='ds'>PLACA SOLAR GIRASSOL</h4>
                         <h5 className='prc'>R$ 782,46</h5>
                         <div className='branco'>
@@ -73,7 +73,7 @@ export default function Aque6() {
                         </div>
                     </div>
                     <div className='c4'>
-                        <img className='imagizi' src="/assets/image/aque-4.png" alt="" />
+                        <img className='imagizi' src="/assets/image/aquecedor-4.png" alt="" />
                         <h4 className='ds'>CAPA TÉRMICA SOL +GUARD</h4>
                         <h5 className='prc'>R$ 403,53</h5>
                         <div className='branco'>

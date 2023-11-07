@@ -69,7 +69,7 @@ export default function Aque3(){
                         </div>
                         </div>
                         <div className='c3'>
-                            <img className='imagizi' src="/assets/image/aque-4.png" alt="" />
+                            <img className='imagizi' src="/assets/image/aquecedor-4.png" alt="" />
                             <h4 className='ds'>CAPA TÉRMICA SOL +GUARD</h4>
                             <h5 className='prc'>R$ 403,53</h5>
                             <div className='branco'>
@@ -78,7 +78,7 @@ export default function Aque3(){
                         </div>
                         </div>
                         <div className='c4'>
-                            <img className='imagizi' src="/assets/image/aque-5.png" alt="" />
+                            <img className='imagizi' src="/assets/image/aquecedor-5.png" alt="" />
                             <h4 className='ds'>PLACA SOLAR ESTEIRA</h4>
                             <h5 className='prc'>R$ 1246,00</h5>
                             <div className='branco'>
