@@ -51,7 +51,7 @@ export default function Acessorios() {
                         </section>
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/ace1"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -77,7 +77,7 @@ export default function Acessorios() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/ace2"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -101,7 +101,7 @@ export default function Acessorios() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/ace3"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -125,7 +125,7 @@ export default function Acessorios() {
                         </section>
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/ace4"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -150,7 +150,7 @@ export default function Acessorios() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/ace5"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -176,7 +176,7 @@ export default function Acessorios() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/ace6"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />

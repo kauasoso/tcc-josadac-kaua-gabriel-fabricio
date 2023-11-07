@@ -41,7 +41,7 @@ export default function Iluminacao(){
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                 </section>
-                <button>COMPRAR AGORA</button>
+                <a href="/ilu1"><button>COMPRAR AGORA</button></a>
             </div>
 
             <div className='abc'>
@@ -59,7 +59,7 @@ export default function Iluminacao(){
 
                 </section>
                 
-                <button>COMPRAR AGORA</button>
+                <a href="/ilu2"><button>COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
@@ -76,7 +76,7 @@ export default function Iluminacao(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a href="/ilu3"><button>COMPRAR AGORA</button></a>
           </div>
 
             <div className='abc'>
@@ -92,7 +92,7 @@ export default function Iluminacao(){
                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                     </section>
-                <button>COMPRAR AGORA</button>
+                    <a href="/ilu4"><button>COMPRAR AGORA</button></a>
        </div>
 
             <div className='abc'>
@@ -109,7 +109,7 @@ export default function Iluminacao(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a href="/ilu5"><button>COMPRAR AGORA</button></a>
              </div>
 
             <div className='abc'>
@@ -127,7 +127,7 @@ export default function Iluminacao(){
 
                 </section>
 
-                <button>COMPRAR AGORA</button>
+                <a href="/ilu6"> <button>COMPRAR AGORA</button></a>
             </div>
 
         </section>

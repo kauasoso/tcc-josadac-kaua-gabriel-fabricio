@@ -24,8 +24,8 @@ let navigate = useNavigate()
     const [usuario, setUsuario] = useState('')
     const [buscar , setBuscar] = useState ('')
     const  [lista ,setLista] = useState ([])
-
-  
+    const [idd , setIdd] = useState(0)
+    const [ativado , setAtivado] = useState(true)
 
     useEffect(() => {
 
@@ -69,8 +69,19 @@ let navigate = useNavigate()
 
         let r = await axios.post(url, produto)
            toast.dark('CADASTRADO COM SUCESSO !')
+
+               setIdd('')    
+        setNome('')
+        setCategoria('')
+        setValor('')
+        setQuantidade('')
+        setImagem('') 
+
+ConsultarProduto()
+
         return r.status;
 
+   
       
 
     } catch (error) {
@@ -100,7 +111,7 @@ async function DeletarProduto(id , nome) {
     confirmAlert(
         {
             title: 'Remover Produto ?',
-            message: `Deseja Remover o Produto ${nome}?`,
+            message: `Deseja Remover o Produto "${nome}" ?`,
             buttons: [
                 {
                     label:'Sim',
@@ -122,11 +133,56 @@ async function DeletarProduto(id , nome) {
             ]
         }
     )
-      
-           
-    
+}
+/////////////////////////////////////
+
+async function ChamarProduto (item) {
+    setAtivado(false)
+   
+
+setIdd(item.id_produto)    
+setNome(item.nome)
+setCategoria(item.categoria)
+setValor(item.preco)
+setQuantidade(item.quantidade)
+setImagem(item.imagem)
+
+ConsultarProduto()
 
 }
+
+
+async function AlterarProduto () {
+
+   
+
+    let url = `http://localhost:5001/alterarProduto/${idd}`
+
+    const produtoo = {
+        produto: nome ,
+        categoria: categoria,
+        preco: valor ,
+        quantidade: quantidade ,
+        imagem: imagem
+    }
+
+  let r = await axios.put(url , produtoo)
+
+  setIdd('')    
+  setNome('')
+  setCategoria('')
+  setValor('')
+  setQuantidade('')
+  setImagem('')
+
+ setAtivado(true)
+ ConsultarProduto()
+
+}
+
+
+
+
 
 
     return (
@@ -184,8 +240,9 @@ async function DeletarProduto(id , nome) {
                             <input type="text" placeholder='VALOR DO PRODUTO' value={valor} onChange={e => setValor (e.target.value)}/>
                             <input type="text" placeholder='QUANTIDADE' value={quantidade} onChange={e => setQuantidade (e.target.value)}/>
 
-                            <div>
+                            <div className='salvar-alterar'>
                                 <button className='salvar' onClick={SalvarProdutos} >SALVAR</button>
+                                <button className='salvar' onClick={AlterarProduto} disabled={ativado}>ALTERAR</button>
                              </div>
 
                         </div>
@@ -231,7 +288,7 @@ async function DeletarProduto(id , nome) {
                                             <td>{item.categoria}</td>
                                             <td>{item.preco}</td>
                                             <td>{item.quantidade}</td>
-                                            <td className='lado'><img className='img' src="./assets/image/caneta.png" alt="" />
+                                            <td className='lado'><img className='img' src="./assets/image/caneta.png" alt="" onClick={() => ChamarProduto(item)} />
                                                                  <img className='img' src="./assets/image/excluirr.png" alt="" onClick={() => DeletarProduto(item.id_produto , item.nome)} />
                                              </td>
                                             

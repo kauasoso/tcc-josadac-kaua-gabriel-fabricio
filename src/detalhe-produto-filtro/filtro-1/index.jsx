@@ -26,9 +26,9 @@ export default function Filtro1() {
 
                     <h5 className='descricao'>O filtro para piscina até 30.000 litros com bomba 1/3 CV bivolt é um sistema completo para a limpeza de piscinas residenciais e comerciais de pequeno e médio porte. O filtro é responsável por reter as impurezas da água, como folhas, insetos e sujeira, enquanto a bomba é responsável por fazer a água circular pelo filtro. O filtro para piscina até 30.000 litros com bomba 1/3 CV bivolt é uma solução ideal para quem busca um sistema completo e eficiente para a limpeza de piscinas residenciais e comerciais de pequeno e médio porte.</h5>
 
-                    <h2 className='preco'>R$ 40.216,13</h2>
+                    <h2 className='preco'>R$ 891,00</h2>
 
-                    <button className='comprar'>COMPRAR AGORA</button>
+                    <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                   
                 </div>
 

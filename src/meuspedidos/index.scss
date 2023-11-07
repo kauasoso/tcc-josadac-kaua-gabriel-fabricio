@@ -2,71 +2,73 @@
 
 
 
- 
-nav {
-    background-image: url(../../public/assets/image/fundo-cabecalho.png);
+
+
+  .comprar {
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 15vh;
-}
+    justify-content: end;
 
+    button {
+      font-size: 24px;
+      color: #309CFF;
+      border: none;
+      padding: 15px;
+      width: 170px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+  }
 
-.containerPedido {
+  .containerPedido {
     display: flex;
     flex-direction: column;
-    width: 137.7vh;
-    height: 83vh;
+    width: 100%;
+    height: 110vh;
     padding: 40px 0px 0px 0px;
     background-image: url(../../public/assets/image/fundo-onda.png);
     background-repeat: no-repeat;
     background-size: cover;
-   align-items: center;
-  h1 {
-    font-size: 65px;
-    margin-bottom: 190px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+
+    h1 {
+      font-size: 65px;
+      margin-bottom: 190px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .agrupa-card {
+      display: flex;
+      flex-direction: row;
+
+    }
+
+
   }
 
-  
-  .agrupa-card {
+  .subtotal {
+    background-color: #004586;
+    width: 100%;
+    height: 16vh;
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
+    .sub2 {
+        width: 600px;
+      h3 {
+        color: white;
+        font-size: 32px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+
+
+    }
   }
 
-
-}
-
-.subtotal {
-   background-color: #004586;
-   width: 100%;
-   height: 16vh;
-   margin-top: -10px;
-
-   .sub2 {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between ;
-   padding: 60px 110px 10px 110px;
-
-h3 {
-  color: white;
-  font-size: 32px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-   button {
-    font-size: 24px;
-    color: #309CFF;
-    border: none;
-    padding: 15px;
-    width: 170px;
-    border-radius: 10px;
-    cursor: pointer;
-   }
-
-   }
-}
-
 }
 
 
@@ -79,42 +81,42 @@ h3 {
 
 
 
-@media (max-width :850px){
+@media (max-width :850px) {
 
-  h1{
+  h1 {
     margin-right: 1200px;
   }
 
 
-  .agrupa-card{
+  .agrupa-card {
     margin-right: 1220px;
-  flex-direction: column !important;
-  margin-top: -130px;
-  gap: 40px;
+    flex-direction: column !important;
+    margin-top: -130px;
+    gap: 40px;
   }
 
 
-  .containeer{
+  .containeer {
     height: 20vh !important;
     width: 30vw;
   }
 
-  p{
-    font-size: 25px ;
+  p {
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
   }
 
 
-  .sub2{
+  .sub2 {
     margin-top: 8px;
   }
 
-  h3{
+  h3 {
     margin-top: 20px;
   }
 
-  button{
+  button {
     margin-top: 15px;
   }
 }

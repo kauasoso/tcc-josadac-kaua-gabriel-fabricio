@@ -36,7 +36,7 @@ export default function Ilu6(){
 
                         <h2 className='preco'>R$185,00</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                       
                     </div>
             
@@ -54,29 +54,37 @@ export default function Ilu6(){
                             <img className='imagizi' src="/assets/image/ilu-1.png" alt="" />
                             <h4 className='ds'>REFLETOR GLOBAL</h4>
                             <h5 className='prc'>R$320,00</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
                         <div className='c2'>
                             <img className='imagizi' src="/assets/image/ilu-2.png" alt="" />
                             <h4 className='ds'>REFLETOR R125</h4>
                             <h5 className='prc'>R$345,90</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
                         <div className='c3'>
                             <img className='imagizi' src="/assets/image/ilu-3.png" alt="" />
                             <h4 className='ds'>REFLETOR SUPER LED'S G</h4>
                             <h5 className='prc'>R$390,00</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
                         <div className='c4'>
                             <img className='imagizi' src="/assets/image/ilu-4.png" alt="" />
                             <h4 className='ds'>REFLETOR SUPER SMD G</h4>
                             <h5 className='prc'>R$330,00</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
 
 

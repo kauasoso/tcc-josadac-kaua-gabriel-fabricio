@@ -38,7 +38,7 @@ export default function Aspi3(){
 
                         <h2 className='preco'>R$ 3490,00</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                        
                     </div>
             
@@ -56,29 +56,37 @@ export default function Aspi3(){
                             <img className='imagizi' src="/assets/image/aspi-2.png" alt="" />
                             <h4 className='ds'>ROBÔ DOLPHIN XT5</h4>
                             <h5 className='prc'>R$ 4987,00</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
                         <div className='c2'>
                             <img className='imagizi' src="/assets/image/aspi-1.png" alt="" />
                             <h4 className='ds'>ASPIRADOR SANDSHARKL</h4>
                             <h5 className='prc'>R$ 5452,00</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
                         <div className='c3'>
                             <img className='imagizi' src="/assets/image/acessorio-4.png" alt="" />
                             <h4 className='ds'>DISPOSITIVO SODRAMAR INOX</h4>
                             <h5 className='prc'>R$ 74,70</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
                         <div className='c4'>
                             <img className='imagizi' src="/assets/image/acessorio-5.png" alt="" />
                             <h4 className='ds'>DRENO ANTI BASE LATÃO</h4>
                             <h5 className='prc'>R$ 432,90</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
 
 

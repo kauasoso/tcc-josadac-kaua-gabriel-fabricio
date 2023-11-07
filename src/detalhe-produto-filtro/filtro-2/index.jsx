@@ -24,9 +24,9 @@ export default function Filtro2() {
                     <h3 className='titulo'>BOMBA DE FILTRAGEM <br /> 1136 L/HR 110V BEL <br /> LAZER 174400</h3>
                     <h5 className='descricao'>A bomba de filtragem para piscinas Bel Lazer 174400 é um equipamento essencial para manter a água da sua piscina limpa e cristalina. Com capacidade de vazão de 1.136 litros por hora, ela é ideal para piscinas residenciais de até 30 m².A bomba é fabricada em material resistente e durável, com motor de alta performance. Possui filtro de areia, que é o tipo de filtro mais eficiente para piscinas. O filtro de areia retém as impurezas da água, deixando-a limpa e livre de bactérias e fungos.</h5>
 
-                    <h2 className='preco'>R$ 40.216,13</h2>
+                    <h2 className='preco'>R$ 253,78</h2>
 
-                    <button className='comprar'>COMPRAR AGORA</button>
+                    <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                  
                 </div>
 

@@ -2,6 +2,18 @@
 
 
 
+
+    .antes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000;
+        flex-direction: row;
+        width: 80%;
+
+    }
+
+
     .ahome{
         color: #000000;
         text-decoration: none;

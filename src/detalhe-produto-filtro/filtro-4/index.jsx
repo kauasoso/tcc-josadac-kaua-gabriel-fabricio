@@ -26,9 +26,9 @@ export default function Filtro4() {
                     <h3 className='titulo'>BOMBA DE FILTRAGEM <br /> 1136 L/HR 110V BEL <br /> LAZER 174400</h3>
                     <h5 className='descricao'>A bomba de filtragem 3028 L/Hr 220V Bel é um equipamento essencial para manter a água da piscina limpa e cristalina. Com um fluxo de 3028 litros por hora, ela é ideal para piscinas de até 60 m³. A bomba é fabricada em material resistente e durável, com motor de alta potência. Possui também um sistema de filtragem eficiente, que remove impurezas, detritos e microrganismos da água.</h5>
 
-                    <h2 className='preco'>R$ 40.216,13</h2>
+                    <h2 className='preco'>R$ 457,53</h2>
 
-                    <button className='comprar'>COMPRAR AGORA</button>
+                    <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                  
                 </div>
 
