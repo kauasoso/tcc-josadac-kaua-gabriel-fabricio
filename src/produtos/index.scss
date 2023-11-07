@@ -411,3 +411,64 @@
 }
 }
 
+
+
+
+@media (max-width:685px) {
+
+
+
+    .centralizar{
+       display: none !important;
+    }
+
+  
+
+    .prd{
+
+    }
+
+
+    .cima{
+        
+
+        margin-top: 2100px !important;
+        position: relative;
+        top: 20px;
+
+    }
+
+
+    .tudo{
+        height: 240vh !important;
+    }
+
+
+    .fundo-virado{
+
+        position: relative;
+        top: -70px;
+
+        .abc{
+            
+        }
+    }
+
+    .abc{
+        height: 420px !important;
+        margin-top:7px !important;
+    }
+
+
+  
+}
+
+
+
+@media (max-width:1366px) {
+
+  .abc{
+    height: 55vh !important;
+  }
+}
+
