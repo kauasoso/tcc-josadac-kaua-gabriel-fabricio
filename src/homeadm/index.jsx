@@ -9,9 +9,9 @@ import { useState } from 'react';
 
 export default function HomeAdm() {
 
-const[usuario, setUsuario] = useState('')
+    const [usuario, setUsuario] = useState('')
 
-let navigate = useNavigate()
+    let navigate = useNavigate()
 
     useEffect(() => {
 
@@ -23,11 +23,11 @@ let navigate = useNavigate()
             console.log(usuarioLogado);
         }
 
-    }, []) 
+    }, [])
 
 
 
-    
+
     function sairclick() {
         storage.remove('adm-logado')
         setTimeout(() => {
@@ -37,66 +37,66 @@ let navigate = useNavigate()
     }
 
 
-return(
-    <div className='mae-adm'>
-      
-      <div className='container'>
+    return (
+        <div className='mae-adm'>
 
-<div className="espaco-1">
-    <div className='logoo'>
-        <img className='logo' src="./assets/image/logomelhor.png" alt="" />
-    </div>
-    <a href='/cadastroproduto' className='agendaa' >
-        <img className='agenda' src="./assets/image/imgCadastroProduto.png" alt="" />
-        <h3>CADASTRO</h3>
-    </a>
+            <div className='container'>
 
-<div className='agendaa'>
-        <img className='agenda' src="./assets/image/abcagenda.png" alt="" />
-        <h3>PEDIDOS</h3>
-    </div>
+                <div className="espaco-1">
+                    <div className='logoo'>
+                        <img className='logo' src="./assets/image/logomelhor.png" alt="" />
+                    </div>
+                    <a href='/cadastroproduto' className='agendaa' >
+                        <img className='agenda' src="./assets/image/imgCadastroProduto.png" alt="" />
+                        <h3>CADASTRO</h3>
+                    </a>
 
-    <a  className='agendaa' id='sairconta' onClick={sairclick}>
-        <img className='agenda' src="./assets/image/SAIR.png" alt="" />
-        <h3>SAIR DA CONTA</h3>
-    </a>
+                    <div className='agendaa'>
+                        <img className='agenda' src="./assets/image/abcagenda.png" alt="" />
+                        <h3>PEDIDOS</h3>
+                    </div>
 
-
-    
-
-</div>
+                    <a className='agendaa' id='sairconta' onClick={sairclick}>
+                        <img className='agenda' src="./assets/image/SAIR.png" alt="" />
+                        <h3>SAIR DA CONTA</h3>
+                    </a>
 
 
-<div className="espaco-2">
 
-    <nav>
-        <div>
-            <h2>Seja Bem-Vindo Administrador, {usuario ? usuario[0].nome : '' } !!</h2>
+
+                </div>
+
+
+                <div className="espaco-2">
+
+                    <nav>
+                        <div>
+                            <h2>Seja Bem-Vindo Administrador, {usuario ? usuario[0].nome : ''} !!</h2>
+                        </div>
+
+                        <div className='usuario-p'>
+                            <p>NOVOS DADOS</p>
+                            <img className='usuario' src="/assets/image/usuario.png" alt="" />
+                        </div>
+
+                    </nav>
+
+                    <div className='d9'>
+
+                        <img className='logo-grande' src="/assets/image/logomelhor.png" alt="" />
+
+
+
+                    </div> {/* final da tag "d9" */}
+
+                </div>
+
+            </div>
+
+
+
         </div>
-
-        <div className='usuario-p'>
-            <p>NOVOS DADOS</p>
-            <img className='usuario' src="/assets/image/usuario.png" alt="" />
-        </div>
-
-    </nav>
-
-<div className='d9'>
- 
-    <img className='logo-grande' src="/assets/image/logomelhor.png" alt="" />
-
-    
-
-</div> {/* final da tag "d9" */}
-
-</div>
-
-</div>
-
-
-
-    </div>
-)
+    )
 
 
 
