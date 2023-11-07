@@ -206,9 +206,9 @@ export default function Produto() {
                     </div>
 
 
-                    {/* final divis */} </section> 
+                    <Rodape />
+                    {/* final divis */} </section>
 
-                           <Rodape />
 
             </div>
 
