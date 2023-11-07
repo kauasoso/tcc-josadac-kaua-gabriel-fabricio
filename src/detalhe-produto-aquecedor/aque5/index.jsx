@@ -52,29 +52,37 @@ export default function Aque5(){
                             <img className='imagizi' src="/assets/image/aqu2.png" alt="" />
                             <h4 className='ds'>CAPA TÉRMICA</h4>
                             <h5 className='prc'>R$ 387,00</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
                         <div className='c2'>
                             <img className='imagizi' src="/assets/image/aque-3.png" alt="" />
                             <h4 className='ds'>PLACA SOLAR GIRASSOL</h4>
                             <h5 className='prc'>R$ 782,46</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
                         <div className='c3'>
                             <img className='imagizi' src="/assets/image/aqu1.png" alt="" />
                             <h4 className='ds'>AQUECEDOR A GÁS HTR400</h4>
                             <h5 className='prc'>R$ 40.216,13</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
                         <div className='c4'>
                             <img className='imagizi' src="/assets/image/aque-4.png" alt="" />
                             <h4 className='ds'>CAPA TÉRMICA SOL +GUARD</h4>
                             <h5 className='prc'>R$ 403,53</h5>
+                            <div className='branco'>
                             <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                         </div>
 
 
