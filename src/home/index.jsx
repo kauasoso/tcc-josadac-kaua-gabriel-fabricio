@@ -1,7 +1,7 @@
-    import Cabecalho from '../cabecalho';
-    import Card from '../card';
-    import './index.scss';
-    import Rodape from '../rodape';
+import Cabecalho from '../cabecalho';
+import Card from '../card';
+import './index.scss';
+import Rodape from '../rodape';
 
 
 
@@ -9,11 +9,11 @@
 
 
 
-    export default function Home(){
+export default function Home() {
 
-        
 
-    
+
+
 
 
 
@@ -25,16 +25,16 @@
 
             <div className='container'>
 
-<div className="marquee" >
-          <marquee behavior="" direction="" scrollamount="25"><img className='homepiscina' src="./assets/image/pisc-1.png" alt="" />
-                                            <img className='homepiscina' src="./assets/image/pisc-2.png" alt="" /> 
-                                            <img className='homepiscina' src="./assets/image/pisc-3.png" alt="" />
-                                            <img className='homepiscina' src="./assets/image/pisc-4.png" alt="" />
-                                            <img className='homepiscina' src="./assets/image/pisc-5.png" alt="" />
-                                            <img className='homepiscina' src="./assets/image/pisc-6.png" alt="" />
-                                            </marquee>
-       
- </div>      
+                <div className="marquee" >
+                    <marquee behavior="" direction="" scrollamount="25"><img className='homepiscina' src="./assets/image/pisc-1.png" alt="" />
+                        <img className='homepiscina' src="./assets/image/pisc-2.png" alt="" />
+                        <img className='homepiscina' src="./assets/image/pisc-3.png" alt="" />
+                        <img className='homepiscina' src="./assets/image/pisc-4.png" alt="" />
+                        <img className='homepiscina' src="./assets/image/pisc-5.png" alt="" />
+                        <img className='homepiscina' src="./assets/image/pisc-6.png" alt="" />
+                    </marquee>
+
+                </div>
 
                 <div className='subcontainer'>
 
@@ -53,10 +53,16 @@
                             <div className='line'>
                             </div>
 
-                            <div>
-                                <h2>AQUECIMENTO</h2>
-                                <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div></a>
+
+                                <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div>
+
+                            </a>
                         </div>
                         {/* card-1 fim */}
 
@@ -69,10 +75,15 @@
                             <div className='line'>
                             </div>
 
-                            <div>
-                                <h2>ASPIRADORES AUTOMÁTICOS</h2>
-                                <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div></a>
+                           
+                            <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div>
+                    </a>
                         </div>
                         {/* card-2 fim */}
 
@@ -85,10 +96,14 @@
                             <div className='line'>
                             </div>
 
-                            <div>
-                                <h2>BORDAS PARA PISCINA</h2>
-                                <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div></a>
+                            
+                            <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div></a>
                         </div>
 
                         {/* card-3 fim */}
@@ -101,10 +116,14 @@
                             <div className='line'>
                             </div>
 
-                            <div>
-                                <h2>LIMPEZAS</h2>
-                                <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div></a>
+                           
+                            <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div></a>
                         </div>
 
                         {/* card-4 fim */}
@@ -130,10 +149,14 @@
                             <div className='line'>
                             </div>
 
-                            <div>
-                                <h2>CASCATAS E DUCHAS</h2>
-                                <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div></a>
+                           
+                            <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div></a>
                         </div>
                         {/* card-1 , 2fx , fim */}
 
@@ -146,10 +169,14 @@
                             <div className='line'>
                             </div>
 
-                            <div>
-                                <h2>ACESSÓRIOS</h2>
-                                <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div></a>
+                            
+                            <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div></a>
                         </div>
                         {/* card-2 , 2fx , fim */}
 
@@ -162,11 +189,15 @@
                             <div className='line'>
                             </div>
 
-                                        <div>
-                                            <h2>PURIFICADOR DE ÁGUA </h2>
-                                            <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                                        </div></a>
-                                    </div>
+                           
+                            <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div></a>
+                        </div>
 
                         {/* card-3 , 3fx , fim */}
 
@@ -178,10 +209,14 @@
                             <div className='line'>
                             </div>
 
-                            <div>
-                                <h2>FILTROS E BOMBAS</h2>
-                                <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div></a>
+                           
+                            <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div></a>
                         </div>
 
                         {/* card-4 , 4fx , fim */}
@@ -206,10 +241,14 @@
                             <div className='line'>
                             </div>
 
-                            <div>
-                                <h2>ILUMINAÇÃO</h2>
-                                <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div></a>
+                           
+                            <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div></a>
                         </div>
 
                         {/* card-1 , 3fx , fim */}
@@ -222,10 +261,14 @@
                             <div className='line'>
                             </div>
 
-                            <div>
-                                <h2>REVESTIMENTO DE PISCINAS</h2>
-                                <img className='cruz' src="./assets/image/cruz.png" alt="" />
-                            </div></a>
+                           
+                            <div className='enunciado'>
+                                    <h2>AQUECIMENTO</h2>
+                                </div>
+
+                    <div className='final-cruz'>
+                        <img src="./assets/image/cruz.png" alt="" />
+                    </div></a>
                         </div>
 
                         {/* card-1 , 4fx , fim */}
@@ -244,22 +287,22 @@
                 <div className='subcontainer2'>
 
                     <h1>UM POUCO DE NOSSOS SERVIÇOS !</h1>
-            
-            
-            <div className='antes'>
-                <img className='servic' src="../assets/image/servic.png" alt="" />
-            </div>
-            
-            </div>
-    
 
-    
+
+                    <div className='antes'>
+                        <img className='servic' src="../assets/image/servic.png" alt="" />
+                    </div>
+
+                </div>
+
+
+
 
                 <div className='rodape'>
 
-            <div className='agrupa-info'>
-                
-                <div className="infos">
+                    <div className='agrupa-info'>
+
+                        <div className="infos">
 
 
                             <div className='grupo'>
@@ -276,28 +319,28 @@
 
                         </div>
 
-                <div className="infos">
-                    <div className='grupo'>
-                        <h2>Ajuda e Suporte</h2>
-                        <p>Recursos</p>
-                        <p>Política de Entrega</p>
-                        <p>Segurança e Privacidade</p>
-                    </div>
-                    <div className='line'>
-                    <div>
+                        <div className="infos">
+                            <div className='grupo'>
+                                <h2>Ajuda e Suporte</h2>
+                                <p>Recursos</p>
+                                <p>Política de Entrega</p>
+                                <p>Segurança e Privacidade</p>
+                            </div>
+                            <div className='line'>
+                                <div>
 
                                 </div>
                             </div>
                         </div>
 
 
-                <div className="infos">
-                    <div className='grupo'>
-                        <h2>Atendimento</h2>
-                        <p className=''><img src="../assets/image/local.png" alt="" /> Rua Getúlio Vargas, 314 SP</p>
-                        <p><img src="../assets/image/tell.png" alt="" /> 11 9 1234-5678</p>
-                        <p><img src="../assets/image/email.png" alt="" /> poolmax.2023@gmail.com</p>
-                    </div>
+                        <div className="infos">
+                            <div className='grupo'>
+                                <h2>Atendimento</h2>
+                                <p className=''><img src="../assets/image/local.png" alt="" /> Rua Getúlio Vargas, 314 SP</p>
+                                <p><img src="../assets/image/tell.png" alt="" /> 11 9 1234-5678</p>
+                                <p><img src="../assets/image/email.png" alt="" /> poolmax.2023@gmail.com</p>
+                            </div>
 
                             <div className='line'>
                                 <div>
