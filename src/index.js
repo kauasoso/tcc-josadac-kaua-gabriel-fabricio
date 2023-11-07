@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
+import 'react-toastify/dist/ReactToastify.css';
+import 'react-confirm-alert/src/react-confirm-alert.css';
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -22,8 +24,12 @@ import { Grafico2 } from './graficomensal';
 import { Comentario } from './comentario';
 import HomeAdm from './homeadm';
 import Cadastro from './cadastroCliente';
-import Produto from './produtos';
+import HomeLogin from './home-login-cadastro';
 import CadastroProduto from './ABC---PAGES---ADM/cadastro-produto';
+import LoginAdmin from './ABC---PAGES---ADM/loginAdm/loginAdm';
+
+
+
 
 
 import Acessorios from './acessorios';
@@ -56,7 +62,6 @@ import Ilu1 from './detalhe-produto-iluminacao/ilu1';
 import Ilu2 from './detalhe-produto-iluminacao/ilu2';
 import Ilu3 from './detalhe-produto-iluminacao/ilu3';
 import Ilu4 from './detalhe-produto-iluminacao/ilu4';
-import Ilu5 from './detalhe-produto-iluminacao/ilu5';
 import Ilu6 from './detalhe-produto-iluminacao/ilu6';
 import Iluminacao from './iluminacao';
 
@@ -98,6 +103,7 @@ import Cascatas from './cascatas';
 import ILu5 from './detalhe-produto-iluminacao/ilu5';
 import Aquecimentos from './aquecimento';
 import Bombas from './bombas';
+import Produto from './produtos';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -199,12 +205,12 @@ root.render(
 
 
 
-
+      <Route path= '/loginadm' element={<LoginAdmin/>}/>
       <Route path= '/pisos' element={<Pisos/>}/>
       <Route path='/iluminacao' element={<Iluminacao/>}/>
       <Route path='/acess' element={<Acessorios/>}/>
       <Route path='/limpeza' element={<Limpeza/>}/>
-      <Route path='/produto' element={<Produto/>}/>
+       <Route path='/produto' element={<Produto/>}/> 
       <Route path='/cabecalho' element={<Cabecalho/>}/>
       <Route path='/card' element={<Card/>}/>
       <Route path='/pedido' element={<Pedido/>}/>

@@ -7,9 +7,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import storage from 'local-storage';
 import { useEffect } from 'react';
+import { confirmAlert } from 'react-confirm-alert'; 
 
-
-import 'react-toastify/dist/ReactToastify.css';
 
 
 export default function CadastroProduto() {
@@ -23,7 +22,8 @@ let navigate = useNavigate()
     const [quantidade , setQuantidade] = useState ('') ;
     const [imagem, setImagem]= useState('')
     const [usuario, setUsuario] = useState('')
-
+    const [buscar , setBuscar] = useState ('')
+    const  [lista ,setLista] = useState ([])
 
   
 
@@ -49,7 +49,9 @@ let navigate = useNavigate()
         }, 1800)
 
     }
+/////////////////////////////////////////////
 
+///////////////////////////////////////////////////////////
    async function SalvarProdutos () {
 
     try {
@@ -75,12 +77,60 @@ let navigate = useNavigate()
         
     }
     }
+/////////////////////////////////////////////////////////
 
-   
+//////////////////////////////////////////////////////
+
+    async function ConsultarProduto() {
+
+        let url = `http://localhost:5001/buscarporcategoria/${buscar}`
+      
+        let r = await axios.get(url)
+      
+        setLista(r.data)
+       }
+////////////////////////////////////////////////////////////
+
+
+
+////////////////////////////////////////////////////////////
+
+async function DeletarProduto(id , nome) {
+ 
+    confirmAlert(
+        {
+            title: 'Remover Produto ?',
+            message: `Deseja Remover o Produto ${nome}?`,
+            buttons: [
+                {
+                    label:'Sim',
+                    onClick: async () => {
+
+                        let url = `http://localhost:5001/produto/${id}`
+
+                        let r = await axios.delete(url)
+
+                        toast.dark(`O produto Foi removido Com Sucesso !`)
+
+                        ConsultarProduto()
+                    }
+                },
+
+                {
+                    label: 'Não'
+                }
+            ]
+        }
+    )
+      
+           
+    
+
+}
 
 
     return (
-        <div className='mae-adm'>
+        <div className='mae-admm'>
             <ToastContainer />
 
             <div className='container'>
@@ -89,7 +139,7 @@ let navigate = useNavigate()
                     <div className='logoo'>
                         <img className='logo' src="./assets/image/logomelhor.png" alt="" />
                     </div>
-                    <a href='/cadastroproduto' className='agendaa' >
+                    <a href='/cadastroproduto' className='agendaa' id='agenda-azul' >
                         <img className='agenda' src="./assets/image/imgCadastroProduto.png" alt="" />
                         <h3>CADASTRO</h3>
                     </a>
@@ -147,13 +197,51 @@ let navigate = useNavigate()
                             <div className='h1-button'>
 
                                 <div>
-                                    <h1>CONSULTA :</h1>
+                                    <h1>CONSULTA:</h1>
                                 </div>
 
                                 <div className='input-lupa'>
-                                    <input type="text" />
-                                    <img className='lupa' src="/assets/image/imgLupaConsulta.png" alt="" />
+                                    <input type="text" value={buscar} onChange={e => setBuscar (e.target.value)}/>
+                                    <img className='lupa' src="/assets/image/imgLupaConsulta.png" onClick={ConsultarProduto} alt="" />
                                 </div>
+
+                            </div>
+
+
+                            <div className='tabelas'>
+                               <table>
+
+                                  <thead>
+                                          <tr>
+                                            <th>ID</th>
+                                             <th>Nome</th>
+                                             <th>Categoria</th>
+                                             <th>Valor</th>
+                                             <th>Quantidade</th>
+                                          </tr>
+                                  </thead>
+
+                      {lista.map (item => {    
+                        
+                        return (
+                        <tbody>
+                                         <tr>
+                                            <td>{item.id_produto}</td>
+                                            <td>{item.nome}</td>
+                                            <td>{item.categoria}</td>
+                                            <td>{item.preco}</td>
+                                            <td>{item.quantidade}</td>
+                                            <td className='lado'><img className='img' src="./assets/image/caneta.png" alt="" />
+                                                                 <img className='img' src="./assets/image/excluirr.png" alt="" onClick={() => DeletarProduto(item.id_produto , item.nome)} />
+                                             </td>
+                                            
+                                         </tr>
+                        </tbody>
+                                   )
+                                        })}
+
+
+                               </table>
 
                             </div>
 

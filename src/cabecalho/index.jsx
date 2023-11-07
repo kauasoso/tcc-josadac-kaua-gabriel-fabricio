@@ -50,10 +50,12 @@ export default function Cabecalho() {
 
             <div className='agrupa-panda'>
 
+                            
             <div className='carrinho'>
-                <img className='azulcarro' src="./assets/image/carrinho.png" alt="" />
+              <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
                 <p>(0) ITEMS</p>
             </div>
+
 
 
                             <div className='agrupa-panda'>

@@ -18,7 +18,7 @@ export default function Pagamento () {
            </div>
 
            <div className="agrupaform">
-              <div className='containerpagamento'>
+              <div className='containerpagamento'> <a className='amodopagamento' href="/informardados">
                   <div className='subcontainerpagamento'>
                     <h3>Cartão de Crédito ou Débito</h3>
                     <img src="../assets/image/maste.png" alt="" className="forms" />
@@ -26,24 +26,24 @@ export default function Pagamento () {
                     <img src="../assets/image/hipe.png" alt="" className="forms" />
                     <img src="../assets/image/elo.png" alt="" className="forms" />
                     <img src="../assets/image/american.png" alt="" className="forms" />
-                  </div>
+                  </div></a>
 
 
                   <img src="../assets/image/seta.png" alt="" className="seta" />
               </div>
 
                     <div className='containerpagamento'>
-                        <div>
+                        <div><a className='amodopagamento' href="/paypal">
                             <h3>Via Paypal</h3>
-                            <img className='paypal' src="../assets/image/paypal.png" alt="" />
+                            <img className='paypal' src="../assets/image/paypal.png" alt="" /></a>
                         </div>
                         <img src="../assets/image/seta.png" alt="" className="seta" />
                     </div>
 
               <div className='containerpagamento'>
-                            <div>
+                            <div><a className='amodopagamento' href="/pix">
                                 <h3>Via Pix</h3>
-                                <img className='pix' src="../assets/image/pix.png" alt="" />
+                                <img className='pix' src="../assets/image/pix.png" alt="" /></a>
                             </div>
                             <img  src="../assets/image/seta.png" alt="" className="seta" />
               </div>
