@@ -5,8 +5,9 @@
     width: 100%;
     .tudo{
         background-image: url(../../public/assets/image/fundo-corpo.png);
-        height: auto;
+        height: 148vh;
         width: 100%;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: start;
