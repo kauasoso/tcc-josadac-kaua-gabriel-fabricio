@@ -48,20 +48,20 @@ export default function Cabecalho() {
 
 
 
-            <div className='agrupa-panda'>
+                        <div className='agrupa-panda'>
 
-                            
-            <div className='carrinho'>
-              <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
-                <p>(0) ITEMS</p>
-            </div>
+
+                            <div className='carrinho'>
+                                <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
+                                <p>(0) ITEMS</p>
+                            </div>
 
 
 
                             <div className='agrupa-panda'>
 
 
-                                <div>
+                                <div className='dilado'>
                                     <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
                                     <p>Seja Bem-vindo, {usuario ? usuario[0].nome : ''}!</p>
                                     <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
@@ -78,25 +78,25 @@ export default function Cabecalho() {
 
                 <div className='agrupa-categorias'>
                     <div className='fundo'>
-                    <a className='cor' href="/iluminacoes">ILUMINAÇÃO</a> 
+                        <a className='cor' href="/iluminacoes">ILUMINAÇÃO</a>
                     </div>
 
 
                     <div className='fundo'>
-                        <a className='cor' href="/Cascatas">CASCATAS</a> 
+                        <a className='cor' href="/Cascatas">CASCATAS</a>
                     </div>
 
-                        <div className='fundo'>
-                        <a className='cor' href="/produto">FILTROS</a> 
-                        </div>
+                    <div className='fundo'>
+                        <a className='cor' href="/produto">FILTROS</a>
+                    </div>
 
-            <div className='fundo'>
-            <a className='cor' href="/acess">ACESSORIOS</a> 
+                    <div className='fundo'>
+                        <a className='cor' href="/acess">ACESSORIOS</a>
+                    </div>
+                </div>
+
             </div>
         </div>
-        
-    </div>
-    </div>
     )
 
 

@@ -5,8 +5,9 @@
     width: 100%;
     .tudo{
         background-image: url(../../public/assets/image/fundo-corpo.png);
-        height: auto;
+        height: 148vh;
         width: 100%;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -63,7 +64,7 @@
         }
 
         .abc{
-            height: 45vh;
+            height: 51vh;
             width: 350px;
             background-color: #fff;
             border-radius: 15px;
@@ -81,7 +82,7 @@
         .abc:hover{
                 box-shadow: 0px 0px 25px 0.1px #a4fff7;
                 transition: 0.2s;
-                height: 46vh;
+                height: 53.5vh;
                 width: 352px;
             }
 
@@ -408,5 +409,71 @@
     }
     
 }
+}
+
+
+
+
+@media (max-width:685px) {
+
+
+
+    .centralizar{
+       display: none !important;
+    }
+
+  
+
+    .prd{
+
+    }
+
+
+    .cima{
+        
+
+        margin-top: 2100px !important;
+        position: relative;
+        top: 20px;
+
+    }
+
+
+    .tudo{
+        height: 240vh !important;
+    }
+
+
+    .fundo-virado{
+
+        position: relative;
+        top: -70px;
+
+        .abc{
+            
+        }
+    }
+
+    .abc{
+        height: 420px !important;
+        margin-top:7px !important;
+    }
+
+
+  
+}
+
+
+
+@media (max-width:1366px) {
+
+  .abc{
+    height: 60vh;
+  }
+
+
+  .tudo{
+    height: 180vh !important;
+  }
 }
 

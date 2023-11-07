@@ -27,7 +27,7 @@ export default function Filtro3() {
                     <h5 className='descricao'>
 A Peneira Sodramar Puça com Armação Bomba de Filtragem 2006L/H Bel 110V é um equipamento ideal para piscinas residenciais e comerciais. Com uma capacidade de filtragem de 2006 litros por hora, ela é capaz de manter a água da piscina limpa e cristalina. A peneira possui uma estrutura em aço inox, que é resistente à corrosão e ao desgaste. O cesto coletor é feito de polipropileno, que é durável e fácil de limpar. A bomba de filtragem é do tipo centrífuga, que é eficiente na remoção de impurezas da água.</h5>
 
-                    <h2 className='preco'>R$ 40.216,13</h2>
+                    <h2 className='preco'>R$ 431,12</h2>
 
                     <button className='comprar'>COMPRAR AGORA</button>
                 

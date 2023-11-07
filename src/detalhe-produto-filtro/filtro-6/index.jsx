@@ -17,7 +17,7 @@ export default function Filtro4() {
             <div className='a2'>
                 <div className='b1'>
 
-                    <img className='filtro2' src="/assets/image/filtro-4.png" alt="" />
+                    <img className='filtro2' src="/assets/image/filtro-6.png" alt="" />
                 </div>
 
 
@@ -27,7 +27,7 @@ export default function Filtro4() {
                     <h5 className='descricao'>
 A bomba filtro Intex para piscinas de 2.006 litros/hora e 110V é um equipamento essencial para manter a água da sua piscina limpa e cristalina. Com uma vazão de 2.006 litros por hora, ela é ideal para piscinas de até 12.000 litros. A bomba é composta por um motor elétrico, um filtro e duas mangueiras. O motor elétrico é responsável por bombear a água da piscina para o filtro. O filtro, por sua vez, é responsável por reter as impurezas da água, como folhas, insetos e outros detritos. As mangueiras são responsáveis por transportar a água da piscina para o filtro e de volta para a piscina.</h5>
 
-                    <h2 className='preco'>R$ 40.216,13</h2>
+                    <h2 className='preco'>R$ 417,80</h2>
 
                     <button className='comprar'>COMPRAR AGORA</button>
                 

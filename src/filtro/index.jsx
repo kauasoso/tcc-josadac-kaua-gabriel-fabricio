@@ -37,7 +37,7 @@ export default function Produto(){
                         <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
     
                     </section>
-                    <button>COMPRAR AGORA</button>
+                    <a href="/filtro1"><button>COMPRAR AGORA</button></a>
                 </div>
 
                 <div className='abc'>
@@ -72,7 +72,7 @@ export default function Produto(){
     
                     </section>
 
-                    <button>COMPRAR AGORA</button>
+                    <a href="/filtro3"><button>COMPRAR AGORA</button></a>
               </div>
 
                 <div className='abc'>

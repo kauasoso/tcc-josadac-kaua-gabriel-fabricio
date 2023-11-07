@@ -17,7 +17,7 @@ export default function Filtro4() {
             <div className='a2'>
                 <div className='b1'>
 
-                    <img className='filtro2' src="/assets/image/filtro-4.png" alt="" />
+                    <img className='filtro2' src="/assets/image/filtro-5.png" alt="" />
                 </div>
 
 
@@ -27,7 +27,7 @@ export default function Filtro4() {
                     <h5 className='descricao'>
 A bomba filtrante para piscina 2006 L/H 110V com refil e mangueira é um equipamento essencial para manter a água da piscina limpa e cristalina. Ela é indicada para piscinas estruturais ou infláveis de até 4600 litros. A bomba possui uma vazão de 2006 litros por hora, o que permite que a água da piscina seja filtrada completamente em cerca de 2 horas. O refil do filtro é feito de areia e é responsável pela retenção de impurezas, como folhas, insetos e detritos.</h5>
 
-                    <h2 className='preco'>R$ 40.216,13</h2>
+                    <h2 className='preco'>R$ 455,59</h2>
 
                     <button className='comprar'>COMPRAR AGORA</button>
                 

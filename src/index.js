@@ -104,6 +104,7 @@ import ILu5 from './detalhe-produto-iluminacao/ilu5';
 import Aquecimentos from './aquecimento';
 import Bombas from './bombas';
 import Produto from './produtos';
+import Realizados from './PedidosRealizados';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -112,6 +113,8 @@ root.render(
     <BrowserRouter>
     <Routes>
     <Route path='/aspirador' element={<Aspirador/>}/>
+    <Route path='/realizados' element={<Realizados/>}/>
+    <Route path='/meupedido' element={<Pedido/>}/>
 
       <Route path='/' element={<Home/>}/>
       <Route path='/ace1' element={<Ace1/>}/>

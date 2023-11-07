@@ -51,7 +51,7 @@ export default function Bordas() {
                         </section>
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/borda1"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -76,7 +76,7 @@ export default function Bordas() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/borda2"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -116,7 +116,7 @@ export default function Bordas() {
                         </section>
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/borda4"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -140,7 +140,7 @@ export default function Bordas() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/borda5"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -165,7 +165,7 @@ export default function Bordas() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/borda6"> <button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
