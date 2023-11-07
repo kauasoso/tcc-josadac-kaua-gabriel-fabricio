@@ -60,29 +60,37 @@ export default function Cas1() {
                         <img className='imagizi' src="/assets/image/casca-2.png" alt="" />
                         <h4 className='ds'>CASCATA CISNE EM AÇO INOX</h4>
                         <h5 className='prc'>R$ 5.231,256</h5>
-                        <h4 className='frete'>FRETE GRÁTIS</h4>
-                        <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                        <div className='branco'>
+                            <h4 className='frete'>FRETE GRÁTIS</h4>
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                     </div>
                     <div className='c2'>
                         <img className='imagizi' src="/assets/image/casca-3.png" alt="" />
                         <h4 className='ds'>CASCATA IMPERIS EM AÇO</h4>
                         <h5 className='prc'>R$ 2.432,46</h5>
-                        <h4 className='frete'>FRETE GRÁTIS</h4>
-                        <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                        <div className='branco'>
+                            <h4 className='frete'>FRETE GRÁTIS</h4>
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                     </div>
                     <div className='c3'>
                         <img className='imagizi' src="/assets/image/casca-4.png" alt="" />
                         <h4 className='ds'>DUCHA FRIA REDONDA </h4>
                         <h5 className='prc'>R$ 867,43</h5>
-                        <h4 className='frete'>FRETE GRÁTIS</h4>
-                        <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                        <div className='branco'>
+                            <h4 className='frete'>FRETE GRÁTIS</h4>
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                     </div>
                     <div className='c4'>
                         <img className='imagizi' src="/assets/image/casca-5.png" alt="" />
                         <h4 className='ds'>DUCHA FRIA DE ALUMÍNIO</h4>
                         <h5 className='prc'>R$ 5.110,42</h5>
-                        <h4 className='frete'>FRETE GRÁTIS</h4>
-                        <img className='cmn' src="/assets/image/caminhao.png" alt="" />
+                        <div className='branco'>
+                            <h4 className='frete'>FRETE GRÁTIS</h4>
+                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                        </div>
                     </div>
 
 
