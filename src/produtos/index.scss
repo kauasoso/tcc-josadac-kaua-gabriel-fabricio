@@ -1,0 +1,479 @@
+.mae{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    .tudo{
+        background-image: url(../../public/assets/image/fundo-corpo.png);
+        height: 148vh;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        background-repeat: no-repeat;
+    
+
+        .centralizar{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            
+        }
+        
+
+        .prd{
+            font-size: 50px;
+            font-weight: 500;
+            margin-bottom: 130px;
+        }
+
+        nav{
+            display: flex;
+            flex-direction: row;
+            color: #fff;
+            align-items: center;
+            margin-left: 35px;    
+            margin-bottom: 100px;           
+        }
+
+        #filtro{
+            width: 250px;
+            height: 35px;
+            padding-left: 90px;
+            outline: none;
+            margin-left: 50px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        button{
+            height: 35px;
+            background-color: #309CFF;
+            border: none;
+            color: #fff;
+        }
+
+        button:hover{
+            box-shadow: 0px 0px 10px 0.1px #000;
+            transition: 0.2s;
+            height: 38px;
+        }
+
+        .abc{
+            height: 45vh;
+            width: 350px;
+            background-color: #fff;
+            border-radius: 15px;
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        
+            h3{
+                font-weight: 500;
+            }
+
+        .abc:hover{
+                box-shadow: 0px 0px 25px 0.1px #a4fff7;
+                transition: 0.2s;
+                height: 46vh;
+                width: 352px;
+            }
+
+        .preco{
+            margin-top: -8px;
+            color: #309CFF;
+
+        }
+
+        .caminhao{
+            height: 25px;
+            width: 25px;
+        }
+
+        .p{
+            color: #000;
+        }
+
+        section{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .divis{
+            margin-top: 0px;
+            gap: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 25px;
+            height: 100vh;
+            flex-wrap: wrap;
+            margin-top: -20px;
+
+            .cima{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+
+        .imagi{
+            height: 155px;
+            width: 155px;
+            margin-top: 8px;
+            margin-bottom: 25px;
+        }
+
+        .txt{
+            color: #000;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .line{
+            height: 2px;
+            background-color: #000000;
+            width: 350px;
+        }
+
+        .fdp{
+            background-color: #000;
+            height: 15vh;
+            width: 15vw;
+        }
+
+        .fim{
+            margin-top: 25px;
+        }
+    }
+
+    .fundo-virado{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+}
+
+.botao{
+    height: 15px;
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:850px) {
+
+    .mae{
+        display: flex;
+        flex-direction: column;
+    .tudo{
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        .coluna{
+            display: flex;
+            flex-direction: column;
+        }
+
+    .prd{
+        display: none;
+    }
+
+   h3{
+    color: #000;
+   }
+
+   .divis{
+    margin-top: 0px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
+
+
+
+    
+    .cima{
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 1600px;
+        height: 1450px;
+    }
+
+    .baixo{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+    .abc{
+        height: 450px;
+        box-shadow: 1px 1px 10px 1px;
+    }
+
+    .fundo-virado{
+        background-image: url(../../public/assets/image/fundo-ondaaa.png);
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        rotate: 180deg;
+        margin-top: -50px;
+        .abc{
+            rotate: 180deg;
+            height: 370px;
+        
+            
+
+
+            button{
+                margin-bottom: 5px;
+                height: 20px ;
+
+            }
+        }
+        .abc:hover{
+                box-shadow: 1px 1px 10px 1px #00b7ff;
+                transition: 0.2s;
+                height: 380px;
+            }
+    }
+
+     
+}
+        .abc{
+            height: 350px;
+            transition: 0.2s;
+            height: 371.6px;     
+            button{
+                margin-bottom: 15px;
+            }
+        }
+        .abc:hover{
+            box-shadow: 1px 1px 10px 1px #00b7ff;
+            transition: 0.2s;
+        }
+
+
+
+        .preco{
+            color: #309CFF;
+            margin-right: 180px;
+            width: 20vw;
+            margin-top: -6px !important ;
+            margin-bottom: 14px;
+
+        }
+
+
+     
+
+
+        .txt{
+            font-size:17px;
+        }
+
+}
+}
+}
+
+.centralizar{
+    justify-content: center !important;
+    display: flex !important;
+        
+}
+
+
+
+@media (max-width:650px) {
+
+    .mae{
+    .tudo{
+    .prd{
+        display: none;
+    }
+
+   h3{
+    color: #000;
+   }
+
+   .divis{
+    margin-top: 0px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
+
+    .cima{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .baixo{
+        flex-direction: column;
+    }
+
+    .abc{
+        box-shadow: 1px 1px 10px 1px;
+    }
+
+    .fundo-virado{
+        background-image: url(../../public/assets/image/fundo-corpo.png);
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        rotate: 180deg;
+        .abc{
+            rotate: 180deg;
+            height: 350px;
+        
+            
+
+
+            button{
+                margin-bottom: 15px;
+            }
+        }
+        .abc:hover{
+                box-shadow: 1px 1px 10px 1px #00b7ff;
+                transition: 0.2s;
+                height: 380px;
+            }
+    }
+
+     
+}
+        .abc{
+            height: 350px;
+            transition: 0.2s;
+            height: 350px;     
+            button{
+                margin-bottom: 15px;
+            }
+        }
+        .abc:hover{
+            box-shadow: 1px 1px 10px 1px #00b7ff;
+            transition: 0.2s;
+        }
+
+}
+}
+
+
+
+@media (max-width:450px) {
+
+
+
+    .abc{
+        height: 32.3vh !important;
+        margin-top: 0.5px !important;
+    }
+
+
+    .centralizar{
+        height: 11vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+
+    
+    .preco{
+
+        position: relative;
+        left: 235px;
+        top: 6px;
+    }
+    
+}
+}
+
+
+
+
+@media (max-width:685px) {
+
+
+
+    .centralizar{
+       display: none !important;
+    }
+
+  
+
+    .prd{
+
+    }
+
+
+    .cima{
+        
+
+        margin-top: 2100px !important;
+        position: relative;
+        top: 20px;
+
+    }
+
+
+    .tudo{
+        height: 240vh !important;
+    }
+
+
+    .fundo-virado{
+
+        position: relative;
+        top: -70px;
+
+        .abc{
+            
+        }
+    }
+
+    .abc{
+        height: 420px !important;
+        margin-top:7px !important;
+    }
+
+
+  
+}
+
+
+
+@media (max-width:1366px) {
+
+  .abc{
+    height: 60vh !important;
+  }
+
+
+  .tudo{
+    height: 180vh !important;
+  }
+}
+

@@ -14,6 +14,7 @@ return (
             <div className='agrupa-a'>
                 <a className='ab' href="/login">ENTRAR</a>
                 <a href="/cadastro" className='cd'>CADASTRAR</a>
+                <a href="/loginadm" className="ef">ADMINISTRADOR</a>
             </div>
 
         </nav>
