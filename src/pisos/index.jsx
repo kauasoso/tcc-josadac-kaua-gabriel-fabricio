@@ -49,7 +49,7 @@ export default function Pisos() {
                             <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                         </section>
-                        <button>COMPRAR AGORA</button>
+                        <a href="/pis1"><button>COMPRAR AGORA</button></a>
                     </div>
 
                     <div className='abc'>
@@ -67,7 +67,7 @@ export default function Pisos() {
 
                         </section>
 
-                        <button>COMPRAR AGORA</button>
+                        <a href="/pis2"><button>COMPRAR AGORA</button></a>
                     </div>
 
                     <div className='abc'>
@@ -84,7 +84,7 @@ export default function Pisos() {
 
                         </section>
 
-                        <button>COMPRAR AGORA</button>
+                        <a href="/pis2"><button>COMPRAR AGORA</button></a>
                     </div>
 
                     <div className='abc'>
@@ -100,7 +100,7 @@ export default function Pisos() {
                             <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                         </section>
-                        <button>COMPRAR AGORA</button>
+                        <a href="/pis3"> <button>COMPRAR AGORA</button></a>
                     </div>
 
                     <div className='abc'>
@@ -117,7 +117,7 @@ export default function Pisos() {
 
                         </section>
 
-                        <button>COMPRAR AGORA</button>
+                        <a href="/pis5"> <button>COMPRAR AGORA</button></a>
                     </div>
 
                     <div className='abc'>
@@ -135,7 +135,7 @@ export default function Pisos() {
 
                         </section>
 
-                        <button>COMPRAR AGORA</button>
+                        <a href="/pis6">  <button>COMPRAR AGORA</button></a>
                     </div>
 
                 </section>

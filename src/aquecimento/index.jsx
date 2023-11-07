@@ -52,7 +52,7 @@ export default function Aquecimentos() {
                         </section>
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/aq1"><button>COMPRAR AGORA</button> </a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -77,7 +77,7 @@ export default function Aquecimentos() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/aq2"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -101,7 +101,7 @@ export default function Aquecimentos() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/aq3"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -124,7 +124,7 @@ export default function Aquecimentos() {
                         </section>
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/aq4"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -148,7 +148,7 @@ export default function Aquecimentos() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/aq5"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -173,7 +173,7 @@ export default function Aquecimentos() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/aq6"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />

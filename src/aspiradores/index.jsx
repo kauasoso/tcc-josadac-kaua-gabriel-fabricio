@@ -47,7 +47,7 @@ export default function Aspiradores() {
                         </section>
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/asp1"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -71,7 +71,7 @@ export default function Aspiradores() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/asp2"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -96,7 +96,7 @@ export default function Aspiradores() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/asp3"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />

@@ -51,7 +51,7 @@ export default function Cascatas() {
                         </section>
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/cas1"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -76,7 +76,7 @@ export default function Cascatas() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/cas2"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -100,7 +100,7 @@ export default function Cascatas() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/cas3"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -123,7 +123,7 @@ export default function Cascatas() {
                         </section>
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/cas4"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -147,7 +147,7 @@ export default function Cascatas() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/cas5"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -172,7 +172,7 @@ export default function Cascatas() {
 
                         <nav className='botao'>
 
-                            <button>COMPRAR AGORA</button>
+                        <a href="/cas6"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />

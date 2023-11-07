@@ -52,7 +52,7 @@ export default function Produto() {
 
                                 <nav className='botao'>
 
-                                    <button>COMPRAR AGORA</button>
+                                <a href="/filtro1"><button>COMPRAR AGORA</button></a>
 
                                     <a href="/pedido">
                                         <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -68,7 +68,7 @@ export default function Produto() {
                                 <p className='txt'>BOMBA DE FILTRAGEM P/ 1136 L/HR 110V <br /> BEL LAZER 174400</p>
 
 
-                                <h1 className='preco'>R$ 891,00</h1>
+                                <h1 className='preco'>R$ 253,78</h1>
 
                                 <section>
 
@@ -79,7 +79,7 @@ export default function Produto() {
 
                                 <nav className='botao'>
 
-                                    <button>COMPRAR AGORA</button>
+                                <a href="/filtro2"><button>COMPRAR AGORA</button></a>
 
                                     <a href="/pedido">
                                         <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -92,7 +92,7 @@ export default function Produto() {
                                 <div className='line'>ㅤ</div>
                                 <p className='txt'>PENEIRA SODRAMAR PUÇA COM ARMAÇÃO <br /> BOMBA DE FILTRAGEM 2006L/H BEL 110V</p>
 
-                                <h1 className='preco'>R$ 891,00</h1>
+                                <h1 className='preco'>R$ 431,12</h1>
 
                                 <section>
 
@@ -103,7 +103,7 @@ export default function Produto() {
 
                                 <nav className='botao'>
 
-                                    <button>COMPRAR AGORA</button>
+                                <a href="/filtro3"><button>COMPRAR AGORA</button></a>
 
                                     <a href="/pedido">
                                         <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -134,7 +134,7 @@ export default function Produto() {
                                     <p className='txt'>BOMBA DE FILTRAGEM 3028 <br /> L/HR 220V BEL</p>
 
 
-                                    <h1 className='preco'>R$ 891,00</h1>
+                                    <h1 className='preco'>R$ 457,53</h1>
                                     <section>
 
                                         <p>FRETE GRÁTIS</p>
@@ -144,7 +144,7 @@ export default function Produto() {
 
                                     <nav className='botao'>
 
-                                        <button>COMPRAR AGORA</button>
+                                    <a href="/filtro4"><button>COMPRAR AGORA</button></a>
 
                                         <a href="/pedido">
                                             <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -157,7 +157,7 @@ export default function Produto() {
                                     <div className='line'>ㅤ</div>
                                     <p className='txt'>BOMBA FILTRANTE FILTRO PARA PISCINA<br />  2006 L/H 110V COM REFIL E MANGUEIRA</p>
 
-                                    <h1 className='preco'>R$ 891,00</h1>
+                                    <h1 className='preco'>R$ 455,59</h1>
 
                                     <section>
 
@@ -168,7 +168,7 @@ export default function Produto() {
 
                                     <nav className='botao'>
 
-                                        <button>COMPRAR AGORA</button>
+                                    <a href="/filtro5"> <button>COMPRAR AGORA</button></a>
 
                                         <a href="/pedido">
                                             <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -182,7 +182,7 @@ export default function Produto() {
 
                                     <p className='txt'>BOMBA FILTRO INTEX PARA  PISCINAS <br />DE 2.006 LITROS/HORA E 110V</p>
 
-                                    <h1 className='preco'>R$ 891,00</h1>
+                                    <h1 className='preco'>R$ 417,80</h1>
 
                                     <section>
 
@@ -193,7 +193,7 @@ export default function Produto() {
 
                                     <nav className='botao'>
 
-                                        <button>COMPRAR AGORA</button>
+                                    <a href="/filtro6"> <button>COMPRAR AGORA</button></a>
 
                                         <a href="/pedido">
                                             <img src="./assets/image/carropaypal.png" alt="" height={35} />
