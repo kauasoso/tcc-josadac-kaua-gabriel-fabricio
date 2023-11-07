@@ -48,13 +48,13 @@ export default function Cabecalho() {
 
 
 
-            <div className='agrupa-panda'>
+                        <div className='agrupa-panda'>
 
-                            
-            <div className='carrinho'>
-              <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
-                <p>(0) ITEMS</p>
-            </div>
+
+                            <div className='carrinho'>
+                                <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
+                                <p>(0) ITEMS</p>
+                            </div>
 
 
 
@@ -78,25 +78,25 @@ export default function Cabecalho() {
 
                 <div className='agrupa-categorias'>
                     <div className='fundo'>
-                    <a className='cor' href="/iluminacoes">ILUMINAÇÃO</a> 
+                        <a className='cor' href="/iluminacoes">ILUMINAÇÃO</a>
                     </div>
 
 
                     <div className='fundo'>
-                        <a className='cor' href="/Cascatas">CASCATAS</a> 
+                        <a className='cor' href="/Cascatas">CASCATAS</a>
                     </div>
 
-                        <div className='fundo'>
-                        <a className='cor' href="/produto">FILTROS</a> 
-                        </div>
+                    <div className='fundo'>
+                        <a className='cor' href="/produto">FILTROS</a>
+                    </div>
 
-            <div className='fundo'>
-            <a className='cor' href="/acess">ACESSORIOS</a> 
+                    <div className='fundo'>
+                        <a className='cor' href="/acess">ACESSORIOS</a>
+                    </div>
+                </div>
+
             </div>
         </div>
-        
-    </div>
-    </div>
     )
 
 
