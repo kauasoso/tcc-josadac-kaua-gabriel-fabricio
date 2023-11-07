@@ -35,7 +35,7 @@ export default function Bomba2(){
 
                         <h2 className='preco'>R$ 7.543.99</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                        
                     </div>
             

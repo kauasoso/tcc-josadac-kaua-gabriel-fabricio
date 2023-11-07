@@ -29,7 +29,7 @@ A bomba filtrante para piscina 2006 L/H 110V com refil e mangueira é um equipam
 
                     <h2 className='preco'>R$ 455,59</h2>
 
-                    <button className='comprar'>COMPRAR AGORA</button>
+                    <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                 
                 </div>
 

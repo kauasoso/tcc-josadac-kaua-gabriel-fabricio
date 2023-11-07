@@ -34,7 +34,7 @@ O Elevador de Alcalinidade e Controle de pH HTH Saco 2kg é um produto químico 
 
                         <h2 className='preco'>R$320,00</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                       
                     </div>
             

@@ -36,7 +36,7 @@ export default function Ace1() {
 
                     <h2 className='preco'>R$50,40</h2>
 
-                    <button className='comprar'>COMPRAR AGORA</button>
+                    <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
 
                 </div>
 

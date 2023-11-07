@@ -43,7 +43,7 @@ A borda Gradara é um elemento de acabamento para piscinas, que se caracteriza p
 
                         <h2 className='preco'>R$ 202,99</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                       
                     </div>
             

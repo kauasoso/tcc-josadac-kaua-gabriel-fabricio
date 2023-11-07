@@ -135,7 +135,7 @@ export default function Home() {
 
                     {/* segunda parte abaixoo dos cards de categoria */}
 
-
+    {/*cvsdsvsdv*/}
 
 
 
@@ -189,15 +189,11 @@ export default function Home() {
                             <div className='line'>
                             </div>
 
-                           
-                            <div className='enunciado'>
-                                    <h2>AQUECIMENTO</h2>
-                                </div>
-
-                    <div className='final-cruz'>
-                        <img src="./assets/image/cruz.png" alt="" />
-                    </div></a>
-                        </div>
+                                        <div>
+                                            <h2>PURIFICADOR DE ÁGUA </h2>
+                                            <img className='cruz' src="./assets/image/cruz.png" alt="" />
+                                        </div></a>
+                                    </div>
 
                         {/* card-3 , 3fx , fim */}
 
@@ -287,14 +283,14 @@ export default function Home() {
                 <div className='subcontainer2'>
 
                     <h1>UM POUCO DE NOSSOS SERVIÇOS !</h1>
-
-
-                    <div className='antes'>
-                        <img className='servic' src="../assets/image/servic.png" alt="" />
-                    </div>
-
-                </div>
-
+            
+            
+            <div className='antes'>
+                <img className='servic' src="../assets/image/servic.png" alt="" />
+            </div>
+            
+            </div>
+    
 
 
 

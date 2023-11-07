@@ -33,7 +33,7 @@ export default function Pis3(){
 
                 <h2 className='preco'>R$ 319,36</h2>
 
-                <button className='comprar'>COMPRAR AGORA</button>
+                <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
               
             </div>
 

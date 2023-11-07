@@ -41,7 +41,7 @@ export default function Bor2(){
 
                         <h2 className='preco'>R$ 307,00</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                        </div>
             
             </div>

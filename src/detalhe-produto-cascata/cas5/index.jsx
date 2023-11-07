@@ -40,7 +40,7 @@ export default function Cas5(){
 
                         <h2 className='preco'>R$ 5.110,42</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                     
                     </div>
             

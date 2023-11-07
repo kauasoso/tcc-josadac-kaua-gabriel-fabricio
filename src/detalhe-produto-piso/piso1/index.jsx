@@ -35,7 +35,7 @@ O revestimento para piscina Azul Viscaya 30,3x30,30 em jatobá é uma opção el
 
                 <h2 className='preco'>R$ 432,29</h2>
 
-                <button className='comprar'>COMPRAR AGORA</button>
+                <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
               
             </div>
 

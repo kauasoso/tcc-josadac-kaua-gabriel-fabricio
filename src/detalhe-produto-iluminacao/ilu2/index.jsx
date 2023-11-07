@@ -38,7 +38,7 @@ O refletor R125 é um dispositivo elétrico usado para direcionar a luz de uma l
 
                         <h2 className='preco'>R$ 345,90</h2>
 
-                        <button className='comprar'>COMPRAR AGORA</button>
+                        <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
                     
                     </div>
             
