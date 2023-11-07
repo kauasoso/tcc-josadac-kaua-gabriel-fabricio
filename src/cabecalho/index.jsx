@@ -61,7 +61,7 @@ export default function Cabecalho() {
                             <div className='agrupa-panda'>
 
 
-                                <div>
+                                <div className='dilado'>
                                     <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
                                     <p>Seja Bem-vindo, {usuario ? usuario[0].nome : ''}!</p>
                                     <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
