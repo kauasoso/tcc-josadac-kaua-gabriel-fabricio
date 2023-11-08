@@ -13,12 +13,7 @@ export default function Home() {
 
 
 
-<<<<<<< HEAD
       
-=======
-
->>>>>>> 24738813fa79b9f2fd196b1be21a188fbbd3575c
-
 
 
 

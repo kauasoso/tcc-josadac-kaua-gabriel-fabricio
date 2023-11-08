@@ -64,6 +64,42 @@ background-color: rgb(56, 69, 255);
   display: flex;
   flex-direction: column;
 
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 60px 10px 50px;
+    align-items: center;
+    width: 106.9vh;
+    height: 15vh;
+    background-color: #164FA6;
+
+.usuario-p{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+
+    p{
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid white;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+   p:hover {
+    border: 1px solid rgb(168, 168, 168);
+    color: rgb(168, 168, 168);
+   }
+
+}
+
+  }
+
+
   .logo-grande {
     width: 800px;
     height: 800px;
@@ -223,6 +259,7 @@ background-color: rgb(56, 69, 255);
         .input-4 {
             display: flex;
             flex-direction: column;
+            justify-content: flex-end;
          
             .salvar-alterar {
               display: flex;
@@ -277,40 +314,7 @@ background-color: rgb(56, 69, 255);
     height: 80px;
   }
 
-  nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 60px 10px 50px;
-    align-items: center;
-    width: 106.9vh;
-    height: 15vh;
-    background-color: #164FA6;
-    background-size: cover;
-
-.usuario-p{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    flex-direction: row;
-
-    p{
-        color: white;
-        padding: 15px;
-        border-radius: 5px;
-        border: 1px solid white;
-        transition: 0.5s;
-        cursor: pointer;
-    }
-
-   p:hover {
-    border: 1px solid rgb(168, 168, 168);
-    color: rgb(168, 168, 168);
-   }
-
-}
-
-  }
+ 
 
 }
 
