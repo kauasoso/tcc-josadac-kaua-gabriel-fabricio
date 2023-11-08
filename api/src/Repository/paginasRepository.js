@@ -38,7 +38,7 @@ export async function Cadastrar(pessoa) {
 
     let r = await conexao.query(comando , [pessoa.nome , pessoa.email , pessoa.senha])
 
-    return r ;
+    return pessoa ;
 
 }
 

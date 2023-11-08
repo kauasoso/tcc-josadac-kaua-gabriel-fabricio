@@ -21,7 +21,7 @@ export default function Cadastro() {
     const ref = useRef();
 
     useEffect(() =>{
-        if (storage('usuario-cadastrado')) {
+        if (storage('usuario-logado')) {
          navigate('/home')
         }
      },[])
@@ -42,12 +42,11 @@ export default function Cadastro() {
 
             
             const r = await axios.post(url, pessoa)
-            storage('usuario-cadastrado', r.data)
+            storage('usuario-logado', r.data)
 
             setTimeout(() => {
-                if(storage('usuario-cadastrado'))
                 navigate('/home')
-            }, 3000)
+                },3000)
 
 
 

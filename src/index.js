@@ -232,6 +232,11 @@ root.render(
       <Route path='/homeadm' element={<HomeAdm/>}/>
       <Route path='/cadastro' element={<Cadastro/>}/>
       <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
+      <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
+      <Route path='/home' element={<Home/>}/>
+      <Route path='/homeinicial' element={<HomeLogin/>}/>
+
+
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -17,11 +17,11 @@ const [erro, setErro] = useState([])
 const [carregando, setCarregando] = useState (false)
 
 
-// useEffect(() =>{
-//    if (storage('usuario-logado')) {
-//     navigate('/home')
-//    }
-// },[])
+useEffect(() =>{
+   if (storage('usuario-logado')) {
+    navigate('/home')
+   }
+},[])
 
 
 
@@ -63,7 +63,7 @@ async function Entrar() {
 
 return (
     <div className='mae-login'>
-        <LoadingBar color='#f11946' ref={ref} />
+        <LoadingBar color='#6ffeff' ref={ref} />
         <div className="container-login">
             <nav>
                 <div>

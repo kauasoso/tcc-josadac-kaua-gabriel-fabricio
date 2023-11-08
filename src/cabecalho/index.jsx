@@ -12,24 +12,24 @@ export default function Cabecalho() {
     const navigate = useNavigate();
 
 
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     if (!storage('usuario-logado')) {
-    //         navigate('/login')
-    //     } else {
-    //         const usuarioLogado = storage('usuario-logado');
-    //         setUsuario(usuarioLogado)
-    //         console.log(usuarioLogado);
-    //     }
+        if (!storage('usuario-logado')) {
+            navigate('/login')
+        } else {
+            const usuarioLogado = storage('usuario-logado');
+            setUsuario(usuarioLogado)
+            console.log(usuarioLogado);
+        }
 
 
-    // }, [])
+    }, [])
 
 
     function sairclick() {
         storage.remove('usuario-logado')
         setTimeout(() => {
-            navigate('/')
+            navigate('/homeinicial')
         }, 1800)
 
     }
@@ -53,7 +53,6 @@ export default function Cabecalho() {
 
                             <div className='carrinho'>
                                 <a href="/pedido"><img className='azulcarro' src="./assets/image/carrinho.png" alt="" /></a>
-                                <p>(0) ITEMS</p>
                             </div>
 
 
@@ -63,7 +62,6 @@ export default function Cabecalho() {
 
                                 <div className='dilado'>
                                     <span style={{ color: "black" }}>{usuario ? usuario[0].nome.substr(0, 1).toUpperCase() : ''}</span>
-                                    <p>Seja Bem-vindo, {usuario ? usuario[0].nome : ''}!</p>
                                     <p className='sair-conta' onClick={sairclick}>SAIR DA CONTA</p>
                                 </div>
 
