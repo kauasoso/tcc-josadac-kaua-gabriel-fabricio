@@ -33,7 +33,7 @@ export default function Pis3(){
 
                 <h2 className='preco'>R$ 319,36</h2>
 
-                <button className='comprar'>COMPRAR AGORA</button>
+                <a className='adetalhes' href="/pedido"> <button className='comprar'>COMPRAR AGORA</button></a>
               
             </div>
 
@@ -50,7 +50,7 @@ export default function Pis3(){
                     <h4 className='ds'>REVESTIMENTO PISCINA JABOTA</h4>
                     <h5 className='prc'>R$ 432,29</h5>
 
-                    <div className='ladocmn'>
+                    <div className='branco'>
                         <h4 className='frete'>FRETE GRÁTIS</h4>
                         <img className='' src="/assets/image/caminhao.png" alt="" />
                     </div>
@@ -60,7 +60,7 @@ export default function Pis3(){
                     <img className='imagizi' src="/assets/image/piso-2.png" alt="" />
                     <h4 className='ds'>REVESTIMENTO PISCINA ELIANE</h4>
                     <h5 className='prc'>R$ 217,99</h5>
-                    <div className='ladocmn'>
+                    <div className='branco'>
                         <h4 className='frete'>FRETE GRÁTIS</h4>
                         <img className='' src="/assets/image/caminhao.png" alt="" />
                     </div>
@@ -69,7 +69,7 @@ export default function Pis3(){
                     <img className='imagizi' src="/assets/image/piso-4.png" alt="" />
                     <h4 className='ds'>REVESTIMENTO PISCINA ELIANE </h4>
                     <h5 className='prc'>R$ 423,13</h5>
-                    <div className='ladocmn'>
+                    <div className='branco'>
                         <h4 className='frete'>FRETE GRÁTIS</h4>
                         <img className='' src="/assets/image/caminhao.png" alt="" />
                     </div>
@@ -78,7 +78,7 @@ export default function Pis3(){
                     <img className='imagizi' src="/assets/image/piso-5.png" alt="" />
                     <h4 className='ds'>REVESTIMENTO PISCINA ELIANE</h4>
                     <h5 className='prc'>R$ 732,09</h5>
-                    <div className='ladocmn'>
+                    <div className='branco'>
                         <h4 className='frete'>FRETE GRÁTIS</h4>
                         <img className='' src="/assets/image/caminhao.png" alt="" />
                     </div>

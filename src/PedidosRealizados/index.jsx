@@ -11,81 +11,98 @@ function Realizados() {
 
             <Cabecalho2 />
 
-            <div className='corpo-pt1'>
-                <div>
-                    <h1> PEDIDOS REALIZADOS </h1>
-                </div>
-                <div className='corpo-pt2'>
-                    <div className='imagens'>
-                        <img src="./assets/image/imgUsuarios.webp" alt="" />
-                        <p> usuario email </p>
-                    </div>
-
-
-                    <div className='imagens'>
-                        <img src="./assets/image/imgUsuarios.webp" alt="" />
-                        <p> usuario email </p>
-                    </div>
-
-                    <div className='imagens'>
-                        <img src="./assets/image/imgUsuarios.webp" alt="" />
-                        <p> usuario email </p>
-                    </div>
-
-                    <div className='imagens'>
-                        <img src="./assets/image/imgUsuarios.webp" alt="" />
-                        <p> usuario email </p>
-                    </div>
-                </div>
+            <div className='titulo'>
+                <h1> PEDIDOS REALIZADOS </h1>
             </div>
 
-            <div className='corpo-pt2'>
+            <div className='centralizar'>
+                <div className='borda'>
+                    <div className='corpo-pt1'>
 
-                <div className="imagens">
-                    <img src="./assets/image/imgUsuarios.webp" alt="" />
-                    <p> usuario email </p>
+                        <div className='corpo-pt2'>
+                            <div className='imagens'>
+                                <img src="./assets/image/imgUsuarios.webp" alt="" />
+                                <p> usuario email </p>
+                            </div>
+
+
+                            <div className='imagens'>
+                                <img src="./assets/image/imgUsuarios.webp" alt="" />
+                                <p> usuario email </p>
+                            </div>
+
+                            <div className='imagens'>
+                                <img src="./assets/image/imgUsuarios.webp" alt="" />
+                                <p> usuario email </p>
+                            </div>
+
+                            <div className='imagens'>
+                                <img src="./assets/image/imgUsuarios.webp" alt="" />
+                                <p> usuario email </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='corpo-pt2'>
+
+                        <div className="imagens">
+                            <img src="./assets/image/imgUsuarios.webp" alt="" />
+                            <p> usuario email </p>
+                        </div>
+
+                        <div className="imagens">
+                            <img src="./assets/image/imgUsuarios.webp" alt="" />
+                            <p> usuario email </p>
+                        </div>
+
+                        <div className="imagens">
+                            <img src="./assets/image/imgUsuarios.webp" alt="" />
+                            <p> usuario email </p>
+                        </div>
+
+                        <div className="imagens">
+                            <img src="./assets/image/imgUsuarios.webp" alt="" />
+                            <p> usuario email </p>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div className='corpo-pt2'>
+
+<div className="imagens">
+    <img src="./assets/image/imgUsuarios.webp" alt="" />
+    <p> usuario email </p>
+</div>
+
+<div className="imagens">
+    <img src="./assets/image/imgUsuarios.webp" alt="" />
+    <p> usuario email </p>
+</div>
+
+<div className="imagens">
+    <img src="./assets/image/imgUsuarios.webp" alt="" />
+    <p> usuario email </p>
+</div>
+
+<div className="imagens">
+    <img src="./assets/image/imgUsuarios.webp" alt="" />
+    <p> usuario email </p>
+</div>
+
+</div>
+
+
+
+
+
                 </div>
 
-                <div className="imagens">
-                    <img src="./assets/image/imgUsuarios.webp" alt="" />
-                    <p> usuario email </p>
-                </div>
-
-                <div className="imagens">
-                    <img src="./assets/image/imgUsuarios.webp" alt="" />
-                    <p> usuario email </p>
-                </div>
-
-                <div className="imagens">
-                    <img src="./assets/image/imgUsuarios.webp" alt="" />
-                    <p> usuario email </p>
-                </div>
+                
 
 
-
-
-            </div>
-
-            <div className='corpo-pt2'>
-                <div className="imagens">
-                    <img src="./assets/image/imgUsuarios.webp" alt="" />
-                    <p> usuario email </p>
-                </div>
-
-                <div className="imagens">
-                    <img src="./assets/image/imgUsuarios.webp" alt="" />
-                    <p> usuario email </p>
-                </div>
-
-                <div className="imagens">
-                    <img src="./assets/image/imgUsuarios.webp" alt="" />
-                    <p> usuario email </p>
-                </div>
-
-                <div className="imagens">
-                    <img src="./assets/image/imgUsuarios.webp" alt="" />
-                    <p> usuario email </p>
-                </div>
             </div>
 
             <Rodape />
