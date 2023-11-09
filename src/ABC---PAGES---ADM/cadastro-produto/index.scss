@@ -71,7 +71,7 @@ background-color: rgb(56, 69, 255);
     justify-content: space-between;
     padding: 10px 60px 10px 50px;
     align-items: center;
-    width: 106.9vh;
+    width: 106vh;
     height: 15vh;
     background-color: #164FA6;
 
@@ -111,9 +111,9 @@ background-color: rgb(56, 69, 255);
     justify-content: center;
     align-items: center;
     background-size: cover;
-    background-color: #d9d9d9;
-    width: 100%;
-    height: 100%;
+    background-color: red;
+    width: 106vh;
+    height: 115vh;
 
 
 
@@ -323,3 +323,14 @@ background-color: rgb(56, 69, 255);
 
 
 
+@media (max-width:1280){
+  nav{
+    width: auto;
+  }
+
+  .d9{
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+  }
+}

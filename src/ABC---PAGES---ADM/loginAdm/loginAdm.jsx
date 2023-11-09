@@ -69,6 +69,16 @@ function voltar() {
 }
 
 
+
+    
+function verificarTecla(e){
+    if(e.key == 'Enter'){
+        TelaAdm()
+    }
+}
+
+
+
     return(
         <div className='mae-loginn'>
    <LoadingBar color='#f11946' ref={ref} />
@@ -88,8 +98,8 @@ function voltar() {
                 </div>
                         
                         <div className='input-login'>
-                            <input type="text" placeholder='EMAIL' value={email} onChange={e => setEmail(e.target.value)}/>
-                            <input type="password" placeholder='SENHA' value={senha} onChange={e => setSenha(e.target.value)} />
+                            <input type="text" onKeyDown={(e) => verificarTecla(e)} placeholder='EMAIL' value={email} onChange={e => setEmail(e.target.value)}/>
+                            <input type="password" onKeyDown={(e) => verificarTecla(e)} placeholder='SENHA' value={senha} onChange={e => setSenha(e.target.value)} />
                         </div>
 
                 <div className='agrupa-botao'>

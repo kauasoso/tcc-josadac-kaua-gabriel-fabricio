@@ -57,6 +57,11 @@ async function Entrar() {
 
 }
 
+function verificarTecla(e){
+    if(e.key == 'Enter'){
+        Entrar()
+    }
+}
 
 
     
@@ -85,8 +90,8 @@ return (
                 </div>
                         
                         <div className='input-login'>
-                            <input className='inpl' type="text" placeholder='EMAIL' value={email} onChange={e => setEmail (e.target.value)}/>
-                            <input className='inpl' type="password" placeholder='SENHA' value={senha} onChange={e => setSenha (e.target.value)}/>
+                            <input className='inpl' type="text" onKeyDown={(e) => verificarTecla(e)} placeholder='EMAIL' value={email} onChange={e => setEmail (e.target.value)}/>
+                            <input className='inpl' type="password" onKeyDown={(e) => verificarTecla(e)}  placeholder='SENHA' value={senha} onChange={e => setSenha (e.target.value)}/>
                         </div>
 
                 <div className='agrupa-botao'>
