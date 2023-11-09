@@ -11,7 +11,6 @@
 
     .enunciado{
         height: 120px;
-        background-color: red;
         margin-bottom: 25px;
     }
 
@@ -22,7 +21,6 @@
         justify-content: end;
         height: 10vh;
         width: 250px;
-        background-color: blue;
     }
 
     .ahome{
@@ -298,7 +296,7 @@
                 align-items: center;
                 flex-direction: row;
                 margin-bottom: 50px;
-
+                flex-wrap: wrap;
                 .cardd {
                     display: flex;
                     flex-direction: column;
