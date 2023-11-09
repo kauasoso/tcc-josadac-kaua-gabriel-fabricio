@@ -1,11 +1,5 @@
 .mae {
 
-
-
-
-
-
-
     .antes{
         display: flex;
         align-items: center;
@@ -16,7 +10,9 @@
     }
 
     .enunciado{
-        height: 8vh;
+        height: 120px;
+        background-color: red;
+        margin-bottom: 25px;
     }
 
     .final-cruz{
@@ -24,8 +20,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: end;
-        height: 5vh;
+        height: 10vh;
         width: 250px;
+        background-color: blue;
     }
 
     .ahome{
