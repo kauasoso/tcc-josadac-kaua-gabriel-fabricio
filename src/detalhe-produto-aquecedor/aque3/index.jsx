@@ -54,37 +54,45 @@ export default function Aque3(){
                             <img className='imagizi' src="/assets/image/aqu1.png" alt="" />
                             <h4 className='ds'>AQUECEDOR A GÁS HTR400</h4>
                             <h5 className='prc'>R$ 40.216,13</h5>
-                            <div className='branco'>
-                            <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='' src="/assets/image/caminhao.png" alt="" />
-                        </div>
+                            <section className='branco'>
+
+                                <p>FRETE GRÁTIS</p>
+                                <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
+
+                            </section>
                         </div>
                         <div className='c2'>
                             <img className='imagizi' src="/assets/image/aqu2.png" alt="" />
                             <h4 className='ds'>CAPA TÉRMICA</h4>
                             <h5 className='prc'>R$ 387,00</h5>
-                            <div className='branco'>
-                            <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='' src="/assets/image/caminhao.png" alt="" />
-                        </div>
+                            <section className='branco'>
+
+<p>FRETE GRÁTIS</p>
+<img className='caminhao' src="/assets/image/caminhao.png" alt="" />
+
+</section>
                         </div>
                         <div className='c3'>
                             <img className='imagizi' src="/assets/image/aquecedor-4.png" alt="" />
                             <h4 className='ds'>CAPA TÉRMICA SOL +GUARD</h4>
                             <h5 className='prc'>R$ 403,53</h5>
-                            <div className='branco'>
-                            <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='' src="/assets/image/caminhao.png" alt="" />
-                        </div>
+                            <section className='branco'>
+
+<p>FRETE GRÁTIS</p>
+<img className='caminhao' src="/assets/image/caminhao.png" alt="" />
+
+</section>
                         </div>
                         <div className='c4'>
                             <img className='imagizi' src="/assets/image/aquecedor-5.png" alt="" />
                             <h4 className='ds'>PLACA SOLAR ESTEIRA</h4>
                             <h5 className='prc'>R$ 1246,00</h5>
-                            <div className='branco'>
-                            <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='' src="/assets/image/caminhao.png" alt="" />
-                        </div>
+                            <section className='branco'>
+
+<p>FRETE GRÁTIS</p>
+<img className='caminhao' src="/assets/image/caminhao.png" alt="" />
+
+</section>
                         </div>
 
 
