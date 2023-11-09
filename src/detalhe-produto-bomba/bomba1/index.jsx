@@ -50,41 +50,49 @@ Bomba filtrante para piscina inflável é um equipamento essencial para manter a
 
 
 
-                        <div className='c1'>
+                        <div className='c1'><a className='adetalheproduto' href="/bomb2">
                             <img className='imagizi' src="/assets/image/bomba-2.png" alt="" />
                             <h4 className='ds'>FILTRO COM CARRINHO </h4>
                             <h5 className='prc'>R$ 7.543.99</h5>
-                            <div className='branco'>
-                            <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                            <section className='branco'>
+
+<p>FRETE GRÁTIS</p>
+<img className='caminhao' src="/assets/image/caminhao.png" alt="" />
+
+</section></a>
                         </div>
-                        </div>
-                        <div className='c2'>
+                        <div className='c2'><a className='adetalheproduto' href="/bomb3">
                             <img className='imagizi' src="/assets/image/bomba-3.png" alt="" />
                             <h4 className='ds'>KIT BOMBA CV MONOFÁSICA</h4>
                             <h5 className='prc'>R$ 4.186,09</h5>
-                            <div className='branco'>
-                            <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                            <section className='branco'>
+
+<p>FRETE GRÁTIS</p>
+<img className='caminhao' src="/assets/image/caminhao.png" alt="" />
+
+</section></a>
                         </div>
-                        </div>
-                        <div className='c3'>
+                        <div className='c3'><a className='adetalheproduto' href="/ace4">
                             <img className='imagizi' src="/assets/image/acessorio-4.png" alt="" />
-                            <h4 className='ds'>DISPOSITIVO SODRAMAR INOX</h4>
+                            <h4 className='ds'>DISPOSITIVO SODRAMAR</h4>
                             <h5 className='prc'>R$ 74,70</h5>
-                            <div className='branco'>
-                            <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='' src="/assets/image/caminhao.png" alt="" />
+                            <section className='branco'>
+
+<p>FRETE GRÁTIS</p>
+<img className='caminhao' src="/assets/image/caminhao.png" alt="" />
+
+</section></a>
                         </div>
-                        </div>
-                        <div className='c4'>
+                        <div className='c4'><a className='adetalheproduto' href="/ace5">
                             <img className='imagizi' src="/assets/image/acessorio-5.png" alt="" />
                             <h4 className='ds'>DRENO ANTI BASE LATÃO</h4>
                             <h5 className='prc'>R$ 432,90</h5>
-                            <div className='branco'>
-                            <h4 className='frete'>FRETE GRÁTIS</h4>
-                            <img className='' src="/assets/image/caminhao.png" alt="" />
-                        </div>
+                            <section className='branco'>
+
+<p>FRETE GRÁTIS</p>
+<img className='caminhao' src="/assets/image/caminhao.png" alt="" />
+
+</section></a>
                         </div>
 
 
