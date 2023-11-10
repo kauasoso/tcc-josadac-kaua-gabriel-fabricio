@@ -209,7 +209,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>BOMBAS</h2>
+                                <h2>AQUECIMENTO</h2>
                             </div>
 
                             <div className='final-cruz'>
