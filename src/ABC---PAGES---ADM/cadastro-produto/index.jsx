@@ -233,19 +233,20 @@ async function AlterarProduto () {
                 <div className='d9'>
                  
                     <div className='d8'> 
+                    
                         <div className='input-4'>
                             <input className='url' type="text" placeholder='URL DA IMAGEM !' value={imagem} onChange={e => setImagem (e.target.value)} />
                             <input type="text" placeholder='NOME DO PRODUTO' value={nome} onChange={e => setNome (e.target.value)} />
                             <input type="text" placeholder='CATEGORIA' value={categoria} onChange={e => setCategoria (e.target.value)}/>
                             <input type="text" placeholder='VALOR DO PRODUTO' value={valor} onChange={e => setValor (e.target.value)}/>
                             <input type="text" placeholder='QUANTIDADE' value={quantidade} onChange={e => setQuantidade (e.target.value)}/>
+                        </div>
 
                             <div className='salvar-alterar'>
                                 <button className='salvar' onClick={SalvarProdutos} >SALVAR</button>
                                 <button className='salvar' onClick={AlterarProduto} disabled={ativado}>ALTERAR</button>
                              </div>
 
-                        </div>
 
 
                         
