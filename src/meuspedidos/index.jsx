@@ -3,7 +3,7 @@ import Card from '../card';
 import Cabecalho2 from '../cabecalho2';
 
 export default function Pedido() {
-
+   
 
 
     return (

@@ -61,6 +61,11 @@ export default function Cadastro() {
     }
 
 
+    function verificarTecla(e){
+        if(e.key == 'Enter'){
+            CadastrarCliente()
+        }
+    }
 
 
     return (
@@ -83,9 +88,9 @@ export default function Cadastro() {
                     </div>
 
                     <div className='input-login'>
-                        <input type="text" placeholder='NOME COMPLETO' value={nome} onChange={e => setNome(e.target.value)} />
-                        <input type='text' placeholder='EMAIL' value={email} onChange={e => setEmail(e.target.value)} />
-                        <input type="password" placeholder='SENHA' value={senha} onChange={e => setSenha(e.target.value)} />
+                        <input type="text" onKeyDown={(e) => verificarTecla(e)} placeholder='NOME COMPLETO' value={nome} onChange={e => setNome(e.target.value)} />
+                        <input type='text' onKeyDown={(e) => verificarTecla(e)} placeholder='EMAIL' value={email} onChange={e => setEmail(e.target.value)} />
+                        <input type="password" onKeyDown={(e) => verificarTecla(e)} placeholder='SENHA' value={senha} onChange={e => setSenha(e.target.value)} />
                     </div>
 
                     <div className='agrupa-botao-cadastro'>
