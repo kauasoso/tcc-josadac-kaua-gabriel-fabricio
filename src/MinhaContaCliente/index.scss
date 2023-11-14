@@ -8,7 +8,6 @@
    background-position: 50% 15%;
    width: 100% ;
    background-size: cover;
-   height: 100vh;
 
 
 .agrupa-panda {
@@ -34,7 +33,7 @@
     .camera {
         position: absolute;
         top: 60px;
-        left: 780px;
+        left: 645px;
         right: 0px;
         height: 30px;
     }
@@ -76,6 +75,7 @@
         width: 650px;
         padding: 15px;
         margin-bottom: 40px;
+        background-color: white;
         font-size: 20px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
@@ -93,6 +93,7 @@
 
 
     .mudar{
+
 
         .line-n {
             width: 108px;

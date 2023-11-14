@@ -1,8 +1,32 @@
 import './index.scss';
 import Cabecalho2 from '../cabecalho2';
 import Rodape from '../rodape';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import storage from 'local-storage'
+
+
 
 export default function MinhaConta(){
+
+const [desativado , setDesativado] = useState (true);
+const [usuario , setUsuario] = useState ()
+
+
+  useEffect(() => {
+
+        const usuarioLogado = storage('usuario-logado');
+        setUsuario(usuarioLogado)
+        console.log(usuarioLogado);
+}, [])
+
+
+
+
+
+ async function MudarEmail() {
+setDesativado(false)
+}
 
 return(
 <div className="mae-minhaconta">
@@ -28,11 +52,11 @@ return(
 {/*  */}
                 <div className="input1">
                   <p>Email</p>
-                  <input type="text" placeholder='EMAIL' />
+                  <input disabled={desativado} type="text" placeholder={usuario ? usuario[0].email : '' } />
                 </div>
 
            <div className="mudar">
-                <p>MUDAR EMAIL</p>
+                <p onClick={MudarEmail}>MUDAR EMAIL</p>
                 <div className='line'></div>
            </div>
 
@@ -44,7 +68,7 @@ return(
 {/*  */}
                 <div className="input1">
                   <p>Senha</p>
-                  <input type="password" placeholder='**************' />
+                  <input disabled={desativado} type="password" placeholder='* * * * * * * * * * * * * *' />
                 </div>
 
            <div className="mudar">
@@ -60,7 +84,7 @@ return(
 {/*  */}
                 <div className="input1">
                   <p>Número</p>
-                  <input type="text" placeholder='+55 (11) 9 9123-4567' />
+                  <input disabled={desativado} type="text" placeholder='+55 (11) 9 9123-4567' />
                 </div>
 
            <div className="mudar">
@@ -81,7 +105,7 @@ return(
                 {/*  */}
                                 <div className="input1">
                                 <p>Nome de Exibição</p>
-                                <input type="text" placeholder='Fabrício Gabriel' />
+                                <input disabled={desativado}  type="text" placeholder={usuario ? usuario[0].nome : '' } />
                                 </div>
 
                         <div className="mudar">
