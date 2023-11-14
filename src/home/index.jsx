@@ -25,7 +25,7 @@ export default function Home() {
             <div className='container'>
 
                 <div className="marquee" >
-                    <marquee behavior="" direction="" scrollamount="25"><img className='homepiscina' src="./assets/image/pisc-1.png" alt="" />
+                    <marquee behavior="" direction="" scrollamount="15"><img className='homepiscina' src="./assets/image/pisc-1.png" alt="" />
                         <img className='homepiscina' src="./assets/image/pisc-2.png" alt="" />
                         <img className='homepiscina' src="./assets/image/pisc-3.png" alt="" />
                         <img className='homepiscina' src="./assets/image/pisc-4.png" alt="" />

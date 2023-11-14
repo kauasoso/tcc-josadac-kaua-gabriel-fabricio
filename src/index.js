@@ -27,7 +27,7 @@ import Cadastro from './cadastroCliente';
 import HomeLogin from './home-login-cadastro';
 import CadastroProduto from './ABC---PAGES---ADM/cadastro-produto';
 import LoginAdmin from './ABC---PAGES---ADM/loginAdm/loginAdm';
-
+import MinhaConta from './MinhaContaCliente'
 
 
 
@@ -235,6 +235,7 @@ root.render(
       <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
       <Route path='/home' element={<Home/>}/>
       <Route path='/homeinicial' element={<HomeLogin/>}/>
+      <Route path='/minhaconta' element={<MinhaConta/>}/>
 
 
     </Routes>

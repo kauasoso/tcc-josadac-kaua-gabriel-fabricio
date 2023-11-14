@@ -4,17 +4,51 @@
         display: flex;
         flex-direction: row;
 
+        nav{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 10px 60px 10px 50px;
+          align-items: center;
+          width: 67.3vw;
+          height: 15vh;
+          background-color: #164FA6;
+
+      .usuario-p{
+          display: flex;
+          align-items: center;
+          gap: 40px;
+          flex-direction: row;
+.usuario{
+  width: 50px;
+}
+        
+          p{
+              color: white;
+              padding: 15px;
+              border-radius: 5px;
+              border: 1px solid white;
+              transition: 0.5s;
+              cursor: pointer;
+          }
+
+         p:hover {
+          border: 1px solid rgb(168, 168, 168);
+          color: rgb(168, 168, 168);
+         }
+
+      }
+
+        }
     
         .espaco-1 {
             display: flex;
             flex-direction:column;
             width: 400px ;
-            height: 100vh;
+            height: 100%;
             background-color: #1A417C;
 
-            #sairconta {
-              margin-top: 80px;
-            }
+           
 
          .agendaa{
          display: flex; 
@@ -61,6 +95,10 @@
           display: flex;
           flex-direction: column;
 
+          h2{
+            color: white;
+            font-size: 15px;
+          }
 
           .logo-grande {
             width: 800px;
@@ -102,39 +140,7 @@
             height: 80px;
           }
 
-          nav{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            padding: 10px 60px 10px 50px;
-            align-items: center;
-            width: 106.9vh;
-            height: 15vh;
-            background-color: #164FA6;
-
-        .usuario-p{
-            display: flex;
-            align-items: center;
-            gap: 40px;
-            flex-direction: row;
-
-            p{
-                color: white;
-                padding: 15px;
-                border-radius: 5px;
-                border: 1px solid white;
-                transition: 0.5s;
-                cursor: pointer;
-            }
-
-           p:hover {
-            border: 1px solid rgb(168, 168, 168);
-            color: rgb(168, 168, 168);
-           }
-
-        }
-
-          }
+  
 
         }
 
