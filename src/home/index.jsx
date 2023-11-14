@@ -76,7 +76,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>AQUECIMENTO</h2>
+                                <h2>ASPIRADORES</h2>
                             </div>
 
                             <div className='final-cruz'>
@@ -97,7 +97,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>AQUECIMENTO</h2>
+                                <h2>BORDAS</h2>
                             </div>
 
                             <div className='final-cruz'>
@@ -117,7 +117,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>AQUECIMENTO</h2>
+                                <h2>LIMPEZA</h2>
                             </div>
 
                             <div className='final-cruz'>
@@ -150,7 +150,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>AQUECIMENTO</h2>
+                                <h2>CASCATAS E DUCHAS</h2>
                             </div>
 
                             <div className='final-cruz'>
@@ -170,7 +170,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>AQUECIMENTO</h2>
+                                <h2>ACESSORIOS</h2>
                             </div>
 
                             <div className='final-cruz'>
@@ -189,7 +189,7 @@ export default function Home() {
                             </div>
 
                             <div className='enunciado'>
-                                    <h2>AQUECIMENTO</h2>
+                                    <h2>FILTROS</h2>
                                 </div>
 
                     <div className='final-cruz'>
@@ -209,7 +209,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>        AQUECIMENTO</h2>
+                                <h2>AQUECIMENTO</h2>
                             </div>
 
                             <div className='final-cruz'>
@@ -241,7 +241,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>AQUECIMENTO</h2>
+                                <h2>ILUMINAÇÃO</h2>
                             </div>
 
                             <div className='final-cruz'>
@@ -261,7 +261,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>AQUECIMENTO</h2>
+                                <h2>PISOS PARA PISCINA</h2>
                             </div>
 
                             <div className='final-cruz'>
