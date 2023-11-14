@@ -3,6 +3,18 @@
 
 .container {
 
+  .salvar {
+    border: none;
+    padding: 10px;
+    background-color: #1A417C !important;
+    width: 300px;
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 85px;
+    border-radius: 5px;
+    font-size: 22px;
+  }
+
 display: flex;
 flex-direction: row;
 
@@ -264,17 +276,7 @@ background-color: rgb(56, 69, 255);
               justify-content: start;
             }
 
-            .salvar {
-              border: none;
-              padding: 10px;
-              background-color: #1A417C;
-              width: 300px;
-              margin-bottom: 10px;
-              color: white;
-              margin-left: 85px;
-              border-radius: 5px;
-              font-size: 22px;
-            }
+          
 
             input{
                 display: flex;

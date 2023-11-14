@@ -65,7 +65,7 @@ async function TelaAdm() {
 
 function voltar() {
     if(navigate)
-    navigate('/home')
+    navigate('/homeinicial')
 }
 
 

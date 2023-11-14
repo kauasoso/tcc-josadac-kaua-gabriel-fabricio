@@ -24,6 +24,7 @@ export default function Cadastro() {
         if (storage('usuario-logado')) {
          navigate('/home')
         }
+        
      },[])
 
     async function CadastrarCliente() {
