@@ -335,9 +335,9 @@ export default function Home() {
                         <div className="infos">
                             <div className='grupo'>
                                 <h2>Atendimento</h2>
-                                <p className=''><img src="../assets/image/local.png" alt="" /> Rua Getúlio Vargas, 314 SP</p>
+                                <p className=''> <a className='branco' href="https://www.google.com.br/maps/place/Instituto+Social+Nossa+Senhora+de+F%C3%A1tima/@-23.6803284,-46.7105058,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce502d2289a843:0x14406b17b30d0174!8m2!3d-23.6803333!4d-46.7079309!16s%2Fg%2F1ptxj22k2?entry=ttu"><img src="../assets/image/local.png" alt="" /> Av. Coronel Octaviano de Freitas Costa, 463 - Socorro, São Paulo - SP, 04773-000</a> </p>
                                 <p><img src="../assets/image/tell.png" alt="" /> 11 9 1234-5678</p>
-                                <p><img src="../assets/image/email.png" alt="" /> poolmax.2023@gmail.com</p>
+                                <p><img src="../assets/image/email.png" alt="" /> <a className='branco' href="https://mail.google.com/mail/u/3/#sent?compose=CllgCKCGldGfTnzHFSNhHwjPsLFhrzjWvRQDsPBdgznVqDvDPxNfQBTDBzfrKbjxbbMcxqgsrKL"> poolmax.2023@gmail.com</a></p>
                             </div>
 
                             <div className='line'>
@@ -366,7 +366,6 @@ export default function Home() {
                 </div>
 
             </div>
-
 
 
 

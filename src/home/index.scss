@@ -9,6 +9,21 @@
 
     }
 
+    .grupo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .branco{
+        color: #fff;
+        text-decoration: none;
+        text-align: start;
+        margin-top: -20px;
+        margin-bottom: -10px;
+    }
+
     .enunciado{
         height: 120px;
         margin-bottom: 25px;
@@ -243,9 +258,11 @@
                 display: flex;
                 flex-direction: row;
                 margin-bottom: 50px;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
-
+                width: 93.5%;
+                margin-left: 70px;
+                flex-wrap: wrap;
                 .cardd {
                     display: flex;
                     flex-direction: column;
@@ -383,9 +400,24 @@
 
 }
 
+@media(max-width: 1194px){
+    .agrupa-card-1{
+        gap: 30px;
+    }
+
+    .cardd{
+        box-shadow: 1px  1px 10px 1px;
+    }
+}
+
 @media (max-width: 850px) {
     .mae {
         max-width: 100%;
+        display: none;
+    }
+
+    .infos{
+        display: none;
     }
 
     .cruz {
@@ -394,6 +426,10 @@
 
     .cardd {
         width: 280px;
+    }
+
+    .agrupa-card-1{
+        gap: 40px;
     }
 
 
@@ -503,3 +539,12 @@
         cursor: pointer;
     }
 }
+@media(max-width: 650px){
+    .agrupa-card-3{
+       gap: 40px;
+       margin-left: 320px;
+    }
+
+}
+
+   

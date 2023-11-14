@@ -13,6 +13,7 @@
         justify-content: start;
         align-items: center;
         background-repeat: no-repeat;
+        
     
 
         .centralizar{
@@ -129,7 +130,8 @@
             height: 100vh;
             flex-wrap: wrap;
             margin-top: -20px;
-
+            background-color: red;
+            flex-wrap: wrap ;
             .cima{
                 display: flex;
                 flex-direction: row;
@@ -212,8 +214,10 @@
     width: 100%;
     margin-bottom: 25px;
 
-
-
+    
+    .botao{
+        margin-top: 0px;
+    }
     
     .cima{
         flex-direction: column;
@@ -265,7 +269,6 @@
      
 }
         .abc{
-            height: 350px;
             transition: 0.2s;
             height: 371.6px;     
             button{
@@ -283,9 +286,9 @@
             color: #309CFF;
             margin-right: 180px;
             width: 20vw;
-            margin-top: -6px !important ;
-            margin-bottom: 14px;
-
+            margin-top: -12px !important;
+            margin-bottom: 35px;
+            
         }
 
 
