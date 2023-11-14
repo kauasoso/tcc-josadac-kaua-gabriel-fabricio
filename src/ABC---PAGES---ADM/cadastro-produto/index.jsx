@@ -181,6 +181,18 @@ async function AlterarProduto () {
 }
 
 
+function verificarTecla(e){
+    if(e.key == 'Enter'){
+        SalvarProdutos()
+    }
+}
+
+
+function verificarTeclaconsulta(e){
+    if(e.key == 'Enter'){
+        SalvarProdutos()
+    }
+}
 
 
 
@@ -243,8 +255,8 @@ async function AlterarProduto () {
                         </div>
 
                             <div className='salvar-alterar'>
-                                <button className='salvar' onClick={SalvarProdutos} >SALVAR</button>
-                                <button className='salvar' onClick={AlterarProduto} disabled={ativado}>ALTERAR</button>
+                                <button className='salvar' onClick={SalvarProdutos} onKeyDown={(e) => verificarTecla(e)} >SALVAR</button>
+                                <button className='salvar' onClick={AlterarProduto} onKeyDown={(e) => verificarTecla(e)} disabled={ativado}>ALTERAR</button>
                              </div>
 
 
@@ -259,7 +271,7 @@ async function AlterarProduto () {
                                 </div>
 
                                 <div className='input-lupa'>
-                                    <input type="text" value={buscar} onChange={e => setBuscar (e.target.value)}/>
+                                    <input type="text" onKeyDown={(e) => verificarTeclaconsulta(e)} value={buscar} onChange={e => setBuscar (e.target.value)}/>
                                     <img className='lupa' src="/assets/image/imgLupaConsulta.png" onClick={ConsultarProduto} alt="" />
                                 </div>
 
