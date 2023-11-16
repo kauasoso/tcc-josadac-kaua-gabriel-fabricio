@@ -130,7 +130,6 @@
             height: 100vh;
             flex-wrap: wrap;
             margin-top: -20px;
-            background-color: red;
             flex-wrap: wrap ;
             .cima{
                 display: flex;
@@ -181,6 +180,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: 0px;
 }
 
 @media (max-width:850px) {
