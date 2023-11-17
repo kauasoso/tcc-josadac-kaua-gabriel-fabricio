@@ -4,7 +4,8 @@ import './index.scss' ;
 import { useNavigate } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
 import { useEffect } from 'react';
- import storage from 'local-storage';
+import storage from 'local-storage';
+import { url } from '../url-api';
 
 export function Login () {
 
@@ -31,7 +32,6 @@ async function Entrar() {
    setCarregando(true)
 
     try{
-    let url = 'http://localhost:5001/login';
 
     let pessoa = {
         email: email ,
