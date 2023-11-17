@@ -105,7 +105,8 @@ import Aquecimentos from './aquecimento';
 import Bombas from './bombas';
 import Produto from './produtos';
 import Realizados from './PedidosRealizados';
-
+import Sobrenos from './sobre-nos';
+import Recursos from './recursos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -210,7 +211,8 @@ root.render(
       <Route path='/pis6' element={<Pis6/>}/>
 
 
-
+      <Route path='/sobrenos' element={<Sobrenos/>}/>
+      <Route path='/recursos' element={<Recursos/>}/>
       <Route path= '/loginadm' element={<LoginAdmin/>}/>
       <Route path= '/pisos' element={<Pisos/>}/>
       <Route path='/iluminacao' element={<Iluminacao/>}/>
