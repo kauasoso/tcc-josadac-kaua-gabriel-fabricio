@@ -37,79 +37,84 @@ export default function Produto() {
 
                             <div className='abc'>
                                 <img className='imagi' src="/assets/image/filtro-1.png" alt="" />
-                                <div className='line'>ㅤ</div>
+                                <div className='line'></div>
 
-                                <p className='txt'>FILTRO PARA PISCINA ATÉ 30.000 COM BOMBA <br /> 1/3 CV BIVOLT</p>
 
-                                <h1 className='preco'>R$ 891,00</h1>
+                                <section className='informa-produto'>
+                                    <p className='txt'>FILTRO PARA PISCINA ATÉ 30.000 COM BOMBA <br /> 1/3 CV BIVOLT</p>
 
-                                <section>
+                                    <h1 className='preco'>R$ 891,00</h1>
+                                </section>
+                                <section className='frete-gratis'>
 
                                     <p>FRETE GRÁTIS</p>
                                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                                 </section>
 
-                                <nav className='botao'>
-
-                                <a href="/filtro1"><button>COMPRAR AGORA</button></a>
-
+                                <div className='comprar-agora'>
+                                    <a href="/filtro1"><button>COMPRAR AGORA</button></a>
                                     <a href="/pedido">
                                         <img src="./assets/image/carropaypal.png" alt="" height={35} />
                                     </a>
-
-                                </nav>
+                                </div>
 
                             </div>
 
                             <div className='abc'>
                                 <img className='imagi' src="/assets/image/filtro-2.png" alt="" />
-                                <div className='line'>ㅤ</div>
-                                <p className='txt'>BOMBA DE FILTRAGEM P/ 1136 L/HR 110V <br /> BEL LAZER 174400</p>
+                                <div className='line'></div>
+
+                                <section className='informa-produto'>
+                                    <p className='txt'>BOMBA DE FILTRAGEM P/ 1136 L/HR 110V <br /> BEL LAZER 174400</p>
 
 
-                                <h1 className='preco'>R$ 253,78</h1>
-
-                                <section>
+                                    <h1 className='preco'>R$ 253,78</h1>
+                                </section>
+                                <section className='frete-gratis'>
 
                                     <p>FRETE GRÁTIS</p>
                                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                                 </section>
 
-                                <nav className='botao'>
+                                <div className='comprar-agora'>
 
-                                <a href="/filtro2"><button>COMPRAR AGORA</button></a>
+                                    <a href="/filtro2"><button>COMPRAR AGORA</button></a>
 
                                     <a href="/pedido">
                                         <img src="./assets/image/carropaypal.png" alt="" height={35} />
                                     </a>
 
-                                </nav>           </div>
+                                </div>
+                            </div>
 
                             <div className='abc'>
                                 <img className='imagi' src="/assets/image/filtro-3.png" alt="" />
-                                <div className='line'>ㅤ</div>
-                                <p className='txt'>PENEIRA SODRAMAR PUÇA COM ARMAÇÃO <br /> BOMBA DE FILTRAGEM 2006L/H BEL 110V</p>
+                                <div className='line'></div>
 
-                                <h1 className='preco'>R$ 431,12</h1>
+                                <div className='informar-produto'>
+                                    <p className='txti'>PENEIRA SODRAMAR PUÇA COM ARMAÇÃO <br /> BOMBA DE FILTRAGEM 2006L/H BEL 110V <br /></p>
 
-                                <section>
+                                    <h1 className='preco'>R$ 431,12</h1>
+                                </div>
+
+                                <section className='frete-gratis'>
 
                                     <p>FRETE GRÁTIS</p>
                                     <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                                 </section>
 
-                                <nav className='botao'>
+                                <div className='comprar-agora'>
 
-                                <a href="/filtro3"><button>COMPRAR AGORA</button></a>
+                                    <a href="/filtro3"><button>COMPRAR AGORA</button></a>
 
                                     <a href="/pedido">
                                         <img src="./assets/image/carropaypal.png" alt="" height={35} />
                                     </a>
 
-                                </nav>              </div>
+                                </div>              </div>
 
                         </section>
 
@@ -130,91 +135,100 @@ export default function Produto() {
 
                                 <div className='abc'>
                                     <img className='imagi' src="/assets/image/filtro-4.png" alt="" />
-                                    <div className='line'>ㅤ</div>
-                                    <p className='txt'>BOMBA DE FILTRAGEM 3028 <br /> L/HR 220V BEL</p>
+                                    <div className='line'></div>
+
+                                    <div className='informa-produto'>
+                                        <p className='txt'>BOMBA DE FILTRAGEM 3028 <br /> L/HR 220V BEL</p>
 
 
-                                    <h1 className='preco'>R$ 457,53</h1>
-                                    <section>
+                                        <h1 className='preco'>R$ 457,53</h1>
+                                    </div>
+                                    <section className='frete-gratis'>
 
                                         <p>FRETE GRÁTIS</p>
                                         <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                                     </section>
 
-                                    <nav className='botao'>
+                                    <div className='comprar-agora'>
 
-                                    <a href="/filtro4"><button>COMPRAR AGORA</button></a>
+                                        <a href="/filtro4"><button>COMPRAR AGORA</button></a>
 
                                         <a href="/pedido">
                                             <img src="./assets/image/carropaypal.png" alt="" height={35} />
                                         </a>
 
-                                    </nav>           </div>
+                                    </div>
+                                </div>
 
                                 <div className='abc'>
                                     <img className='imagi' src="/assets/image/filtro-5.png" alt="" />
-                                    <div className='line'>ㅤ</div>
+                                    <div className='line'></div>
+
+                                    <div className='informa-produto'>
                                     <p className='txt'>BOMBA FILTRANTE FILTRO PARA PISCINA<br />  2006 L/H 110V COM REFIL E MANGUEIRA</p>
 
                                     <h1 className='preco'>R$ 455,59</h1>
+                                    </div>
 
-                                    <section>
+                                    <section className='frete-gratis'>
 
                                         <p>FRETE GRÁTIS</p>
                                         <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                                     </section>
 
-                                    <nav className='botao'>
+                                    <div className='comprar-agora'>
 
-                                    <a href="/filtro5"> <button>COMPRAR AGORA</button></a>
+                                        <a href="/filtro5"> <button>COMPRAR AGORA</button></a>
 
                                         <a href="/pedido">
                                             <img src="./assets/image/carropaypal.png" alt="" height={35} />
                                         </a>
 
-                                    </nav>                 </div>
+                                    </div>                 </div>
 
                                 <div className='abc'>
                                     <img className='imagi' src="/assets/image/filtro-6.png" alt="" />
                                     <div className='line'>ㅤ</div>
 
+                                    <div className='informa-produto'>
                                     <p className='txt'>BOMBA FILTRO INTEX PARA  PISCINAS <br />DE 2.006 LITROS/HORA E 110V</p>
 
                                     <h1 className='preco'>R$ 417,80</h1>
+                                    </div>
 
-                                    <section>
+                                    <section className='frete-gratis'>
 
                                         <p>FRETE GRÁTIS</p>
                                         <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                                     </section>
 
-                                    <nav className='botao'>
+                                    <div className='comprar-agora'>
 
-                                    <a href="/filtro6"> <button>COMPRAR AGORA</button></a>
+                                        <a href="/filtro6"> <button>COMPRAR AGORA</button></a>
 
                                         <a href="/pedido">
                                             <img src="./assets/image/carropaypal.png" alt="" height={35} />
                                         </a>
 
-                                    </nav>                </div>
+                                    </div>                </div>
                                 {/* final fundo_virado */} </div>
 
                         </section>
                     </div>
 
-<div>
-                        <Rodape/>
+                    <div className='r'>
+                        <Rodape />
                     </div>
                     {/* final divis */} </section>
 
 
-            </div>
-                    
+            </div >
 
 
-        </div>
+
+        </div >
     )
 }

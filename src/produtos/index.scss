@@ -76,24 +76,58 @@
         .abc{
             height: 51vh;
             width: 350px;
-            background-color: #fff;
+            background-color: red;
             border-radius: 15px;
             display: flex;
             justify-content: start;
             flex-direction: column;
             align-items: center;
             gap: 5px;
+
+            .informa-produto{
+                background-color: blue;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                width: 350px;
+            }
+
+            .frete-gratis{
+                background-color: pink;
+            }
+
+            .comprar-agora{
+                background-color: #66ff58;
+                width: 350px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+
+
+                .informar-produto{
+                    background-color: #886464;
+                    width: 350px;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: column;
+                }
         }
         
             h3{
                 font-weight: 500;
             }
 
-        .abc:hover{
-                box-shadow: 0px 0px 25px 0.1px #a4fff7;
-                transition: 0.2s;
-                height: 53.5vh;
-                width: 352px;
+        // .abc:hover{
+        //         box-shadow: 0px 0px 25px 0.1px #a4fff7;
+        //         transition: 0.2s;
+        //         height: 53.5vh;
+        //         width: 352px;
+        //     }
+
+            .r{
+                width: 100%;
             }
 
         .preco{
