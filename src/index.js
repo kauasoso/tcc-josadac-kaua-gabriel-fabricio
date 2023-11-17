@@ -112,6 +112,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
+
+    <Route path='/' element={<HomeLogin/>}/>
+
     <Route path='/aspirador' element={<Aspirador/>}/>
     <Route path='/realizados' element={<Realizados/>}/>
     <Route path='/meupedido' element={<Pedido/>}/>
@@ -234,7 +237,7 @@ root.render(
       <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
       <Route path='/cadastroproduto' element={<CadastroProduto/>}/>
       <Route path='/home' element={<Home/>}/>
-      <Route path='/homeinicial' element={<HomeLogin/>}/>
+   
       <Route path='/minhaconta' element={<MinhaConta/>}/>
 
 
